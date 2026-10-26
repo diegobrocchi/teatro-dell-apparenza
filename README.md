@@ -4,6 +4,7 @@ Sito statico pensato per smartphone e pubblicazione gratuita su GitHub Pages.
 
 ## Funzioni
 - Dieci tappe collegate dal tema dell'identità e dell'apparenza.
+- Un accostamento musicale italiano per ogni opera, con motivazione e collegamento alla ricerca YouTube. I brani sono suggerimenti editoriali, non una playlist ufficiale del museo.
 - Audio generato sul dispositivo tramite `SpeechSynthesis` del browser: non richiede API, account o file MP3.
 - Controlli pausa/riprendi/ferma.
 - Testo consultabile anche senza audio.
@@ -30,6 +31,9 @@ Questa è una prima versione editoriale. Le interpretazioni sono originali; non 
 - aggiorna sala e titolo se necessario.
 
 Il sito non scarica immagini delle opere: i collegamenti portano al catalogo ufficiale. Questo evita di incorporare immagini senza aver verificato i relativi diritti.
+
+## Accostamenti musicali
+I brani sono collegati alle opere come contrappunti interpretativi, non come illustrazioni letterali. Ogni scheda apre una ricerca YouTube: così puoi scegliere una versione ufficiale o una registrazione disponibile senza dipendere da un URL video che potrebbe cambiare. I metadati musicali sono nel campo `music` di ogni elemento dell'array `works` in `app.js`.
 
 ## Personalizzazione
 I testi e i dati delle opere sono nell'array `works` all'inizio di `app.js`. Puoi modificare:

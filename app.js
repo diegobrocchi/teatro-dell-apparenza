@@ -5,6 +5,13 @@ const works = [
     room: "Sala 2 · da verificare",
     question: "Quando guardiamo un potente, vediamo l’uomo o il ruolo che deve rappresentare?",
     text: "Cominciamo da un profilo netto. Nel Quattrocento il ritratto di corte non serviva soltanto a conservare le sembianze: costruiva una presenza pubblica. La linea del naso, l’acconciatura e la cura dei dettagli fanno apparire il personaggio riconoscibile e composto. Non abbiamo accesso diretto alla sua interiorità; abbiamo un’immagine scelta e costruita. È il primo patto di questo percorso: un ritratto mostra qualcosa, ma nello stesso tempo decide che cosa lasciare fuori.",
+    music: {
+      artist: "Caparezza",
+      title: "La scelta",
+      style: "Rap narrativo · 2021",
+      note: "Il ritratto costruisce l’immagine pubblica del potente; la canzone mette al centro le decisioni con cui una persona definisce se stessa. Il legame è nel racconto e nei cambi di prospettiva, non in una corrispondenza letterale.",
+      url: "https://www.youtube.com/results?search_query=Caparezza+La+scelta+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -14,6 +21,13 @@ const works = [
     room: "Collocazione da verificare",
     question: "Un’immagine può diventare più importante della persona che rappresenta?",
     text: "Giuliano de’ Medici appartiene a una famiglia in cui immagine, prestigio e memoria pubblica erano strettamente legati. Il ritratto non è una fotografia neutrale: la posa e la forma dell’immagine partecipano alla costruzione della memoria. Chi viene ritratto può scomparire, mentre il suo volto continua a circolare. Guardando questo dipinto, proviamo a distinguere la persona storica dal personaggio che la pittura consegna ai posteri.",
+    music: {
+      artist: "Colapesce Dimartino",
+      title: "Musica leggerissima",
+      style: "Pop elegante e malinconico · 2021",
+      note: "La leggerezza apparente nasconde inquietudine: un contrappunto alla solennità del ritratto e alla distanza fra persona reale e immagine consegnata alla memoria.",
+      url: "https://www.youtube.com/results?search_query=Colapesce+Dimartino+Musica+leggerissima+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -23,6 +37,13 @@ const works = [
     room: "Sala 10 · da verificare",
     question: "Un dettaglio può parlare a tutti oppure soltanto a chi conosce il codice?",
     text: "Lorenzo Lotto costruisce un ritratto che invita a guardare oltre la somiglianza. Abito, gioielli, gesto e piccoli particolari contribuiscono a raccontare identità e posizione sociale. Alcuni segni possono avere un significato preciso per chi conosceva la donna e il suo ambiente; per noi possono restare enigmatici. Non dobbiamo fingere di decifrare ogni elemento: possiamo chiederci quali indizi abbiamo davanti e quali informazioni ci mancano.",
+    music: {
+      artist: "Madame",
+      title: "M'AMA NON M'AMA",
+      style: "Pop contemporaneo",
+      note: "Un ritratto pieno di codici da decifrare incontra una canzone che gioca con interpretazioni e ambiguità. Il collegamento è una lettura contemporanea di ciò che mostriamo e di ciò che gli altri credono di capire.",
+      url: "https://www.youtube.com/results?search_query=Madame+M'AMA+NON+M'AMA+brano+ufficiale"
+    },
     source: "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
     sourceLabel: "Scheda ufficiale dell’opera"
   },
@@ -32,6 +53,13 @@ const works = [
     room: "Sala 11 · da verificare",
     question: "Quanto della nostra identità ci viene lasciato scegliere?",
     text: "Anche l’infanzia può essere rappresentata attraverso convenzioni sociali: l’abito, la postura, il modo di stare davanti al pittore. La bambina è una persona singola, ma è anche parte di una famiglia e di un mondo che decide come presentarla. Proviamo a non attribuirle emozioni senza prove. Osserviamo invece ciò che il dipinto ci mostra davvero e chiediamoci quanta parte dell’immagine sia scelta individuale e quanta sia ruolo, educazione e aspettativa.",
+    music: {
+      artist: "Elisa",
+      title: "A modo tuo",
+      style: "Pop orchestrale e intimo · 2014",
+      note: "La bambina è già dentro un mondo di aspettative; la canzone introduce il tempo e la crescita, ricordando che diventare se stessi significa anche allontanarsi dalle immagini che gli altri hanno di noi.",
+      url: "https://www.youtube.com/results?search_query=Elisa+A+modo+tuo+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -41,6 +69,13 @@ const works = [
     room: "Collocazione da verificare",
     question: "Che cosa cambia quando l’identità è raccontata in relazione a un’altra persona?",
     text: "Un ritratto doppio non mostra soltanto due individui: mette in scena una relazione. La vicinanza, le posture e il modo in cui i personaggi occupano lo spazio diventano parte del racconto. Ma anche qui è facile inventare una storia che il quadro non dimostra. Fermiamoci sui segnali visibili: come sono presentati? Che cosa li accomuna e che cosa li distingue? L’immagine costruisce una relazione pubblica, non necessariamente una finestra trasparente sui sentimenti privati.",
+    music: {
+      artist: "Brunori Sas",
+      title: "Per due che come noi",
+      style: "Cantautorato · 2017",
+      note: "Un ritratto doppio mette in scena una relazione, senza raccontarne davvero l'intimità. La canzone porta in primo piano la distanza fra ciò che una coppia appare e ciò che vive.",
+      url: "https://www.youtube.com/results?search_query=Brunori+Sas+Per+due+che+come+noi+audio+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -50,6 +85,13 @@ const works = [
     room: "Collocazione da verificare",
     question: "Quanto giudichiamo una persona dai segni esteriori del suo rango?",
     text: "Nel ritratto rinascimentale e cinquecentesco, abiti e ornamenti non sono semplici decorazioni: aiutano a rendere visibili ricchezza, appartenenza e reputazione. Oggi rischiamo di leggere questi segnali con categorie diverse da quelle del tempo. Il compito non è indovinare il carattere di Isotta dal suo aspetto, ma capire come un’immagine potesse comunicare una posizione sociale. La domanda si sposta così dal soggetto al pubblico: chi doveva riconoscere quei segni?",
+    music: {
+      artist: "Annalisa",
+      title: "Bellissima",
+      style: "Pop elettronico · 2022",
+      note: "Un brano teatrale e sicuro di sé per una figura che comunica anche attraverso abiti, postura e rango: l'apparenza diventa una performance, non un semplice ornamento.",
+      url: "https://www.youtube.com/results?search_query=Annalisa+Bellissima+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -59,6 +101,13 @@ const works = [
     room: "Collocazione da verificare",
     question: "Un’immagine ricca di dettagli ci permette davvero di conoscere qualcuno?",
     text: "La pittura di Fra’ Galgario è capace di dare ai volti e alle superfici una presenza intensa. Ma la precisione visiva non coincide con la conoscenza completa di una persona. Possiamo osservare il volto, gli abiti, la luce e la posa; non possiamo dedurre con certezza la vita interiore del modello. È una distinzione importante anche fuori dal museo: spesso confondiamo un’impressione vivida con una conoscenza profonda.",
+    music: {
+      artist: "Tiromancino",
+      title: "La descrizione di un attimo",
+      style: "Pop d'autore · 2000",
+      note: "Il titolo suggerisce il limite di ogni immagine: possiamo fermare un istante e renderlo vivido, ma non trattenere tutta la persona che vi è passata dentro.",
+      url: "https://www.youtube.com/results?search_query=Tiromancino+La+descrizione+di+un+attimo+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -68,6 +117,13 @@ const works = [
     room: "Collocazione da verificare",
     question: "Quando guardiamo un volto, quanto stiamo osservando e quanto stiamo immaginando?",
     text: "Il ventaglio e l’abbigliamento offrono indizi, ma non autorizzano qualsiasi interpretazione. Davanti a un ritratto possiamo essere tentati di inventare una biografia o attribuire subito un’emozione. Proviamo a separare i due livelli: che cosa vediamo, e che cosa supponiamo? Questa piccola disciplina dello sguardo è il centro del percorso. Guardare con attenzione non significa sapere tutto: significa diventare più consapevoli di ciò che non sappiamo.",
+    music: {
+      artist: "Madame",
+      title: "Voce",
+      style: "Pop sperimentale · 2021",
+      note: "La posa e il ventaglio attirano lo sguardo, ma non rivelano l'interiorità. La voce di Madame offre un contrappunto: una presenza sonora che cerca spazio e identità.",
+      url: "https://www.youtube.com/results?search_query=Madame+Voce+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -77,6 +133,13 @@ const works = [
     room: "Collocazione da verificare",
     question: "Siamo più sinceri quando raccontiamo noi stessi?",
     text: "Nell’autoritratto, chi dipinge e chi viene rappresentato coincidono. Ma questo non elimina la costruzione dell’immagine: l’autore sceglie posa, espressione e ciò che desidera rendere visibile. L’autoritratto è insieme osservazione e autorappresentazione. La domanda ci riguarda direttamente: quando raccontiamo chi siamo, mostriamo qualcosa di autentico oppure scegliamo una versione di noi che speriamo venga riconosciuta dagli altri?",
+    music: {
+      artist: "Tricarico",
+      title: "Io sono Francesco",
+      style: "Cantautorato pop · 2000",
+      note: "Nell'autoritratto chi dipinge e chi è dipinto coincidono, ma l'immagine resta una scelta. La canzone è un'identità raccontata in prima persona, singolare e non addomesticata.",
+      url: "https://www.youtube.com/results?search_query=Tricarico+Io+sono+Francesco+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   },
@@ -86,6 +149,13 @@ const works = [
     room: "Sala 16 · da verificare",
     question: "Che cosa può conoscere un osservatore della vita interiore di un’altra persona?",
     text: "Concludiamo con un’immagine che porta in primo piano il dolore. Qui il ritratto non serve soprattutto a mostrare rango o reputazione: diventa un’indagine sullo stato d’animo e sulla solitudine. Eppure anche l’emozione più intensa, quando è dipinta, resta una rappresentazione. Possiamo essere colpiti e provare empatia, ma non possediamo l’esperienza dell’altro. Forse il limite dell’immagine non è un difetto: è ciò che ci ricorda che ogni persona resta, in parte, inconoscibile.",
+    music: {
+      artist: "Blanco",
+      title: "Blu celeste",
+      style: "Pop malinconico · 2021",
+      note: "Una chiusura intima: la musica dà forma a un'assenza che continua a pesare nel presente. Dopo i ruoli e le immagini pubbliche, resta ciò che una persona porta dentro.",
+      url: "https://www.youtube.com/results?search_query=Blanco+Blu+Celeste+video+ufficiale"
+    },
     source: "https://lacarrara.it/collezioni-online/",
     sourceLabel: "Cerca nel catalogo ufficiale"
   }
@@ -174,9 +244,16 @@ function render() {
       <div class="artwork-body">
         <p class="question">${w.question}</p>
         <div class="actions">
-          <button class="listen" type="button" data-index="${i}">▶ Ascolta</button>
+          <button class="listen" type="button" data-index="${i}">▶ Ascolta spiegazione</button>
           <button class="read-toggle" type="button" aria-expanded="false" data-index="${i}">Leggi il testo</button>
           <button class="done-toggle" type="button" aria-pressed="${completed.has(i)}" data-index="${i}">${completed.has(i) ? "✓ Ascoltata" : "Segna ascoltata"}</button>
+        </div>
+        <div class="music-pick">
+          <div class="music-kicker">ACCOSTAMENTO MUSICALE</div>
+          <p class="music-title"><strong>${w.music.title}</strong> — ${w.music.artist}</p>
+          <p class="music-style">${w.music.style}</p>
+          <p class="music-note">${w.music.note}</p>
+          <a class="music-link" href="${w.music.url}" target="_blank" rel="noopener">▶ Cerca il brano su YouTube ↗</a>
         </div>
         <div class="script" id="script-${i}" aria-hidden="true">
           <p>${w.text}</p>

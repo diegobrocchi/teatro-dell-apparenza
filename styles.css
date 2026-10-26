@@ -88,3 +88,12 @@ body.large-text .artwork h3 { font-size: 1.45rem; }
   .dock-info strong { max-width: 45vw; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+
+/* Accostamento musicale per ogni opera */
+.music-pick { margin-top: 1rem; padding: 1rem; border-left: 3px solid var(--terracotta, #b66b50); background: rgba(20, 86, 82, 0.055); border-radius: 0 10px 10px 0; }
+.music-kicker { margin-bottom: .4rem; color: var(--petrol, #245b57); font-size: .68rem; font-weight: 800; letter-spacing: .12em; }
+.music-title { margin: 0 0 .15rem; font-size: 1rem; }
+.music-style { margin: 0 0 .55rem; color: #686b66; font-size: .82rem; }
+.music-note { margin: 0 0 .75rem; line-height: 1.55; }
+.music-link { display: inline-block; color: var(--petrol, #245b57); font-weight: 750; text-decoration-thickness: 1px; text-underline-offset: 3px; }
