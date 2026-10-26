@@ -44,3 +44,10 @@ Il progresso è salvato nel `localStorage` del browser e resta separato per disp
 
 ## Licenza
 Puoi modificare e pubblicare questo progetto per uso personale. Verifica separatamente diritti e condizioni prima di redistribuire immagini o materiali di terzi.
+
+
+## Immagini delle opere
+
+Le schede mostrano riproduzioni di grandi dimensioni caricate da Wikimedia Commons; toccando l'immagine o il collegamento sotto di essa si apre la relativa pagina con fonte e informazioni sulla licenza. È necessaria una connessione Internet per visualizzarle. Le immagini non sono incorporate nel pacchetto ZIP. Le riproduzioni di opere in pubblico dominio possono comunque essere soggette a condizioni diverse a seconda del paese e dell'uso: controllare la pagina di ciascun file prima di riutilizzarle altrove.
+
+Nota: il ritratto di Bernardo Spini e quello di Pace Rivola Spini sono due dipinti distinti, mostrati affiancati nella stessa tappa. L'Autoritratto con tavolozza del Piccio è incluso come riferimento visivo, ma risulta non esposto secondo le informazioni del catalogo consultate; verificarne la disponibilità prima della visita.
