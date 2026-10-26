@@ -1,0 +1,16 @@
+VERIFICA VISITA — VERSIONE DI PARTENZA
+
+Data di generazione: 26 ottobre 2026.
+
+Fonti ufficiali consultate per impostare il progetto:
+- Catalogo online Accademia Carrara: https://lacarrara.it/collezioni-online/
+- Scheda ufficiale “Ritratto di Lucina Brembati”: https://lacarrara.it/opera/ritratto-di-lucina-brembati/ (indica esposizione permanente, piano 2, sala 10).
+- Scheda ufficiale “Madonna col Bambino”, Jacopo/Jacobello di Antonello: https://lacarrara.it/opera/madonna-col-bambino-5/ (indica esposizione permanente, piano 2, sala 4).
+- Scheda ufficiale “San Gerolamo leva la spina al leone”: https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/ (indica esposizione permanente, piano 2, sala 8).
+- Catalogo opere in prestito: https://lacarrara.it/opere-in-prestito/
+- Catalogo opere in restauro: https://lacarrara.it/opere-in-restauro/
+
+ATTENZIONE
+Questa è una versione tematica iniziale, non una certificazione dell’allestimento del giorno della visita. Per diverse opere, la collocazione indicata deriva da riferimenti museali o didattici non aggiornati al giorno corrente; per questo l’interfaccia segnala “da riconfermare”. Il percorso include anche opere per le quali la disponibilità attuale deve essere controllata direttamente nella scheda del catalogo. Prima di usare la guida in museo, esegui il prompt in AGGIORNA_IL_GIORNO_PRIMA.txt e sostituisci ogni opera non confermata con un’opera esposta.
+
+Opere non da inserire senza ulteriore verifica: Autoritratto con tavolozza del Piccio (il catalogo ha indicato l’opera come in prestito in una precedente verifica); qualunque opera con scheda “Non esposto”, in prestito o in restauro.
