@@ -3,11 +3,11 @@
 Guida web statica mobile-first per GitHub Pages. Include il percorso “Il teatro dell’apparenza” e nove percorsi tematici aggiuntivi.
 
 ## Contenuto
-- `index.html`: interfaccia responsive con selettore di percorso
+- `index.html`: interfaccia responsive: elenco dei percorsi con miniature, poi la pagina del percorso scelto
 - `styles.css`: stile mobile-first e immagini grandi
 - `app.js`: sintesi vocale, avanzamento per percorso, interazioni
 - `routes.js`: contenuti, opere, immagini, testi e musica dei dieci percorsi
-- `AGGIORNA_IL_GIORNO_PRIMA.txt`: prompt da riutilizzare il giorno prima della visita
+- `AGGIORNA_IL_GIORNO_PRIMA.txt`: prompt da riutilizzare il giorno prima della visita (solo per chi cura la guida: non è collegato dalla pagina)
 
 ## Pubblicazione
 1. Estrai lo ZIP.

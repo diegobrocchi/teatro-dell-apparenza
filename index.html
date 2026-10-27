@@ -4,32 +4,90 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#f4f1e9">
-<meta name="description" content="Dieci percorsi tematici tra le opere dell'Accademia Carrara, con immagini grandi, audio e musica italiana o strumentale.">
+<meta name="description" content="Dieci percorsi tematici tra le opere dell'Accademia Carrara, con immagini, spiegazioni da ascoltare e un brano musicale per ogni tappa.">
 <title>Dieci percorsi — Accademia Carrara</title>
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<header class="topbar"><a class="brand" href="#inizio">CARRARA <span>/ DIECI PERCORSI</span></a><button id="textSize" class="quiet-button" type="button">A+</button></header>
-<main id="inizio">
-<section class="hero">
-<p class="eyebrow">GUIDA INDIPENDENTE · BERGAMO</p>
-<h1>Dieci modi<br><em>di guardare</em></h1>
-<p class="intro">Dieci percorsi tematici, ciascuno con opere, immagini grandi da osservare sul telefono, spiegazioni audio e un accostamento musicale per ogni tappa.</p>
-<div class="hero-meta"><span>Accademia Carrara</span><span>Da 30 a 60 minuti per percorso</span></div>
-</section>
-<section class="howto"><div class="howto-mark">01</div><div><h2>Scegli il filo conduttore</h2><p>Ogni percorso propone un’idea da seguire attraverso le opere. Le immagini si aprono in grande; le spiegazioni sono lette dalla voce italiana disponibile sul telefono. I link musicali aprono YouTube.</p><p class="warning"><strong>Importante:</strong> le sale e l’effettiva esposizione possono cambiare. Le collocazioni riportate sono una base di lavoro, non una garanzia per il giorno della visita. Usa il file <code>AGGIORNA_IL_GIORNO_PRIMA.txt</code> per chiedere una verifica aggiornata e sostituire le opere non esposte.</p></div></section>
-<section class="route-picker">
-<label for="routeSelect">Percorso da seguire</label>
-<select id="routeSelect"></select>
-<p id="routeSubtitle" class="route-subtitle"></p>
-<p id="routeIntro" class="route-intro"></p>
-<div class="route-meta"><span id="workCount"></span><span id="roomOrder"></span></div>
-</section>
-<section class="progress-area"><div class="progress-label"><span id="progressText">0 opere ascoltate</span><button id="resetProgress" class="text-button" type="button">Azzera</button></div><div class="progress-track" id="progressBar"><span id="progressFill"></span></div></section>
-<section id="artworks" class="artworks" aria-label="Opere del percorso"></section>
-<section class="closing"><p class="eyebrow">DOPO L’ULTIMA OPERA</p><h2>Quale immagine ti è rimasta addosso?</h2><p>Non cercare una risposta giusta: ricorda quale opera ha cambiato il tuo modo di guardare.</p></section>
-<footer><p><strong>Dieci percorsi — Accademia Carrara</strong> è una guida indipendente, non ufficiale.</p><p>Le immagini si caricano da Wikimedia Commons quando disponibile; ogni scheda rimanda alla fonte o alla ricerca della fonte. Le opere, le sale e l’esposizione vanno ricontrollate il giorno prima.</p><p><a href="https://lacarrara.it/collezioni-online/" target="_blank" rel="noopener">Catalogo ufficiale delle collezioni ↗</a> · <a href="./AGGIORNA_IL_GIORNO_PRIMA.txt">Prompt per aggiornare la guida</a></p></footer>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">CARRARA <span>/ DIECI PERCORSI</span></a>
+    <button id="textSize" class="quiet-button" type="button" aria-label="Ingrandisci il testo">A+</button>
+  </div>
+</header>
+
+<main>
+  <!-- HOME: elenco dei percorsi -->
+  <div id="homeView">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Guida indipendente · Bergamo</p>
+        <h1>Dieci modi<br><em>di guardare</em></h1>
+        <p class="intro">Dieci percorsi tra le opere dell’Accademia Carrara. Ognuno segue un’idea diversa: scegli quello che ti incuriosisce di più e lasciati guidare.</p>
+        <div class="hero-meta"><span>Da 30 a 60 minuti per percorso</span><span>Spiegazioni da ascoltare</span><span>Un brano per ogni opera</span></div>
+      </div>
+    </section>
+
+    <section class="wrap howto">
+      <h2>Come funziona</h2>
+      <ol class="howto-steps">
+        <li><strong>Scegli un percorso</strong> dall’elenco qui sotto.</li>
+        <li><strong>Davanti a ogni opera</strong> premi “Ascolta” (meglio con gli auricolari) oppure leggi il testo.</li>
+        <li><strong>Tocca l’immagine</strong> per vederla in grande e scoprire i dettagli.</li>
+      </ol>
+      <p class="note">Le sale del museo a volte cambiano e qualche opera può essere in prestito o in restauro. Se non trovi un quadro, passa pure al successivo.</p>
+    </section>
+
+    <section class="wrap" aria-labelledby="routesTitle">
+      <h2 id="routesTitle" class="section-title">I percorsi</h2>
+      <div id="routeList" class="route-list"></div>
+    </section>
+  </div>
+
+  <!-- PERCORSO -->
+  <div id="routeView" hidden>
+    <section class="wrap route-head">
+      <a class="back-link" href="#/">← Tutti i percorsi</a>
+      <p id="routeNumber" class="eyebrow"></p>
+      <h1 id="routeTitle" class="route-title"></h1>
+      <p id="routeSubtitle" class="route-subtitle"></p>
+      <p id="routeIntro" class="route-intro"></p>
+      <div class="progress-area">
+        <div class="progress-label"><span id="progressText"></span><button id="resetProgress" class="text-button" type="button">Azzera</button></div>
+        <div class="progress-track"><span id="progressFill"></span></div>
+      </div>
+    </section>
+    <section id="artworks" class="wrap artworks" aria-label="Opere del percorso"></section>
+    <section class="wrap closing">
+      <p class="eyebrow">Dopo l’ultima opera</p>
+      <h2>Quale immagine ti è rimasta addosso?</h2>
+      <p>Non c’è una risposta giusta: ricorda quale opera ha cambiato il tuo modo di guardare.</p>
+      <div class="closing-nav">
+        <a class="pill" href="#/">← Tutti i percorsi</a>
+        <a id="nextRoute" class="pill pill-strong" href="#/"></a>
+      </div>
+    </section>
+  </div>
 </main>
-<div id="audioDock" class="audio-dock" hidden aria-live="polite"><div class="dock-info"><span class="dock-kicker">IN ASCOLTO</span><strong id="dockTitle">—</strong></div><div class="dock-controls"><button id="pauseAudio" type="button">Pausa</button><button id="stopAudio" type="button">Ferma</button></div></div>
-<script src="./routes.js"></script><script src="./app.js"></script>
-</body></html>
+
+<footer class="wrap footer">
+  <p><strong>Dieci percorsi — Accademia Carrara</strong> è una guida indipendente, non ufficiale.</p>
+  <p>Immagini da Wikimedia Commons: sotto ogni immagine trovi il link alla fonte e alla licenza.</p>
+  <p><a href="https://lacarrara.it/collezioni-online/" target="_blank" rel="noopener">Catalogo ufficiale delle collezioni ↗</a> · <a href="https://lacarrara.it/visita/biglietti-e-orari/" target="_blank" rel="noopener">Orari e biglietti ↗</a></p>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Immagine ingrandita">
+  <button id="lightboxClose" class="lightbox-close" type="button" aria-label="Chiudi">✕</button>
+  <img id="lightboxImg" alt="">
+  <p id="lightboxCaption" class="lightbox-caption"></p>
+</div>
+
+<div id="audioDock" class="audio-dock" hidden aria-live="polite">
+  <div class="dock-info"><span class="dock-kicker">IN ASCOLTO</span><strong id="dockTitle">—</strong></div>
+  <div class="dock-controls"><button id="pauseAudio" type="button">Pausa</button><button id="stopAudio" type="button">Ferma</button></div>
+</div>
+
+<script src="./routes.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
