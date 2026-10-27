@@ -1,23 +1,85 @@
 PROMPT DI AGGIORNAMENTO — DA USARE IL GIORNO PRIMA DELLA VISITA
+(per lo sviluppatore: incollalo in una nuova conversazione allegando lo ZIP del progetto)
 
-Aggiorna la guida “Dieci modi di guardare — Accademia Carrara” fornita come ZIP o repository GitHub Pages. La data della visita è DOMANI. Usa ricerche web aggiornate e documenta l’ora della verifica.
+Aggiorna la guida “Dieci modi di guardare — Accademia Carrara” (sito statico per GitHub Pages, PWA) allegata come ZIP. La visita è DOMANI. Obiettivo: ogni opera dei dieci percorsi deve risultare esposta secondo il catalogo online del museo, con piano e sala aggiornati; le tappe di ogni percorso devono essere in ordine di sala. L'utente finale non deve vedere note per lo sviluppatore ("da riconfermare", fonti incerte, ecc.).
 
-PRIORITÀ 1 — DISPONIBILITÀ REALE
-1. Parti da https://lacarrara.it/collezioni-online/ e apri la scheda di ciascuna opera. Verifica “solo opere esposte”, collocazione, piano e sala.
-2. Controlla https://lacarrara.it/opere-in-prestito/ , https://lacarrara.it/opere-in-restauro/ , https://lacarrara.it/ricerca-mostre/ e le notizie ufficiali. Considera eventuali mostre che possano spostare opere o cambiare l’allestimento.
-3. Distingui sempre: (a) scheda che dichiara esposizione permanente, (b) evento passato che menziona una sala, (c) opera in collezione senza prova di esposizione corrente. Non trattare (b) o (c) come conferma in tempo reale. Se non puoi verificare, segnala “da confermare” oppure sostituisci con un’opera sicuramente esposta.
-4. Ordina le tappe di ciascun percorso per numero di sala crescente. Evita ritorni; se necessari, spiega il motivo.
+────────────────────────────────────────
+1. DOVE LEGGERE I DATI (esperienza del 27 ottobre 2026)
+────────────────────────────────────────
+- Fonte principale: la scheda dell'opera sul sito del museo, https://lacarrara.it/opera/<slug>/
+  Campi utili: SETTORE/AREA (es. "Esposizione permanente"), PIANO, SALA, NUMERO DI INVENTARIO, la datazione sotto il titolo e, quando c'è, la sezione "Note storiche".
+- WebFetch e la shell del container NON riescono a leggere lacarrara.it (URL non in allowlist) e catalogo.beniculturali.it (robots). Funziona invece il BROWSER INTEGRATO sul computer di Diego (strumenti Claude_Browser, sito lacarrara.it già autorizzato): apri una scheda qualsiasi e, da quella pagina, leggi le altre con fetch() same-origin (script pronto al punto 5).
+- La ricerca del catalogo (/collezioni-online/?q=...) va in timeout (504): non usarla, usa gli slug della tabella al punto 4. Se uno slug restituisce 404, prova varianti (es. "-2", "-5", "di-una-", apostrofi tolti: "leonello-deste").
+- Prestiti e restauri: https://lacarrara.it/opere-in-prestito/ e https://lacarrara.it/opere-in-restauro/ (elenco opere con link /opera/...). Il 27/10/2026 nessuna opera della guida compariva; in prestito c'erano solo carte da tarocco e l'Autoritratto con tavolozza del Piccio. L'elenco potrebbe non mostrare tutto: fa fede il campo SETTORE/AREA della singola scheda.
+- Mostre in corso: https://lacarrara.it/en/exhibitions (una mostra può spostare opere). Il 27/10/2026 in programma "Federico Zeri. Un diario personale" dal 12/11/2026 al 04/07/2027: se la visita cade in quel periodo, controlla se coinvolge opere della guida.
+- Le pagine evento "Vista da vicino" indicano la sala di una data passata: NON sono una conferma della collocazione attuale.
+- Fonte secondaria per la storia: schede SIRBeC su https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-xxxxx/ (raggiungibili con WebFetch solo dopo che l'URL è comparso in una WebSearch). Sono più vecchie: collocazioni del 2008, alcune date e attribuzioni diverse dal museo. In caso di conflitto prevale SEMPRE la scheda del museo.
 
-PRIORITÀ 2 — STORIA E FONTI
-5. Per ogni opera usa prima la sezione “Note storiche” della scheda ufficiale del museo. Riassumi in italiano, senza copiare lunghi passaggi. Se la sezione manca, usa un’altra fonte istituzionale attendibile e indica chiaramente che non è la nota storica del museo. Non inventare dati biografici, attribuzioni o interpretazioni.
-6. Mantieni distinti: storia documentata, testo interpretativo da ascoltare (circa 60–90 secondi), domanda per osservare, musica e motivazione dell’accostamento.
+────────────────────────────────────────
+2. COSA AGGIORNARE IN routes.js (per ogni opera, in tutti i percorsi in cui compare: chiave "key")
+────────────────────────────────────────
+- room (numero sala), floor, roomLabel = "Piano N · Sala S"
+- availability = "Esposizione permanente, piano N, sala S."  (testo mostrato all'utente in "Dove si trova": solo il dato, nessuna avvertenza)
+- availabilityChecked = data del controllo
+- date = datazione come sulla scheda del museo; museumPage = URL della scheda
+- Poi riordina le opere di ogni percorso per sala crescente (a parità di sala mantieni l'ordine esistente).
+- Se un'opera NON è esposta (in prestito, in restauro, deposito, scheda senza "Esposizione permanente"): sostituiscila con un'opera esposta coerente con il tema del percorso, con storia presa dalle Note storiche del museo, immagine verificata (punto 3), domanda e brano musicale (italiano o strumentale). Non lasciare in pagina opere non visibili e non mostrare avvisi all'utente.
+- Testi "Un po' di storia": solo fatti presenti nelle fonti (prima il museo, poi SIRBeC). Non attribuire a un quadro dettagli di altre versioni (es. finestra e tortora del Giuliano de' Medici sono nella versione di Washington). Se non puoi verificare un dettaglio, toglilo.
+- Dopo le modifiche: aumenta VERSION in sw.js e il parametro ?v= di styles.css, routes.js e app.js in index.html (altrimenti i telefoni con l'app installata possono mostrare la versione vecchia).
 
-PRIORITÀ 3 — IMMAGINI E MUSICA
-7. Verifica che ogni immagine raffiguri esattamente l’opera. Preferisci file immagine diretti, così da visualizzare l’immagine inline senza aprire Wikimedia al tocco. Conserva un link separato alla pagina fonte/licenza. Se possibile e consentito dalla licenza, scarica il file e includilo nella cartella `assets/`; non usare immagini generiche o non verificate.
-8. Se non è possibile scaricare un’immagine localmente, usa un URL diretto al file immagine e scrivi chiaramente che serve Internet. Controlla licenza e attribuzione.
-9. Mantieni brani italiani cantati in italiano o musica strumentale, con collegamento YouTube preciso e una motivazione basata su ritmo, timbro, atmosfera o contrasto; evita abbinamenti soltanto letterali. Verifica che il link funzioni.
+────────────────────────────────────────
+3. IMMAGINI
+────────────────────────────────────────
+- Le immagini sono file di Wikimedia Commons indicati in routes.js (campo image / images). La pagina NON fa ricerche automatiche: se un file non si carica mostra "Immagine non disponibile".
+- Commons non è raggiungibile dalla shell del container; verificalo dal browser integrato con fetch a https://commons.wikimedia.org/w/api.php?...&origin=* (prop=imageinfo per controllare che il file esista; list=categorymembers su "Category:15th-century paintings in the Galleria dell’Accademia Carrara (Bergamo)" e simili per cercare; la ricerca list=search a volte risponde "too busy").
+- Per essere sicuro che l'immagine sia l'opera giusta, confrontala visivamente con l'immagine della scheda del museo (meta og:image della pagina /opera/...). Attenzione: cercando "Jacobello di Antonello" esce anche una Madonna del Fogg Museum, che è un'altra opera.
 
-OUTPUT
-10. Mantieni mobile-first, senza sintesi vocale del browser, con progressi locali per percorso, immagini ridimensionate, elenco dei percorsi con miniature e PWA installabile (manifest, sw.js, icons/). Se cambi i file, aggiorna VERSION in sw.js.
-11. Aggiorna `VERIFICA_VISITA.txt` con data/ora, fonti consultate, disponibilità confermate, sale, opere escluse/sostituite e ogni punto irrisolto.
-12. Esegui controlli di sintassi e prova che i dieci percorsi carichino correttamente. Produci un nuovo ZIP completo pronto per GitHub Pages. Non dichiarare verificata una disponibilità che non è stata effettivamente verificata.
+────────────────────────────────────────
+4. OPERE DELLA GUIDA AL 27 OTTOBRE 2026 (catalogo del museo)
+────────────────────────────────────────
+key        | slug lacarrara.it/opera/...               | inventario | piano/sala | datazione museo
+pisanello  | ritratto-di-leonello-deste                | 58MR00010  | 2 / 2      | 1441 – 1444
+jacopo     | madonna-col-bambino-5                     | 58AC00184  | 2 / 4      | 1480
+botticelli | ritratto-di-giuliano-de-medici            | 58MR00006  | 2 / 7      | 1478 – ca. 1480
+girolamo   | san-gerolamo-leva-la-spina-al-leone       | 81LC00004  | 2 / 8      | 1465 – 1475
+lotto      | ritratto-di-lucina-brembati               | 58AC00068  | 2 / 10     | 1521 – ca. 1523
+redetti    | ritratto-di-una-bambina-di-casa-redetti   | 81LC00175  | 2 / 11     | 1570 – 1573
+isotta     | ritratto-di-isotta-brembati-grumelli      | 58AC00087  | 2 / 11     | 1548 – ca. 1550
+spini      | ritratto-di-bernardo-spini                | 58AC00082  | 2 / 11     | 1573 – 1575
+spini      | ritratto-di-pace-rivola-spini             | 58AC00083  | 2 / 11     | 1573 – 1575
+ceruti     | ritratto-di-fanciulla-con-ventaglio       | 58MR00065  | 2 / 12     | 1725 – 1730
+galgario   | ritratto-di-giovane-pittore               | 58AC00113  | 2 / 12     | ca. 1732
+baschenis  | ragazzo-con-canestra-di-pane-e-dolciumi   | 06AC01050  | 2 / 12     | 1650 – 1660
+pellizza   | ricordo-di-un-dolore                      | 58AC00702  | 2 / 16     | 1889
+Tutte: "Esposizione permanente". Note storiche presenti sul sito del museo solo per pisanello, botticelli, jacopo, pellizza.
+Immagini verificate (Commons): Jacobello → "Jacobello da Messina Madonna Carrara.jpg"; San Gerolamo → "Pittore fiammingo, san girolamo, 1460-70 circa.jpg"; Baschenis → "Evaristo Baschenis - Boy with a Basket of Bread - WGA1404.jpg"; Ceruti → "Giacomo ceruti (il pitocchetto), ritratto di fanciulla con ventaglio, 1740 circa.jpg".
+
+────────────────────────────────────────
+5. SCRIPT PER IL BROWSER INTEGRATO (eseguire con javascript_tool su una pagina di lacarrara.it)
+────────────────────────────────────────
+const slugs = {pisanello:"ritratto-di-leonello-deste",jacopo:"madonna-col-bambino-5",botticelli:"ritratto-di-giuliano-de-medici",girolamo:"san-gerolamo-leva-la-spina-al-leone",lotto:"ritratto-di-lucina-brembati",redetti:"ritratto-di-una-bambina-di-casa-redetti",isotta:"ritratto-di-isotta-brembati-grumelli",spiniB:"ritratto-di-bernardo-spini",spiniP:"ritratto-di-pace-rivola-spini",ceruti:"ritratto-di-fanciulla-con-ventaglio",galgario:"ritratto-di-giovane-pittore",baschenis:"ragazzo-con-canestra-di-pane-e-dolciumi",pellizza:"ricordo-di-un-dolore"};
+window.__loc = {};
+await Promise.all(Object.entries(slugs).map(async ([k,s]) => {
+  try {
+    const ctl = new AbortController(); setTimeout(()=>ctl.abort(), 35000);
+    const r = await fetch('/opera/'+s+'/', {signal: ctl.signal});
+    if (!r.ok) { window.__loc[k] = 'HTTP '+r.status; return; }
+    const d = new DOMParser().parseFromString(await r.text(),'text/html');
+    d.querySelectorAll('script,style,noscript').forEach(e=>e.remove());
+    const lines = d.body.textContent.split('\n').map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean);
+    const L = lines.map(x=>x.toLowerCase());
+    const get = n => { const i = L.indexOf(n); return i>=0 ? lines[i+1] : null; };
+    const t = L.indexOf('torna ai risultati');
+    window.__loc[k] = [lines.slice(t+1,t+4).join(' | '), get('settore/area'), 'piano '+get('piano'), 'sala '+get('sala'), get('numero di inventario')].join(' | ');
+  } catch(e) { window.__loc[k] = 'ERR '+e.message; }
+}));
+window.__loc
+(Le richieste in parallelo con timeout evitano che lo strumento scada dopo 45 secondi. Per le note storiche: prendi le righe dopo "Note storiche" fino a "Piazza Giacomo Carrara".)
+
+────────────────────────────────────────
+6. OUTPUT
+────────────────────────────────────────
+- Mantieni: mobile-first, nessuna sintesi vocale, elenco dei percorsi con miniature, immagini ridimensionate, avanzamento locale per percorso, PWA (manifest, sw.js, icons/), pulsante per l'uso offline.
+- Aggiorna VERIFICA_VISITA.txt con data/ora del controllo, fonti, collocazioni trovate, opere sostituite e motivi.
+- Controlla la sintassi (node --check app.js sw.js; routes.js deve caricarsi), prova i dieci percorsi e produci un nuovo ZIP completo per GitHub Pages.
+- Non dichiarare verificato ciò che non hai letto davvero: se il sito del museo non è raggiungibile, dillo allo sviluppatore (non all'utente) e lascia i dati dell'ultimo controllo.

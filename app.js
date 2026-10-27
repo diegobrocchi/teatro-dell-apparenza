@@ -34,10 +34,6 @@ routes.forEach(r => r.works.forEach(w => { if (w.key && !worksByKey[w.key]) work
 function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 
 function isSearchPage(page) { return !page || page.includes("Special:MediaSearch"); }
-function searchTermsFrom(page, fallback) {
-  try { const q = new URL(page).searchParams.get("search"); if (q) return q; } catch (e) {}
-  return fallback;
-}
 function filePathUrl(file, width) {
   return `${COMMONS}/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`;
 }
@@ -47,51 +43,24 @@ function imagesOf(w) {
   return list.map(img => ({
     file: isSearchPage(img.page) ? null : img.file,
     page: img.page,
-    caption: img.caption || `${w.artist}, ${w.title}`,
-    query: searchTermsFrom(img.page, `${w.artist} ${w.title} Accademia Carrara`)
+    caption: img.caption || `${w.artist}, ${w.title}`
   }));
 }
 
-// Ricerca su Wikimedia Commons (usata solo quando manca un file diretto o non si carica)
-const searchCache = {};
-function searchCommons(query) {
-  if (!searchCache[query]) {
-    const url = `${COMMONS}/w/api.php?action=query&format=json&origin=*&generator=search&gsrnamespace=6&gsrlimit=1` +
-      `&gsrsearch=${encodeURIComponent(query + " filetype:bitmap")}&prop=imageinfo&iiprop=url&iiurlwidth=${W_CARD}`;
-    searchCache[query] = fetch(url).then(r => r.json()).then(data => {
-      const pages = data && data.query && data.query.pages;
-      if (!pages) return null;
-      const p = Object.values(pages)[0];
-      const info = p && p.imageinfo && p.imageinfo[0];
-      if (!info) return null;
-      return { file: p.title.replace(/^File:/, ""), page: info.descriptionurl };
-    }).catch(() => null);
-  }
-  return searchCache[query];
-}
-
-// Carica un'immagine provando: file diretto → ricerca → riquadro "non disponibile"
+// Carica l'immagine indicata; se non si carica mostra il riquadro "non disponibile".
+// (Nessuna ricerca automatica: rischierebbe di mostrare un'opera diversa.)
 function loadImage(imgEl, candidates, width, onFail) {
   let i = 0;
   const tryNext = async () => {
     while (i < candidates.length) {
       const c = candidates[i++];
-      let file = c.file, page = c.page;
-      if (!file) {
-        const found = await searchCommons(c.query);
-        if (!found) continue;
-        file = found.file; page = found.page;
-      }
+      if (!c.file) continue;
       const ok = await new Promise(res => {
         imgEl.onload = () => res(true);
         imgEl.onerror = () => res(false);
-        imgEl.src = filePathUrl(file, width);
+        imgEl.src = filePathUrl(c.file, width);
       });
-      if (ok) { imgEl.classList.remove("loading"); imgEl.dataset.file = file; imgEl.dataset.page = page || ""; return { file, page }; }
-      if (c.file) { // il file diretto non esiste: prova anche con la ricerca
-        const found = await searchCommons(c.query);
-        if (found && found.file !== c.file) candidates.splice(i, 0, { file: found.file, page: found.page, query: c.query });
-      }
+      if (ok) { imgEl.classList.remove("loading"); imgEl.dataset.file = c.file; imgEl.dataset.page = c.page || ""; return { file: c.file, page: c.page }; }
     }
     onFail && onFail();
     return null;
@@ -133,6 +102,11 @@ function updateProgress() {
   });
 }
 
+function roomsOf(r) {
+  const rooms = [...new Set(r.works.map(w => w.room))].sort((a, b) => a - b);
+  return rooms.length > 1 ? `Sale ${rooms[0]}–${rooms[rooms.length - 1]}` : `Sala ${rooms[0]}`;
+}
+
 /* ---------- Home: elenco percorsi ---------- */
 function renderHome() {
   const list = $("routeList");
@@ -145,7 +119,7 @@ function renderHome() {
         <p class="rc-sub">${esc(r.subtitle)}</p>
         <h3 class="rc-title">${esc(r.title)}</h3>
         <p class="rc-intro">${esc(r.intro)}</p>
-        <div class="rc-meta"><span>${total} opere</span>${status}</div>
+        <div class="rc-meta"><span>${total} opere</span><span>${roomsOf(r)}</span>${status}</div>
       </div>
     </a>`;
   }).join("");
@@ -175,6 +149,7 @@ function renderRoute() {
   $("routeTitle").textContent = route.title;
   $("routeSubtitle").textContent = route.subtitle;
   $("routeIntro").textContent = route.intro;
+  $("routeRooms").textContent = `${route.works.length} opere · piano 2 · ${roomsOf(route).toLowerCase()}, in ordine di visita`;
   document.title = `${route.title} — Accademia Carrara`;
   const next = (activeRoute + 1) % routes.length;
   $("nextRoute").href = `#/percorso/${encodeURIComponent(routes[next].id)}`;
@@ -189,7 +164,7 @@ function renderRoute() {
         <p class="work-text">${esc(w.text)}</p>
         <div class="actions">
           <button class="done-toggle" type="button" aria-pressed="false" data-index="${i}">Segna come vista</button>
-          <a class="source-link" href="${esc(w.museumPage)}" target="_blank" rel="noopener">Scheda dell’opera ↗</a>
+          <a class="source-link" href="${esc(w.museumPage)}" target="_blank" rel="noopener">${w.museumPage2 ? "Scheda di Bernardo ↗" : "Scheda dell’opera ↗"}</a>${w.museumPage2 ? `<a class="source-link" href="${esc(w.museumPage2)}" target="_blank" rel="noopener">Scheda di Pace ↗</a>` : ""}
         </div>
         <section class="history"><h4>Un po’ di storia</h4><p>${esc(w.history)}</p>
           <p class="history-meta">Fonte: <a href="${esc(w.historySourceUrl)}" target="_blank" rel="noopener">${esc(w.historySource)} ↗</a></p>
@@ -307,8 +282,7 @@ async function downloadForOffline() {
   for (const { img, thumb } of jobs) {
     txt.textContent = `Scarico le immagini… ${done + failed + 1} di ${jobs.length}`;
     try {
-      let file = img.file;
-      if (!file) { const found = await searchCommons(img.query); file = found && found.file; }
+      const file = img.file;
       if (!file) throw new Error("non trovata");
       await grab(filePathUrl(file, W_CARD));
       if (thumb) await grab(filePathUrl(file, W_THUMB));

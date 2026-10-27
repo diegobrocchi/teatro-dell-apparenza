@@ -1,54 +1,30 @@
 VERIFICA VISITA — ACCADEMIA CARRARA
-Data della ricerca: 27 ottobre 2026
-Ambito: 12 opere uniche usate nei 10 percorsi.
+Ultimo controllo: 27 ottobre 2026, pomeriggio.
 
-RISULTATO
-La guida ora distingue per ogni opera la nota storico-critica, la fonte, la datazione e lo stato di verifica della collocazione. I percorsi sono riordinati per sala crescente sulla base dei riferimenti disponibili. Non è corretto leggere questo file come attestazione che tutte le opere siano materialmente visibili oggi: per alcune schede il catalogo pubblico non restituisce una conferma aggiornata dell’esposizione.
+COLLOCAZIONI (catalogo online del museo, schede lacarrara.it/opera/...)
+Tutte le 13 schede (12 opere della guida; gli Spini sono due tele) riportano "Esposizione permanente", piano 2.
+- Sala 2: Pisanello, Ritratto di Leonello d'Este
+- Sala 4: Jacopo (Jacobello) di Antonello, Madonna col Bambino
+- Sala 7: Botticelli, Ritratto di Giuliano de' Medici
+- Sala 8: Pittore lombardo o ligure, San Gerolamo leva la spina al leone
+- Sala 10: Lotto, Ritratto di Lucina Brembati
+- Sala 11: Moroni, bambina di casa Redetti; Isotta Brembati Grumelli; Bernardo Spini e Pace Rivola Spini
+- Sala 12: Ceruti, fanciulla con ventaglio; Fra' Galgario, giovane pittore; Baschenis, ragazzo con canestra
+- Sala 16: Pellizza da Volpedo, Ricordo di un dolore
+Correzioni rispetto alla versione precedente: Fra' Galgario era indicato in sala 21 (ora 12); Baschenis in sala 11 (ora 12). Le tappe dei percorsi sono state riordinate per sala.
+Opere in prestito e in restauro (pagine del museo): nessuna opera della guida in elenco.
 
-FONTI CONSULTATE
-- Catalogo online Accademia Carrara: https://lacarrara.it/collezioni-online/
-- Scheda ufficiale “Ritratto di Lucina Brembati”: https://lacarrara.it/opera/ritratto-di-lucina-brembati/ (esposizione permanente, piano 2, sala 10).
-- Scheda ufficiale “Madonna col Bambino”: https://lacarrara.it/opera/madonna-col-bambino-5/ (esposizione permanente, piano 2, sala 4; note storiche).
-- Scheda ufficiale “San Gerolamo leva la spina al leone”: https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/ (esposizione permanente, piano 2, sala 8).
-- Evento ufficiale “Vista da vicino – Ritratto di una bambina di casa Redetti”: https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/ (sala 11, evento 2026).
-- Evento ufficiale “Vista da vicino – Ritratto di Isotta Brembati Grumelli”: https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/ (sala 11, evento 2024).
-- Evento ufficiale “Vista da vicino – Ritratto di fanciulla con ventaglio”: https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/ (sala 12, evento 2024).
-- Evento ufficiale “Vista da vicino – Ricordo di un dolore”: https://lacarrara.it/evento/vista-da-vicino-ricordo-di-un-dolore/ (sala 16, evento 2025).
-- Catalogo generale dei beni culturali, schede storico-critiche per Pisanello e Botticelli: https://catalogo.beniculturali.it/
-- La Carrara in Humanitas, “Ritratto di giovane pittore”: https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/ (sala 21; identificazione del giovane tradizionale e non certa).
-- Accademia Carrara, “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia: https://lacarrara.it/mostra/baschenis-1617-2017/ ; https://lacarrara.it/collezioni/collezionisti/mario-scaglia/
-- Materiale educativo ufficiale “L’atelier del costume: tra arte e moda”: https://www.lacarrara.it/wp-content/uploads/L_ATELIER-DEL-COSTUME.pdf (include i ritratti Spini e Isotta Brembati).
-- Pagina ufficiale “Opere in prestito”: https://lacarrara.it/opere-in-prestito/
-- Pagina ufficiale “Opere in restauro”: https://lacarrara.it/opere-in-restauro/
-- Orari e visita: https://lacarrara.it/visita/biglietti-e-orari/
+DATAZIONI: allineate al catalogo del museo (Pisanello 1441–1444; Lotto 1521–ca. 1523; Redetti 1570–1573; Isotta 1548–ca. 1550; Spini 1573–1575; Ceruti 1725–1730; Galgario ca. 1732; Baschenis 1650–1660; San Gerolamo 1465–1475).
 
-DISPONIBILITÀ E SALE: LIMITI
-- Lotto, Madonna col Bambino di Jacobello e San Gerolamo: la scheda ufficiale riporta esposizione permanente e sala.
-- Redetti, Isotta Brembati Grumelli, Ceruti e Pellizza: sono state trovate pagine ufficiali recenti di eventi in museo con riferimenti alle sale (rispettivamente 11, 11, 12 e 16); sono riferimenti datati, non una conferma in tempo reale per il giorno della visita.
-- Fra’ Galgario: una fonte museale collegata indica sala 21.
-- Baschenis: la relazione ufficiale sul riordinamento colloca l’opera in sala 11, ma è una fonte di progetto/allestimento e va riconfermata.
-- Pisanello e Botticelli: schede storico-critiche istituzionali confermano le opere nella collezione Carrara; non è stata verificata una collocazione attuale direttamente in una scheda espositiva aggiornata.
-- Ritratti di Bernardo e Pace Rivola Spini: i materiali educativi del museo attestano l’inclusione dell’opera nei percorsi, ma non bastano a confermare la sala attuale.
-- La ricerca pubblica non ha consentito di attestare in modo conclusivo l’esposizione contemporanea di tutte le dodici opere. Controllare nuovamente catalogo, prestiti e restauri il giorno prima; se una tappa è indispensabile, chiedere conferma diretta al museo.
+TESTI "UN PO' DI STORIA"
+Priorità alle note storiche del museo (presenti per Pisanello, Botticelli, Jacobello, Pellizza), poi alle schede SIRBeC di Lombardia Beni Culturali.
+- Botticelli: finestra e tortora appartengono alla versione di Washington; il museo considera la tela di Bergamo forse la più antica delle tre (Berlino, Washington), probabilmente non finita, tratta da un busto ricavato dalla maschera funebre.
+- Jacobello e Pellizza: ripristinati i dettagli delle note del museo (bacile di vetro, paesaggio costiero, acquisto prima del 1780; fotografia di Davide Cicala del 1892, lettera a Vittorio Pica del 1900) che una correzione precedente basata solo su SIRBeC aveva tolto per errore.
+- Ceruti: tolti l'aneddoto della "portinaia" e il confronto con Manet (non riscontrati); Galgario: oggetti corretti (pennello, foglio con disegno, mele, piedistallo).
+- Isotta: precisato che il ritratto a figura intera è a Palazzo Moroni, non alla Carrara.
 
 IMMAGINI
-Le immagini sono mostrate inline tramite URL diretti ai file di Wikimedia Commons. Non sono scaricate nel pacchetto perché il runtime di questa sessione non dispone di accesso di rete diretto per il download dei file; sono quindi remote e non utilizzabili offline. Il collegamento alla pagina del file rimane disponibile sotto ogni immagine per verifica della licenza.
+Tutti i file Wikimedia Commons verificati il 27/10/2026 tramite le API di Commons. I tre che mancavano (Jacobello, San Gerolamo, Baschenis) sono stati individuati e confrontati visivamente con l'immagine della scheda del museo; per il Ceruti è stato scelto un file a risoluzione più alta. La pagina non fa più ricerche automatiche di immagini.
 
 MUSICA
-I collegamenti sono ricerche YouTube mirate, non incorporamenti audio garantiti: la disponibilità dei video può variare per territorio o nel tempo.
-
-CONTROLLO DEI TESTI (27 ottobre 2026, pomeriggio)
-Le note "Un po' di storia" sono state ricontrollate opera per opera sulle schede di catalogo SIRBeC (Lombardia Beni Culturali, stesse schede del Catalogo generale dei beni culturali) e sul catalogo online della Carrara. Correzioni principali:
-- Botticelli: finestra socchiusa e tortora appartengono alla versione di Washington, non a quella di Bergamo; attribuzione corretta in "Botticelli e aiuti", datazione 1478 – 1480 circa; provenienza dal lascito Morelli (1891).
-- Lotto: aggiunto il rebus "CI" nella luna (LU-CI-NA) e lo stemma Brembati sull'anello; acquisto del 1882; datazione 1518 – 1523 circa secondo la scheda regionale.
-- Moroni, bambina Redetti: datazione corretta in 1566 – 1570 circa; provenienza Lochis (1866).
-- Moroni, Isotta Brembati: datazione corretta in 1550 – 1555 circa (non "seconda metà del XVI secolo"); il ritratto a figura intera si trova a Palazzo Moroni, non alla Carrara.
-- Ceruti: eliminati l'aneddoto della "portinaia" e il confronto con Manet, non riscontrati nelle fonti; aggiunte le attribuzioni storiche (Zuccarelli, Pietro Longhi) e l'attribuzione di Roberto Longhi del 1927.
-- Pellizza: eliminati dettagli non riscontrati (nome del fotografo, lettera a Vittorio Pica); la ragazza tiene un piccolo libro, non una lettera; il fiore è una viola del pensiero.
-- Jacobello: eliminati "bacile retto dalla mano scorciata", "paesaggio costiero" e "acquistato prima del 1780", non riscontrati; aggiunte la derivazione da un originale perduto di Antonello (Longhi 1953) e la provenienza dalla collezione di Giacomo Carrara (catalogo 1796).
-- San Gerolamo: indicata anche l'ipotesi della scheda regionale (copia da Rogier van der Weyden, avvicinata a Zanetto Bugatto).
-- Fra' Galgario: oggetti corretti secondo la scheda (pennello, foglio con disegno, mele, piedistallo; non gessetto e pagnotta).
-- Baschenis: eliminata una citazione attribuita al museo non riscontrata e la datazione 1650–1660, non verificata; aggiunto il contesto della donazione Scaglia (2022).
-- Spini: datazione 1570 circa, descrizione degli abiti e delle iscrizioni secondo le schede regionali.
-- Pisanello: confermato; aggiunti roseto, restauro 2004–2008 e provenienza Costabili–Morelli.
-Limiti: le pagine delle singole opere sul sito lacarrara.it non erano leggibili da questa sessione; per collocazioni in sala e dati più recenti fa fede il museo. I testi interpretativi e le domande non contengono affermazioni di fatto oltre a quelle verificate qui.
+I collegamenti sono ricerche YouTube mirate: la disponibilità dei video può variare.

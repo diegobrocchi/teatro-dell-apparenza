@@ -1,6 +1,6 @@
 /* Service worker — Dieci percorsi, Accademia Carrara
    Quando aggiorni i file del sito, cambia VERSION: i telefoni scaricheranno la nuova versione. */
-const VERSION = "2026-10-27-3";
+const VERSION = "2026-10-27-4";
 const SHELL_CACHE = "carrara-app-" + VERSION;
 const IMG_CACHE = "carrara-immagini";   // non viene cancellata agli aggiornamenti
 const DATA_CACHE = "carrara-dati";
