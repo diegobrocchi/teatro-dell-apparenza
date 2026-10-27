@@ -1,0 +1,17 @@
+{
+  "name": "Dieci percorsi — Accademia Carrara",
+  "short_name": "Carrara",
+  "description": "Dieci percorsi tematici tra le opere dell'Accademia Carrara, con spiegazioni da ascoltare e un brano per ogni opera.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f1e9",
+  "theme_color": "#f4f1e9",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

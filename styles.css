@@ -148,3 +148,16 @@ h1 em{color:var(--petrol)}
 .dock-info strong{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .dock-controls{display:flex;gap:6px;flex-shrink:0}
 .dock-controls button{border-color:#63736f;color:#fff}
+
+/* Installazione e uso offline */
+.app-box{padding-top:22px}
+.app-card{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.app-icon{border-radius:12px;display:block}
+.app-text h2{font-size:19px;font-weight:400;margin:2px 0 6px}
+.app-text p{margin:0 0 10px;font-size:15px}
+.app-text .small{font-size:13px;color:var(--muted)}
+.app-text .pill{cursor:pointer;margin-bottom:4px}
+.app-text #offlineBox{border-top:1px solid var(--line);padding-top:12px;margin-top:4px}
+.app-text #installAndroid[hidden]+#installIos[hidden]+#offlineBox{border-top:0;padding-top:0;margin-top:0}
+.ios-share{display:inline-block;border:1px solid var(--line);border-radius:5px;padding:0 5px;font-size:13px}
+.pill:disabled{opacity:.6;cursor:default}

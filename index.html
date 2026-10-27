@@ -6,6 +6,13 @@
 <meta name="theme-color" content="#f4f1e9">
 <meta name="description" content="Dieci percorsi tematici tra le opere dell'Accademia Carrara, con immagini, spiegazioni da ascoltare e un brano musicale per ogni tappa.">
 <title>Dieci percorsi — Accademia Carrara</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Carrara">
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -36,6 +43,27 @@
         <li><strong>Tocca l’immagine</strong> per vederla in grande e scoprire i dettagli.</li>
       </ol>
       <p class="note">Le sale del museo a volte cambiano e qualche opera può essere in prestito o in restauro. Se non trovi un quadro, passa pure al successivo.</p>
+    </section>
+
+    <section id="appBox" class="wrap app-box" hidden>
+      <div class="app-card">
+        <img src="./icons/icon-192.png" alt="" class="app-icon" width="52" height="52">
+        <div class="app-text">
+          <h2 id="appTitle">Tienila sul telefono</h2>
+          <div id="installAndroid" hidden>
+            <p>Aggiungila alla schermata Home: si apre come un’app, a tutto schermo.</p>
+            <button id="installBtn" class="pill pill-strong" type="button">Aggiungi alla Home</button>
+          </div>
+          <div id="installIos" hidden>
+            <p>Per averla come un’app: tocca <strong>Condividi</strong> <span class="ios-share" aria-hidden="true">⬆︎</span> in Safari, poi <strong>“Aggiungi alla schermata Home”</strong>.</p>
+            <p class="small">Poi aprila dall’icona e da lì scarica le immagini qui sotto.</p>
+          </div>
+          <div id="offlineBox" hidden>
+            <p id="offlineText">In museo il segnale può essere debole: scarica ora le immagini (circa 5 MB) per usarla anche senza connessione.</p>
+            <button id="offlineBtn" class="pill" type="button">Scarica per l’uso offline</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="wrap" aria-labelledby="routesTitle">

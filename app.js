@@ -269,7 +269,9 @@ function renderRoute() {
 /* ---------- Ingrandimento ---------- */
 function openLightbox(img) {
   if (!img.dataset.file) return;
-  $("lightboxImg").src = filePathUrl(img.dataset.file, W_FULL);
+  const big = $("lightboxImg");
+  big.onerror = () => { big.onerror = null; big.src = img.src; }; // senza rete: usa l'immagine già salvata
+  big.src = filePathUrl(img.dataset.file, W_FULL);
   $("lightboxImg").alt = img.alt;
   $("lightboxCaption").textContent = img.alt;
   $("lightbox").hidden = false;
@@ -324,5 +326,69 @@ document.addEventListener("visibilitychange", () => {
   }
 });
 
+/* ---------- App installabile e uso offline ---------- */
+const isStandalone = () => window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+const isIos = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+let deferredPrompt = null;
+
+function refreshAppBox() {
+  const standalone = isStandalone();
+  $("installAndroid").hidden = standalone || !deferredPrompt;
+  $("installIos").hidden = standalone || !isIos;
+  $("offlineBox").hidden = !("serviceWorker" in navigator && navigator.serviceWorker.controller);
+  $("appTitle").textContent = standalone ? "Pronta per la visita" : "Tienila sul telefono";
+  $("appBox").hidden = $("installAndroid").hidden && $("installIos").hidden && $("offlineBox").hidden;
+  try { if (localStorage.getItem("carraraOfflineReady")) markOfflineReady(); } catch (e) {}
+}
+function markOfflineReady() {
+  $("offlineText").textContent = "Immagini salvate su questo telefono: puoi usarla anche senza connessione.";
+  $("offlineBtn").textContent = "Aggiorna le immagini";
+}
+
+window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferredPrompt = e; refreshAppBox(); });
+window.addEventListener("appinstalled", () => { deferredPrompt = null; refreshAppBox(); });
+$("installBtn").addEventListener("click", async () => {
+  if (!deferredPrompt) return;
+  deferredPrompt.prompt();
+  await deferredPrompt.userChoice.catch(() => null);
+  deferredPrompt = null; refreshAppBox();
+});
+
+async function downloadForOffline() {
+  const btn = $("offlineBtn"), txt = $("offlineText");
+  btn.disabled = true;
+  try { if (navigator.storage && navigator.storage.persist) await navigator.storage.persist(); } catch (e) {}
+  const jobs = [];
+  Object.values(worksByKey).forEach(w => imagesOf(w).forEach((img, j) => jobs.push({ img, thumb: j === 0 })));
+  let done = 0, failed = 0;
+  const grab = url => fetch(url, { mode: "no-cors" });
+  for (const { img, thumb } of jobs) {
+    txt.textContent = `Scarico le immagini… ${done + failed + 1} di ${jobs.length}`;
+    try {
+      let file = img.file;
+      if (!file) { const found = await searchCommons(img.query); file = found && found.file; }
+      if (!file) throw new Error("non trovata");
+      await grab(filePathUrl(file, W_CARD));
+      if (thumb) await grab(filePathUrl(file, W_THUMB));
+      done++;
+    } catch (e) { failed++; }
+  }
+  btn.disabled = false;
+  if (done === 0) {
+    txt.textContent = "Non riesco a scaricare le immagini: controlla la connessione e riprova.";
+    return;
+  }
+  try { localStorage.setItem("carraraOfflineReady", "1"); } catch (e) {}
+  markOfflineReady();
+  if (failed) $("offlineText").textContent += ` (${failed} immagini non disponibili.)`;
+}
+$("offlineBtn").addEventListener("click", downloadForOffline);
+
+if ("serviceWorker" in navigator && location.protocol !== "file:") {
+  navigator.serviceWorker.register("./sw.js").catch(() => {});
+  navigator.serviceWorker.addEventListener("controllerchange", refreshAppBox);
+}
+
 loadProgress();
 route();
+refreshAppBox();
