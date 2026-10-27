@@ -26,4 +26,4 @@ Le immagini si caricano da Wikimedia Commons o da pagine di ricerca Commons e ri
 - **Android (Chrome):** nella pagina iniziale compare il pulsante “Aggiungi alla Home”.
 - **iPhone/iPad:** in Safari, Condividi → “Aggiungi alla schermata Home” (la pagina mostra l’istruzione). Su iPhone l’app installata ha uno spazio dati separato da Safari: il download delle immagini per l’uso offline va fatto aprendo l’app dall’icona.
 - **Uso offline:** il pulsante “Scarica per l’uso offline” salva le immagini sul telefono. Testi e immagini salvate funzionano senza rete; i link YouTube e le fonti richiedono la connessione.
-- **Quando aggiorni il sito:** cambia il valore `VERSION` in cima a `sw.js`. Chi ha l’app riceve la nuova versione alla seconda apertura con connessione.
+- **Quando aggiorni il sito:** cambia il valore `VERSION` in cima a `sw.js`. Chi ha l’app vede la nuova versione alla prima apertura con connessione.

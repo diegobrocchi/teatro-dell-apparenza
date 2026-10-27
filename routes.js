@@ -25,13 +25,13 @@ const routes = [
         "key": "pisanello",
         "date": "1441",
         "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
-        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
-        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "history": "Il ritratto nasce da una gara: all’inizio del 1441 Niccolò III d’Este mise a confronto Pisanello e Jacopo Bellini nel ritrarre il figlio Lionello, e vinse Bellini (il suo ritratto è perduto). La sfida è ricordata in un sonetto di un poeta di nome Ulisse, forse Ulisse Aleotti. Pisanello lasciò Ferrara per Mantova nell’agosto 1441 e la tavola probabilmente rimase in città. Il profilo si staglia su un cielo blu fra un roseto con fiori e boccioli: il restauro dell’Opificio delle Pietre Dure (2004–2008) ha tolto un fondo nero aggiunto in seguito. Dopo essere passato per la collezione Costabili di Ferrara e una collezione londinese, il dipinto fu riportato in Italia da Giovanni Morelli e, alla sua morte nel 1891, giunse all’Accademia Carrara.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
-        "artist": "Sandro Botticelli",
+        "artist": "Sandro Botticelli e aiuti",
         "title": "Ritratto di Giuliano de’ Medici",
         "room": 7,
         "roomLabel": "Sala 7 · da riconfermare",
@@ -48,11 +48,11 @@ const routes = [
           "note": "Una leggerezza apparente fa da contrappunto alla solennità del ritratto e alla distanza fra persona e personaggio."
         },
         "key": "botticelli",
-        "date": "dopo il 1476 – prima del 1480",
+        "date": "1478 – 1480 circa",
         "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
-        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
-        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, ucciso nella congiura dei Pazzi del 1478. Lo sguardo abbassato, le palpebre socchiuse e la bocca malinconica fanno pensare a un ritratto commemorativo, eseguito dopo la morte e forse a partire da una maschera funebre. Esistono più versioni: quella di Berlino, con il semplice fondo azzurro, è considerata la più antica; quella di Washington è la principale ed è lì – non in questo quadro – che compaiono la finestra socchiusa e la tortora. La tavola di Bergamo è con ogni probabilità una seconda versione: la critica l’ha giudicata opera di bottega, in parte autografa o copia, senza mai escludere un intervento diretto di Botticelli; il catalogo la assegna a “Botticelli e aiuti”. Arrivò all’Accademia Carrara nel 1891 con il lascito di Giovanni Morelli.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00927/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
@@ -73,12 +73,12 @@ const routes = [
           "note": "Un ritratto pieno di codici incontra una voce che cerca di affermare la propria identità."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -98,12 +98,12 @@ const routes = [
           "note": "La crescita è il tempo necessario per diventare se stessi, oltre le aspettative degli altri."
         },
         "key": "redetti",
-        "date": "1570–1573 circa",
+        "date": "1566 – 1570 circa",
         "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
-        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Piccola tela (circa 43 × 33 cm) dipinta da Moroni per uso privato: ritrae una bambina della famiglia bergamasca Redetti, con un colletto e una collana. Il quadro rimase in famiglia fino a metà Settecento, passò poi alla collezione di Francesco Maria Tassi e, prima del 1833, a Guglielmo Lochis, che lo lasciò all’Accademia Carrara con il suo legato del 1866. Il museo lo ha scelto per gli incontri “Vista da vicino”, che invitano a osservare con calma postura, espressione e dettagli dell’abito.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -123,12 +123,12 @@ const routes = [
           "note": "L’eleganza diventa una performance e un modo di controllare lo sguardo altrui."
         },
         "key": "isotta",
-        "date": "seconda metà del XVI secolo",
+        "date": "1550 – 1555 circa",
         "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
-        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Isotta Brembati (circa 1534–1586) fu poetessa e nobildonna bergamasca: scriveva in latino, italiano, francese e spagnolo. Questo ritratto a mezza figura (55 × 47 cm) fu commissionato dalla famiglia Brembati per la propria casa intorno al 1550–1555, quindi prima del secondo matrimonio: rimasta vedova di Lelio Secco d’Aragona, nel 1561 Isotta sposò Gian Gerolamo Grumelli, da cui il doppio cognome con cui è nota. Moroni la ritrasse anche a figura intera, in un grande quadro che oggi si trova nel Palazzo Moroni di Bergamo, non alla Carrara. Il ritratto della Carrara è stato protagonista di un incontro “Vista da vicino” del museo.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (Carrara e Palazzo Moroni)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giacomo Ceruti",
@@ -150,14 +150,14 @@ const routes = [
         "key": "ceruti",
         "date": "1740 circa",
         "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
-        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
-        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
-        "historySourceType": "fonti museali ufficiali"
+        "history": "È considerato uno dei capolavori di Giacomo Ceruti, detto il Pitocchetto. L’origine del quadro è sconosciuta: faceva parte della collezione di Giovanni Morelli, dove era attribuito a Francesco Zuccarelli; quando nel 1891 il lascito Morelli arrivò all’Accademia Carrara fu riferito a Pietro Longhi. Solo nel 1927 Roberto Longhi lo restituì definitivamente a Ceruti, vedendovi un esempio della pittura di realtà lombarda; fu poi scelto per la copertina del catalogo della mostra del 1953 sui pittori della realtà in Lombardia. I capelli rossi, l’abito turchese e il grande ventaglio viola risaltano sul fondo bruno; alla festosità di gioielli e fiocchi fa da contrappunto una malinconia di fondo nello sguardo della ragazza.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
+        "title": "Ricordo di un dolore (Ritratto di Santina Negri)",
         "room": 16,
         "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
@@ -175,10 +175,10 @@ const routes = [
         "key": "pellizza",
         "date": "1889",
         "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
-        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
-        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
-        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Pellizza dipinse il quadro nel 1889 (è firmato e datato 29 novembre), dopo la morte improvvisa della sorella Antonietta, avvenuta mentre lui si trovava a Parigi per l’Esposizione Universale; rientrò subito a Volpedo. La modella è la giovane Santina Negri, seduta in poltrona con un piccolo libro tra le mani. La viola del pensiero essiccata fra le pagine fu aggiunta più tardi: una fotografia dello studio del 1892 circa mostra il quadro ancora senza. L’opera chiude la fase accademica del pittore, prima della svolta divisionista. Nel 1897 Pellizza la donò all’Accademia Carrara, in segno di gratitudine per la formazione ricevuta alla scuola di Cesare Tallone.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01049/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -208,10 +208,10 @@ const routes = [
         "key": "jacopo",
         "date": "1480",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 4 (consultata il 27 ottobre 2026).",
-        "history": "È l’unica opera firmata e datata del figlio di Antonello da Messina e l’unico dipinto assegnatogli con certezza. Alla morte del padre, nel febbraio 1479, Jacobello ereditò la bottega e si impegnò a completare le opere rimaste incompiute; la Madonna della Carrara potrebbe essere una di queste. La modellazione tridimensionale dei volti, la mano scorciata che regge il bacile di vetro e il paesaggio costiero minuzioso mostrano il dialogo con la pittura del padre e con la precisione fiamminga. Il conte Giacomo Carrara acquistò il dipinto prima del 1780.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Madonna col Bambino”",
-        "historySourceUrl": "https://lacarrara.it/opera/madonna-col-bambino-5/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Firmata e datata 1480, è l’unica opera certa di Jacopo (Jacobello), figlio di Antonello da Messina: l’attribuzione si basa proprio sull’iscrizione. Da quando Roberto Longhi la studiò nel 1953, la critica la considera derivata da un’opera perduta del padre, morto nel 1479. Nel dipinto compaiono una coppa di vetro, una tenda, una balaustra con colonne e un paesaggio. Le indagini a infrarossi del 1997 hanno rivelato ripensamenti nel volto della Madonna, nel naso del Bambino e nella mano destra della Vergine. Il quadro apparteneva al conte Giacomo Carrara, fondatore dell’Accademia, ed è registrato nel catalogo della sua collezione del 1796.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00184/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Pittore lombardo o ligure",
@@ -231,12 +231,12 @@ const routes = [
           "note": "La cura è fatta di azioni piccole e concrete, come il gesto al centro del dipinto."
         },
         "key": "girolamo",
-        "date": "1465–1475",
+        "date": "XV secolo (circa 1460–1475)",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 8 (consultata il 27 ottobre 2026).",
-        "history": "La tavola mostra san Girolamo nell’atto di estrarre una spina dalla zampa del leone, episodio della leggenda del santo: il gesto di cura trasforma l’animale feroce in compagno riconoscente. Il catalogo attribuisce il dipinto a un pittore lombardo o ligure e lo data tra il 1465 e il 1475; non propone un nome certo. L’opera entrò nelle raccolte dell’Accademia attraverso il legato di Guglielmo Lochis nel 1866. L’incertezza sull’autore non è un difetto da risolvere a ogni costo: è parte della storia critica del dipinto.",
-        "historySource": "Accademia Carrara, scheda di catalogo “San Gerolamo leva la spina al leone”",
-        "historySourceUrl": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "La tavola mostra san Girolamo, in abito cardinalizio, mentre estrae una spina dalla zampa del leone, accanto a un libro e a un crocifisso, davanti a una parete rocciosa: secondo la leggenda il leone, guarito, rimase con lui come compagno. L’autore è incerto: il museo oggi la assegna a un “pittore lombardo o ligure”, mentre la scheda di catalogo regionale la considera una copia da un modello di Rogier van der Weyden, avvicinata a Zanetto Bugatto, pittore della corte sforzesca; in passato si sono fatti anche altri nomi. Entrò all’Accademia Carrara nel 1866 con il legato di Guglielmo Lochis.",
+        "historySource": "Accademia Carrara, catalogo online; Lombardia Beni Culturali, scheda di catalogo SIRBeC",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00729/",
+        "historySourceType": "catalogo museale e scheda storico-critica"
       },
       {
         "artist": "Lorenzo Lotto",
@@ -256,12 +256,12 @@ const routes = [
           "note": "Una ricerca dell’altro che può essere letta come desiderio, tensione spirituale o bisogno di prossimità."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -278,19 +278,19 @@ const routes = [
           "title": "A modo tuo",
           "style": "Pop intimo",
           "url": "https://www.youtube.com/results?search_query=Elisa+A+modo+tuo+video+ufficiale",
-          "note": "Il gesto di protezione e la crescita dialogano con la vulnerabilità dell’infanzia."
+          "note": "La cura e la crescita dialogano con la vulnerabilità dell’infanzia."
         },
         "key": "redetti",
-        "date": "1570–1573 circa",
+        "date": "1566 – 1570 circa",
         "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
-        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Piccola tela (circa 43 × 33 cm) dipinta da Moroni per uso privato: ritrae una bambina della famiglia bergamasca Redetti, con un colletto e una collana. Il quadro rimase in famiglia fino a metà Settecento, passò poi alla collezione di Francesco Maria Tassi e, prima del 1833, a Guglielmo Lochis, che lo lasciò all’Accademia Carrara con il suo legato del 1866. Il museo lo ha scelto per gli incontri “Vista da vicino”, che invitano a osservare con calma postura, espressione e dettagli dell’abito.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
+        "title": "Ricordo di un dolore (Ritratto di Santina Negri)",
         "room": 16,
         "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
@@ -308,10 +308,10 @@ const routes = [
         "key": "pellizza",
         "date": "1889",
         "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
-        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
-        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
-        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Pellizza dipinse il quadro nel 1889 (è firmato e datato 29 novembre), dopo la morte improvvisa della sorella Antonietta, avvenuta mentre lui si trovava a Parigi per l’Esposizione Universale; rientrò subito a Volpedo. La modella è la giovane Santina Negri, seduta in poltrona con un piccolo libro tra le mani. La viola del pensiero essiccata fra le pagine fu aggiunta più tardi: una fotografia dello studio del 1892 circa mostra il quadro ancora senza. L’opera chiude la fase accademica del pittore, prima della svolta divisionista. Nel 1897 Pellizza la donò all’Accademia Carrara, in segno di gratitudine per la formazione ricevuta alla scuola di Cesare Tallone.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01049/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -341,13 +341,13 @@ const routes = [
         "key": "pisanello",
         "date": "1441",
         "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
-        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
-        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "history": "Il ritratto nasce da una gara: all’inizio del 1441 Niccolò III d’Este mise a confronto Pisanello e Jacopo Bellini nel ritrarre il figlio Lionello, e vinse Bellini (il suo ritratto è perduto). La sfida è ricordata in un sonetto di un poeta di nome Ulisse, forse Ulisse Aleotti. Pisanello lasciò Ferrara per Mantova nell’agosto 1441 e la tavola probabilmente rimase in città. Il profilo si staglia su un cielo blu fra un roseto con fiori e boccioli: il restauro dell’Opificio delle Pietre Dure (2004–2008) ha tolto un fondo nero aggiunto in seguito. Dopo essere passato per la collezione Costabili di Ferrara e una collezione londinese, il dipinto fu riportato in Italia da Giovanni Morelli e, alla sua morte nel 1891, giunse all’Accademia Carrara.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
-        "artist": "Sandro Botticelli",
+        "artist": "Sandro Botticelli e aiuti",
         "title": "Ritratto di Giuliano de’ Medici",
         "room": 7,
         "roomLabel": "Sala 7 · da riconfermare",
@@ -364,11 +364,11 @@ const routes = [
           "note": "Il personaggio pubblico e la fragilità che può nascondere."
         },
         "key": "botticelli",
-        "date": "dopo il 1476 – prima del 1480",
+        "date": "1478 – 1480 circa",
         "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
-        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
-        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, ucciso nella congiura dei Pazzi del 1478. Lo sguardo abbassato, le palpebre socchiuse e la bocca malinconica fanno pensare a un ritratto commemorativo, eseguito dopo la morte e forse a partire da una maschera funebre. Esistono più versioni: quella di Berlino, con il semplice fondo azzurro, è considerata la più antica; quella di Washington è la principale ed è lì – non in questo quadro – che compaiono la finestra socchiusa e la tortora. La tavola di Bergamo è con ogni probabilità una seconda versione: la critica l’ha giudicata opera di bottega, in parte autografa o copia, senza mai escludere un intervento diretto di Botticelli; il catalogo la assegna a “Botticelli e aiuti”. Arrivò all’Accademia Carrara nel 1891 con il lascito di Giovanni Morelli.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00927/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
@@ -389,12 +389,12 @@ const routes = [
           "note": "Una trama di dettagli e impressioni, come un ritratto che chiede di essere interpretato."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giacomo Ceruti",
@@ -416,10 +416,10 @@ const routes = [
         "key": "ceruti",
         "date": "1740 circa",
         "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
-        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
-        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
-        "historySourceType": "fonti museali ufficiali"
+        "history": "È considerato uno dei capolavori di Giacomo Ceruti, detto il Pitocchetto. L’origine del quadro è sconosciuta: faceva parte della collezione di Giovanni Morelli, dove era attribuito a Francesco Zuccarelli; quando nel 1891 il lascito Morelli arrivò all’Accademia Carrara fu riferito a Pietro Longhi. Solo nel 1927 Roberto Longhi lo restituì definitivamente a Ceruti, vedendovi un esempio della pittura di realtà lombarda; fu poi scelto per la copertina del catalogo della mostra del 1953 sui pittori della realtà in Lombardia. I capelli rossi, l’abito turchese e il grande ventaglio viola risaltano sul fondo bruno; alla festosità di gioielli e fiocchi fa da contrappunto una malinconia di fondo nello sguardo della ragazza.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Fra’ Galgario",
@@ -439,12 +439,12 @@ const routes = [
           "note": "Una presenza concreta e sfuggente incontra una musica che non risolve del tutto la distanza."
         },
         "key": "galgario",
-        "date": "1732 circa",
+        "date": "1730 – 1732 circa",
         "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
-        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
-        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
-        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
-        "historySourceType": "fonti museali e catalografiche"
+        "history": "Il giovane è ritratto con un pennello, un foglio con un disegno, delle mele e un piedistallo: oggetti da bottega di pittore. Già nel catalogo della galleria Carrara del 1796 è identificato con un giovane allievo di Fra’ Galgario soprannominato “Cerighetto”, del convento dei Paolotti di Bergamo, morto a 22 anni: un’identificazione tradizionale, non documentata in altro modo. La tela è datata intorno al 1730–1732 e proviene dalla collezione del conte Giacomo Carrara. È un buon esempio della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; La Carrara in Humanitas",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -474,9 +474,9 @@ const routes = [
         "key": "pisanello",
         "date": "1441",
         "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
-        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
-        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "history": "Il ritratto nasce da una gara: all’inizio del 1441 Niccolò III d’Este mise a confronto Pisanello e Jacopo Bellini nel ritrarre il figlio Lionello, e vinse Bellini (il suo ritratto è perduto). La sfida è ricordata in un sonetto di un poeta di nome Ulisse, forse Ulisse Aleotti. Pisanello lasciò Ferrara per Mantova nell’agosto 1441 e la tavola probabilmente rimase in città. Il profilo si staglia su un cielo blu fra un roseto con fiori e boccioli: il restauro dell’Opificio delle Pietre Dure (2004–2008) ha tolto un fondo nero aggiunto in seguito. Dopo essere passato per la collezione Costabili di Ferrara e una collezione londinese, il dipinto fu riportato in Italia da Giovanni Morelli e, alla sua morte nel 1891, giunse all’Accademia Carrara.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
@@ -497,12 +497,12 @@ const routes = [
           "note": "La maschera e la teatralità diventano una strategia esplicita."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -522,12 +522,12 @@ const routes = [
           "note": "La presenza elegante è anche una performance."
         },
         "key": "isotta",
-        "date": "seconda metà del XVI secolo",
+        "date": "1550 – 1555 circa",
         "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
-        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Isotta Brembati (circa 1534–1586) fu poetessa e nobildonna bergamasca: scriveva in latino, italiano, francese e spagnolo. Questo ritratto a mezza figura (55 × 47 cm) fu commissionato dalla famiglia Brembati per la propria casa intorno al 1550–1555, quindi prima del secondo matrimonio: rimasta vedova di Lelio Secco d’Aragona, nel 1561 Isotta sposò Gian Gerolamo Grumelli, da cui il doppio cognome con cui è nota. Moroni la ritrasse anche a figura intera, in un grande quadro che oggi si trova nel Palazzo Moroni di Bergamo, non alla Carrara. Il ritratto della Carrara è stato protagonista di un incontro “Vista da vicino” del museo.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (Carrara e Palazzo Moroni)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -547,12 +547,12 @@ const routes = [
           "note": "Un contrappunto energico alle aspettative imposte dall’ambiente."
         },
         "key": "redetti",
-        "date": "1570–1573 circa",
+        "date": "1566 – 1570 circa",
         "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
-        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Piccola tela (circa 43 × 33 cm) dipinta da Moroni per uso privato: ritrae una bambina della famiglia bergamasca Redetti, con un colletto e una collana. Il quadro rimase in famiglia fino a metà Settecento, passò poi alla collezione di Francesco Maria Tassi e, prima del 1833, a Guglielmo Lochis, che lo lasciò all’Accademia Carrara con il suo legato del 1866. Il museo lo ha scelto per gli incontri “Vista da vicino”, che invitano a osservare con calma postura, espressione e dettagli dell’abito.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Fra’ Galgario",
@@ -572,12 +572,12 @@ const routes = [
           "note": "La domanda sull’identità rimane aperta anche quando il ritratto sembra compiuto."
         },
         "key": "galgario",
-        "date": "1732 circa",
+        "date": "1730 – 1732 circa",
         "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
-        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
-        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
-        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
-        "historySourceType": "fonti museali e catalografiche"
+        "history": "Il giovane è ritratto con un pennello, un foglio con un disegno, delle mele e un piedistallo: oggetti da bottega di pittore. Già nel catalogo della galleria Carrara del 1796 è identificato con un giovane allievo di Fra’ Galgario soprannominato “Cerighetto”, del convento dei Paolotti di Bergamo, morto a 22 anni: un’identificazione tradizionale, non documentata in altro modo. La tela è datata intorno al 1730–1732 e proviene dalla collezione del conte Giacomo Carrara. È un buon esempio della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; La Carrara in Humanitas",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -588,7 +588,7 @@ const routes = [
     "intro": "Ogni dipinto ferma un istante; chi guarda prova a ricostruire ciò che lo precede e ciò che viene dopo.",
     "works": [
       {
-        "artist": "Sandro Botticelli",
+        "artist": "Sandro Botticelli e aiuti",
         "title": "Ritratto di Giuliano de’ Medici",
         "room": 7,
         "roomLabel": "Sala 7 · da riconfermare",
@@ -605,11 +605,11 @@ const routes = [
           "note": "La memoria può conservare un’immagine mentre la vita continua altrove."
         },
         "key": "botticelli",
-        "date": "dopo il 1476 – prima del 1480",
+        "date": "1478 – 1480 circa",
         "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
-        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
-        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, ucciso nella congiura dei Pazzi del 1478. Lo sguardo abbassato, le palpebre socchiuse e la bocca malinconica fanno pensare a un ritratto commemorativo, eseguito dopo la morte e forse a partire da una maschera funebre. Esistono più versioni: quella di Berlino, con il semplice fondo azzurro, è considerata la più antica; quella di Washington è la principale ed è lì – non in questo quadro – che compaiono la finestra socchiusa e la tortora. La tavola di Bergamo è con ogni probabilità una seconda versione: la critica l’ha giudicata opera di bottega, in parte autografa o copia, senza mai escludere un intervento diretto di Botticelli; il catalogo la assegna a “Botticelli e aiuti”. Arrivò all’Accademia Carrara nel 1891 con il lascito di Giovanni Morelli.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00927/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
@@ -630,12 +630,12 @@ const routes = [
           "note": "La bellezza di un momento porta con sé la coscienza che passerà."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -655,12 +655,12 @@ const routes = [
           "note": "La crescita trasforma l’identità oltre l’istante ritratto."
         },
         "key": "redetti",
-        "date": "1570–1573 circa",
+        "date": "1566 – 1570 circa",
         "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
-        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Piccola tela (circa 43 × 33 cm) dipinta da Moroni per uso privato: ritrae una bambina della famiglia bergamasca Redetti, con un colletto e una collana. Il quadro rimase in famiglia fino a metà Settecento, passò poi alla collezione di Francesco Maria Tassi e, prima del 1833, a Guglielmo Lochis, che lo lasciò all’Accademia Carrara con il suo legato del 1866. Il museo lo ha scelto per gli incontri “Vista da vicino”, che invitano a osservare con calma postura, espressione e dettagli dell’abito.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giacomo Ceruti",
@@ -682,14 +682,14 @@ const routes = [
         "key": "ceruti",
         "date": "1740 circa",
         "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
-        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
-        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
-        "historySourceType": "fonti museali ufficiali"
+        "history": "È considerato uno dei capolavori di Giacomo Ceruti, detto il Pitocchetto. L’origine del quadro è sconosciuta: faceva parte della collezione di Giovanni Morelli, dove era attribuito a Francesco Zuccarelli; quando nel 1891 il lascito Morelli arrivò all’Accademia Carrara fu riferito a Pietro Longhi. Solo nel 1927 Roberto Longhi lo restituì definitivamente a Ceruti, vedendovi un esempio della pittura di realtà lombarda; fu poi scelto per la copertina del catalogo della mostra del 1953 sui pittori della realtà in Lombardia. I capelli rossi, l’abito turchese e il grande ventaglio viola risaltano sul fondo bruno; alla festosità di gioielli e fiocchi fa da contrappunto una malinconia di fondo nello sguardo della ragazza.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
+        "title": "Ricordo di un dolore (Ritratto di Santina Negri)",
         "room": 16,
         "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
@@ -707,10 +707,10 @@ const routes = [
         "key": "pellizza",
         "date": "1889",
         "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
-        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
-        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
-        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Pellizza dipinse il quadro nel 1889 (è firmato e datato 29 novembre), dopo la morte improvvisa della sorella Antonietta, avvenuta mentre lui si trovava a Parigi per l’Esposizione Universale; rientrò subito a Volpedo. La modella è la giovane Santina Negri, seduta in poltrona con un piccolo libro tra le mani. La viola del pensiero essiccata fra le pagine fu aggiunta più tardi: una fotografia dello studio del 1892 circa mostra il quadro ancora senza. L’opera chiude la fase accademica del pittore, prima della svolta divisionista. Nel 1897 Pellizza la donò all’Accademia Carrara, in segno di gratitudine per la formazione ricevuta alla scuola di Cesare Tallone.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01049/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -740,9 +740,9 @@ const routes = [
         "key": "pisanello",
         "date": "1441",
         "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
-        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
-        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "history": "Il ritratto nasce da una gara: all’inizio del 1441 Niccolò III d’Este mise a confronto Pisanello e Jacopo Bellini nel ritrarre il figlio Lionello, e vinse Bellini (il suo ritratto è perduto). La sfida è ricordata in un sonetto di un poeta di nome Ulisse, forse Ulisse Aleotti. Pisanello lasciò Ferrara per Mantova nell’agosto 1441 e la tavola probabilmente rimase in città. Il profilo si staglia su un cielo blu fra un roseto con fiori e boccioli: il restauro dell’Opificio delle Pietre Dure (2004–2008) ha tolto un fondo nero aggiunto in seguito. Dopo essere passato per la collezione Costabili di Ferrara e una collezione londinese, il dipinto fu riportato in Italia da Giovanni Morelli e, alla sua morte nel 1891, giunse all’Accademia Carrara.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
@@ -763,12 +763,12 @@ const routes = [
           "note": "Eccezione sonora: la produzione percussiva e materica dialoga con ornamenti e codici visivi."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -788,12 +788,12 @@ const routes = [
           "note": "Un ritmo mobile contrasta con i segni statici del rango."
         },
         "key": "isotta",
-        "date": "seconda metà del XVI secolo",
+        "date": "1550 – 1555 circa",
         "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
-        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Isotta Brembati (circa 1534–1586) fu poetessa e nobildonna bergamasca: scriveva in latino, italiano, francese e spagnolo. Questo ritratto a mezza figura (55 × 47 cm) fu commissionato dalla famiglia Brembati per la propria casa intorno al 1550–1555, quindi prima del secondo matrimonio: rimasta vedova di Lelio Secco d’Aragona, nel 1561 Isotta sposò Gian Gerolamo Grumelli, da cui il doppio cognome con cui è nota. Moroni la ritrasse anche a figura intera, in un grande quadro che oggi si trova nel Palazzo Moroni di Bergamo, non alla Carrara. Il ritratto della Carrara è stato protagonista di un incontro “Vista da vicino” del museo.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (Carrara e Palazzo Moroni)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -813,12 +813,12 @@ const routes = [
           "note": "L’immagine esterna e il giudizio altrui diventano materia di riflessione."
         },
         "key": "redetti",
-        "date": "1570–1573 circa",
+        "date": "1566 – 1570 circa",
         "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
-        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Piccola tela (circa 43 × 33 cm) dipinta da Moroni per uso privato: ritrae una bambina della famiglia bergamasca Redetti, con un colletto e una collana. Il quadro rimase in famiglia fino a metà Settecento, passò poi alla collezione di Francesco Maria Tassi e, prima del 1833, a Guglielmo Lochis, che lo lasciò all’Accademia Carrara con il suo legato del 1866. Il museo lo ha scelto per gli incontri “Vista da vicino”, che invitano a osservare con calma postura, espressione e dettagli dell’abito.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Evaristo Baschenis",
@@ -838,12 +838,12 @@ const routes = [
           "note": "Una trama musicale ripetitiva invita a osservare le superfici come se fossero vive."
         },
         "key": "baschenis",
-        "date": "1650–1660",
+        "date": "XVII secolo",
         "availability": "Il catalogo e le fonti del museo confermano l’opera nella collezione; una relazione ufficiale di riordinamento colloca il dipinto nella sala 11. Verificare il display attuale.",
-        "history": "Il dipinto unisce il ritratto di un ragazzo alla presenza concreta di una canestra colma di pane e dolciumi. La Carrara lo descrive come un’immagine di straordinaria schiettezza e verità, in cui il cesto non è un accessorio marginale ma un secondo centro d’attenzione. L’opera, datata 1650–1660, è entrata nel museo come dono di Mario Scaglia e completa il nucleo di dipinti di Baschenis già conservati in collezione. Il pittore è celebre soprattutto per le nature morte di strumenti musicali, ma questo lavoro mostra la sua attenzione anche alle persone e agli oggetti quotidiani.",
-        "historySource": "Accademia Carrara, mostra “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia; relazione sul nuovo ordinamento",
+        "history": "Il dipinto unisce il ritratto di un ragazzo a una canestra colma di pane e dolciumi, che diventa un secondo centro d’attenzione. È entrato all’Accademia Carrara con la donazione del collezionista bergamasco Mario Scaglia, annunciata nel 2022: una raccolta soprattutto di medaglie e placchette, di cui questo è l’unico dipinto. Si aggiunge alle nature morte con strumenti musicali di Baschenis già in collezione, il genere per cui il pittore è più famoso, e mostra la sua attenzione anche per le persone e gli oggetti quotidiani.",
+        "historySource": "Accademia Carrara, catalogo online e pagina del collezionista Mario Scaglia; Il Giorno, 11 novembre 2022",
         "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
-        "historySourceType": "fonti ufficiali del museo"
+        "historySourceType": "fonti museali e giornalistiche"
       }
     ]
   },
@@ -871,12 +871,12 @@ const routes = [
           "note": "La fragilità dell’infanzia e la libertà di crescere."
         },
         "key": "redetti",
-        "date": "1570–1573 circa",
+        "date": "1566 – 1570 circa",
         "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
-        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Piccola tela (circa 43 × 33 cm) dipinta da Moroni per uso privato: ritrae una bambina della famiglia bergamasca Redetti, con un colletto e una collana. Il quadro rimase in famiglia fino a metà Settecento, passò poi alla collezione di Francesco Maria Tassi e, prima del 1833, a Guglielmo Lochis, che lo lasciò all’Accademia Carrara con il suo legato del 1866. Il museo lo ha scelto per gli incontri “Vista da vicino”, che invitano a osservare con calma postura, espressione e dettagli dell’abito.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -908,12 +908,12 @@ const routes = [
           "note": "Due ritratti raccontano una relazione pubblica, non tutta l’intimità privata."
         },
         "key": "spini",
-        "date": "seconda metà del XVI secolo",
+        "date": "1570 circa",
         "availability": "Il museo ha incluso l’opera in materiali educativi; la sala attuale va riconfermata.",
-        "history": "Il doppio ritratto di Bernardo Spini e Pace Rivola Spini appartiene alla tradizione dei ritratti familiari della Bergamo del Cinquecento. La presenza della coppia consente di leggere abiti, postura e distanza reciproca come segni di relazione e di posizione sociale. I materiali educativi della Carrara lo inseriscono in percorsi dedicati al costume e alla moda, ma la scheda pubblica consultata non fornisce una nota storica dettagliata sufficiente a ricostruire una cronologia più precisa: per questo la guida mantiene prudente la datazione e non aggiunge dettagli biografici non verificati.",
-        "historySource": "Accademia Carrara, materiale educativo “L’atelier del costume: tra arte e moda”",
-        "historySourceUrl": "https://www.lacarrara.it/wp-content/uploads/L_ATELIER-DEL-COSTUME.pdf",
-        "historySourceType": "fonte educativa ufficiale"
+        "history": "Due grandi ritratti a figura intera (quasi due metri d’altezza), nati come coppia: probabilmente commissionati intorno al 1570 da Bernardo Spini per il palazzo di famiglia ad Albino. Lui veste di nero alla spagnola, con berretto alto, guanti, una lettera e il fodero della spada; lei indossa una sopravveste con lunghe maniche tagliate, gorgiera a lattuga e un ventaglio di piume. Le iscrizioni aggiunte più tardi ricordano la morte di Bernardo nel 1612, a 76 anni, e di Pace nel 1613, a 72. Quello di Pace Rivola Spini è uno dei soli tre ritratti femminili a figura intera dipinti da Moroni.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (Bernardo Spini e Pace Rivola Spini)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00488/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giacomo Ceruti",
@@ -935,14 +935,14 @@ const routes = [
         "key": "ceruti",
         "date": "1740 circa",
         "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
-        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
-        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
-        "historySourceType": "fonti museali ufficiali"
+        "history": "È considerato uno dei capolavori di Giacomo Ceruti, detto il Pitocchetto. L’origine del quadro è sconosciuta: faceva parte della collezione di Giovanni Morelli, dove era attribuito a Francesco Zuccarelli; quando nel 1891 il lascito Morelli arrivò all’Accademia Carrara fu riferito a Pietro Longhi. Solo nel 1927 Roberto Longhi lo restituì definitivamente a Ceruti, vedendovi un esempio della pittura di realtà lombarda; fu poi scelto per la copertina del catalogo della mostra del 1953 sui pittori della realtà in Lombardia. I capelli rossi, l’abito turchese e il grande ventaglio viola risaltano sul fondo bruno; alla festosità di gioielli e fiocchi fa da contrappunto una malinconia di fondo nello sguardo della ragazza.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
+        "title": "Ricordo di un dolore (Ritratto di Santina Negri)",
         "room": 16,
         "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
@@ -960,10 +960,10 @@ const routes = [
         "key": "pellizza",
         "date": "1889",
         "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
-        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
-        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
-        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Pellizza dipinse il quadro nel 1889 (è firmato e datato 29 novembre), dopo la morte improvvisa della sorella Antonietta, avvenuta mentre lui si trovava a Parigi per l’Esposizione Universale; rientrò subito a Volpedo. La modella è la giovane Santina Negri, seduta in poltrona con un piccolo libro tra le mani. La viola del pensiero essiccata fra le pagine fu aggiunta più tardi: una fotografia dello studio del 1892 circa mostra il quadro ancora senza. L’opera chiude la fase accademica del pittore, prima della svolta divisionista. Nel 1897 Pellizza la donò all’Accademia Carrara, in segno di gratitudine per la formazione ricevuta alla scuola di Cesare Tallone.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01049/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Fra’ Galgario",
@@ -983,12 +983,12 @@ const routes = [
           "note": "La persona non si esaurisce nella prima impressione."
         },
         "key": "galgario",
-        "date": "1732 circa",
+        "date": "1730 – 1732 circa",
         "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
-        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
-        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
-        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
-        "historySourceType": "fonti museali e catalografiche"
+        "history": "Il giovane è ritratto con un pennello, un foglio con un disegno, delle mele e un piedistallo: oggetti da bottega di pittore. Già nel catalogo della galleria Carrara del 1796 è identificato con un giovane allievo di Fra’ Galgario soprannominato “Cerighetto”, del convento dei Paolotti di Bergamo, morto a 22 anni: un’identificazione tradizionale, non documentata in altro modo. La tela è datata intorno al 1730–1732 e proviene dalla collezione del conte Giacomo Carrara. È un buon esempio della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; La Carrara in Humanitas",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -1018,13 +1018,13 @@ const routes = [
         "key": "pisanello",
         "date": "1441",
         "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
-        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
-        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "history": "Il ritratto nasce da una gara: all’inizio del 1441 Niccolò III d’Este mise a confronto Pisanello e Jacopo Bellini nel ritrarre il figlio Lionello, e vinse Bellini (il suo ritratto è perduto). La sfida è ricordata in un sonetto di un poeta di nome Ulisse, forse Ulisse Aleotti. Pisanello lasciò Ferrara per Mantova nell’agosto 1441 e la tavola probabilmente rimase in città. Il profilo si staglia su un cielo blu fra un roseto con fiori e boccioli: il restauro dell’Opificio delle Pietre Dure (2004–2008) ha tolto un fondo nero aggiunto in seguito. Dopo essere passato per la collezione Costabili di Ferrara e una collezione londinese, il dipinto fu riportato in Italia da Giovanni Morelli e, alla sua morte nel 1891, giunse all’Accademia Carrara.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
-        "artist": "Sandro Botticelli",
+        "artist": "Sandro Botticelli e aiuti",
         "title": "Ritratto di Giuliano de’ Medici",
         "room": 7,
         "roomLabel": "Sala 7 · da riconfermare",
@@ -1041,11 +1041,11 @@ const routes = [
           "note": "La figura ideale che costruiamo e la persona che siamo davvero."
         },
         "key": "botticelli",
-        "date": "dopo il 1476 – prima del 1480",
+        "date": "1478 – 1480 circa",
         "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
-        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
-        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
-        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, ucciso nella congiura dei Pazzi del 1478. Lo sguardo abbassato, le palpebre socchiuse e la bocca malinconica fanno pensare a un ritratto commemorativo, eseguito dopo la morte e forse a partire da una maschera funebre. Esistono più versioni: quella di Berlino, con il semplice fondo azzurro, è considerata la più antica; quella di Washington è la principale ed è lì – non in questo quadro – che compaiono la finestra socchiusa e la tortora. La tavola di Bergamo è con ogni probabilità una seconda versione: la critica l’ha giudicata opera di bottega, in parte autografa o copia, senza mai escludere un intervento diretto di Botticelli; il catalogo la assegna a “Botticelli e aiuti”. Arrivò all’Accademia Carrara nel 1891 con il lascito di Giovanni Morelli.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (stessa scheda del Catalogo generale dei beni culturali)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00927/",
         "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
@@ -1066,12 +1066,12 @@ const routes = [
           "note": "Crescere significa trasformare il modo in cui gli altri ci vedono."
         },
         "key": "redetti",
-        "date": "1570–1573 circa",
+        "date": "1566 – 1570 circa",
         "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
-        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Piccola tela (circa 43 × 33 cm) dipinta da Moroni per uso privato: ritrae una bambina della famiglia bergamasca Redetti, con un colletto e una collana. Il quadro rimase in famiglia fino a metà Settecento, passò poi alla collezione di Francesco Maria Tassi e, prima del 1833, a Guglielmo Lochis, che lo lasciò all’Accademia Carrara con il suo legato del 1866. Il museo lo ha scelto per gli incontri “Vista da vicino”, che invitano a osservare con calma postura, espressione e dettagli dell’abito.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -1091,12 +1091,12 @@ const routes = [
           "note": "L’immagine esteriore può essere una dichiarazione di autonomia."
         },
         "key": "isotta",
-        "date": "seconda metà del XVI secolo",
+        "date": "1550 – 1555 circa",
         "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
-        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
-        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
-        "historySourceType": "fonte museale ufficiale"
+        "history": "Isotta Brembati (circa 1534–1586) fu poetessa e nobildonna bergamasca: scriveva in latino, italiano, francese e spagnolo. Questo ritratto a mezza figura (55 × 47 cm) fu commissionato dalla famiglia Brembati per la propria casa intorno al 1550–1555, quindi prima del secondo matrimonio: rimasta vedova di Lelio Secco d’Aragona, nel 1561 Isotta sposò Gian Gerolamo Grumelli, da cui il doppio cognome con cui è nota. Moroni la ritrasse anche a figura intera, in un grande quadro che oggi si trova nel Palazzo Moroni di Bergamo, non alla Carrara. Il ritratto della Carrara è stato protagonista di un incontro “Vista da vicino” del museo.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC (Carrara e Palazzo Moroni)",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Fra’ Galgario",
@@ -1116,12 +1116,12 @@ const routes = [
           "note": "Il ritratto fissa un volto, la canzone suggerisce un’identità in movimento."
         },
         "key": "galgario",
-        "date": "1732 circa",
+        "date": "1730 – 1732 circa",
         "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
-        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
-        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
-        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
-        "historySourceType": "fonti museali e catalografiche"
+        "history": "Il giovane è ritratto con un pennello, un foglio con un disegno, delle mele e un piedistallo: oggetti da bottega di pittore. Già nel catalogo della galleria Carrara del 1796 è identificato con un giovane allievo di Fra’ Galgario soprannominato “Cerighetto”, del convento dei Paolotti di Bergamo, morto a 22 anni: un’identificazione tradizionale, non documentata in altro modo. La tela è datata intorno al 1730–1732 e proviene dalla collezione del conte Giacomo Carrara. È un buon esempio della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; La Carrara in Humanitas",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -1151,10 +1151,10 @@ const routes = [
         "key": "jacopo",
         "date": "1480",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 4 (consultata il 27 ottobre 2026).",
-        "history": "È l’unica opera firmata e datata del figlio di Antonello da Messina e l’unico dipinto assegnatogli con certezza. Alla morte del padre, nel febbraio 1479, Jacobello ereditò la bottega e si impegnò a completare le opere rimaste incompiute; la Madonna della Carrara potrebbe essere una di queste. La modellazione tridimensionale dei volti, la mano scorciata che regge il bacile di vetro e il paesaggio costiero minuzioso mostrano il dialogo con la pittura del padre e con la precisione fiamminga. Il conte Giacomo Carrara acquistò il dipinto prima del 1780.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Madonna col Bambino”",
-        "historySourceUrl": "https://lacarrara.it/opera/madonna-col-bambino-5/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Firmata e datata 1480, è l’unica opera certa di Jacopo (Jacobello), figlio di Antonello da Messina: l’attribuzione si basa proprio sull’iscrizione. Da quando Roberto Longhi la studiò nel 1953, la critica la considera derivata da un’opera perduta del padre, morto nel 1479. Nel dipinto compaiono una coppa di vetro, una tenda, una balaustra con colonne e un paesaggio. Le indagini a infrarossi del 1997 hanno rivelato ripensamenti nel volto della Madonna, nel naso del Bambino e nella mano destra della Vergine. Il quadro apparteneva al conte Giacomo Carrara, fondatore dell’Accademia, ed è registrato nel catalogo della sua collezione del 1796.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00184/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Pittore lombardo o ligure",
@@ -1174,12 +1174,12 @@ const routes = [
           "note": "Una linea melodica delicata per accompagnare un gesto di cura."
         },
         "key": "girolamo",
-        "date": "1465–1475",
+        "date": "XV secolo (circa 1460–1475)",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 8 (consultata il 27 ottobre 2026).",
-        "history": "La tavola mostra san Girolamo nell’atto di estrarre una spina dalla zampa del leone, episodio della leggenda del santo: il gesto di cura trasforma l’animale feroce in compagno riconoscente. Il catalogo attribuisce il dipinto a un pittore lombardo o ligure e lo data tra il 1465 e il 1475; non propone un nome certo. L’opera entrò nelle raccolte dell’Accademia attraverso il legato di Guglielmo Lochis nel 1866. L’incertezza sull’autore non è un difetto da risolvere a ogni costo: è parte della storia critica del dipinto.",
-        "historySource": "Accademia Carrara, scheda di catalogo “San Gerolamo leva la spina al leone”",
-        "historySourceUrl": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "La tavola mostra san Girolamo, in abito cardinalizio, mentre estrae una spina dalla zampa del leone, accanto a un libro e a un crocifisso, davanti a una parete rocciosa: secondo la leggenda il leone, guarito, rimase con lui come compagno. L’autore è incerto: il museo oggi la assegna a un “pittore lombardo o ligure”, mentre la scheda di catalogo regionale la considera una copia da un modello di Rogier van der Weyden, avvicinata a Zanetto Bugatto, pittore della corte sforzesca; in passato si sono fatti anche altri nomi. Entrò all’Accademia Carrara nel 1866 con il legato di Guglielmo Lochis.",
+        "historySource": "Accademia Carrara, catalogo online; Lombardia Beni Culturali, scheda di catalogo SIRBeC",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00729/",
+        "historySourceType": "catalogo museale e scheda storico-critica"
       },
       {
         "artist": "Lorenzo Lotto",
@@ -1199,12 +1199,12 @@ const routes = [
           "note": "Il movimento musicale invita a cercare significati nei dettagli del ritratto."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Evaristo Baschenis",
@@ -1224,16 +1224,16 @@ const routes = [
           "note": "Una trama sonora che rende quasi palpabili le superfici dipinte."
         },
         "key": "baschenis",
-        "date": "1650–1660",
+        "date": "XVII secolo",
         "availability": "Il catalogo e le fonti del museo confermano l’opera nella collezione; una relazione ufficiale di riordinamento colloca il dipinto nella sala 11. Verificare il display attuale.",
-        "history": "Il dipinto unisce il ritratto di un ragazzo alla presenza concreta di una canestra colma di pane e dolciumi. La Carrara lo descrive come un’immagine di straordinaria schiettezza e verità, in cui il cesto non è un accessorio marginale ma un secondo centro d’attenzione. L’opera, datata 1650–1660, è entrata nel museo come dono di Mario Scaglia e completa il nucleo di dipinti di Baschenis già conservati in collezione. Il pittore è celebre soprattutto per le nature morte di strumenti musicali, ma questo lavoro mostra la sua attenzione anche alle persone e agli oggetti quotidiani.",
-        "historySource": "Accademia Carrara, mostra “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia; relazione sul nuovo ordinamento",
+        "history": "Il dipinto unisce il ritratto di un ragazzo a una canestra colma di pane e dolciumi, che diventa un secondo centro d’attenzione. È entrato all’Accademia Carrara con la donazione del collezionista bergamasco Mario Scaglia, annunciata nel 2022: una raccolta soprattutto di medaglie e placchette, di cui questo è l’unico dipinto. Si aggiunge alle nature morte con strumenti musicali di Baschenis già in collezione, il genere per cui il pittore è più famoso, e mostra la sua attenzione anche per le persone e gli oggetti quotidiani.",
+        "historySource": "Accademia Carrara, catalogo online e pagina del collezionista Mario Scaglia; Il Giorno, 11 novembre 2022",
         "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
-        "historySourceType": "fonti ufficiali del museo"
+        "historySourceType": "fonti museali e giornalistiche"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
+        "title": "Ricordo di un dolore (Ritratto di Santina Negri)",
         "room": 16,
         "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
@@ -1251,10 +1251,10 @@ const routes = [
         "key": "pellizza",
         "date": "1889",
         "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
-        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
-        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
-        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Pellizza dipinse il quadro nel 1889 (è firmato e datato 29 novembre), dopo la morte improvvisa della sorella Antonietta, avvenuta mentre lui si trovava a Parigi per l’Esposizione Universale; rientrò subito a Volpedo. La modella è la giovane Santina Negri, seduta in poltrona con un piccolo libro tra le mani. La viola del pensiero essiccata fra le pagine fu aggiunta più tardi: una fotografia dello studio del 1892 circa mostra il quadro ancora senza. L’opera chiude la fase accademica del pittore, prima della svolta divisionista. Nel 1897 Pellizza la donò all’Accademia Carrara, in segno di gratitudine per la formazione ricevuta alla scuola di Cesare Tallone.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01049/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   },
@@ -1282,12 +1282,12 @@ const routes = [
           "note": "Una trama sonora inquieta accompagna i dettagli del ritratto come indizi di una personalità non del tutto decifrabile."
         },
         "key": "lotto",
-        "date": "1521 – circa 1523",
+        "date": "1518 – 1523 circa",
         "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
-        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
-        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
-        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Il ritratto contiene un piccolo rebus: nella luna in alto a sinistra sono dipinte le lettere “CI”, cioè “LU-CI-NA”, e sull’anello in alto a destra compare lo stemma dei Brembati. È così che la donna è stata identificata con Lucina Brembati, nobildonna bergamasca. Gli anelli, la collana e l’abito non sono semplici ornamenti: rendono leggibili il rango e l’appartenenza familiare. Il dipinto rimase per oltre un secolo e mezzo nelle collezioni Grumelli e Albani Grumelli; nel 1882 l’Accademia Carrara lo acquistò dalla contessa Degnamerita Albani Grumelli per 3.300 lire.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Evaristo Baschenis",
@@ -1307,12 +1307,12 @@ const routes = [
           "note": "Il crescendo strumentale invita a soffermarsi su materia, luce e superfici, come se gli oggetti avessero una loro voce."
         },
         "key": "baschenis",
-        "date": "1650–1660",
+        "date": "XVII secolo",
         "availability": "Il catalogo e le fonti del museo confermano l’opera nella collezione; una relazione ufficiale di riordinamento colloca il dipinto nella sala 11. Verificare il display attuale.",
-        "history": "Il dipinto unisce il ritratto di un ragazzo alla presenza concreta di una canestra colma di pane e dolciumi. La Carrara lo descrive come un’immagine di straordinaria schiettezza e verità, in cui il cesto non è un accessorio marginale ma un secondo centro d’attenzione. L’opera, datata 1650–1660, è entrata nel museo come dono di Mario Scaglia e completa il nucleo di dipinti di Baschenis già conservati in collezione. Il pittore è celebre soprattutto per le nature morte di strumenti musicali, ma questo lavoro mostra la sua attenzione anche alle persone e agli oggetti quotidiani.",
-        "historySource": "Accademia Carrara, mostra “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia; relazione sul nuovo ordinamento",
+        "history": "Il dipinto unisce il ritratto di un ragazzo a una canestra colma di pane e dolciumi, che diventa un secondo centro d’attenzione. È entrato all’Accademia Carrara con la donazione del collezionista bergamasco Mario Scaglia, annunciata nel 2022: una raccolta soprattutto di medaglie e placchette, di cui questo è l’unico dipinto. Si aggiunge alle nature morte con strumenti musicali di Baschenis già in collezione, il genere per cui il pittore è più famoso, e mostra la sua attenzione anche per le persone e gli oggetti quotidiani.",
+        "historySource": "Accademia Carrara, catalogo online e pagina del collezionista Mario Scaglia; Il Giorno, 11 novembre 2022",
         "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
-        "historySourceType": "fonti ufficiali del museo"
+        "historySourceType": "fonti museali e giornalistiche"
       },
       {
         "artist": "Giacomo Ceruti",
@@ -1334,14 +1334,14 @@ const routes = [
         "key": "ceruti",
         "date": "1740 circa",
         "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
-        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
-        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
-        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
-        "historySourceType": "fonti museali ufficiali"
+        "history": "È considerato uno dei capolavori di Giacomo Ceruti, detto il Pitocchetto. L’origine del quadro è sconosciuta: faceva parte della collezione di Giovanni Morelli, dove era attribuito a Francesco Zuccarelli; quando nel 1891 il lascito Morelli arrivò all’Accademia Carrara fu riferito a Pietro Longhi. Solo nel 1927 Roberto Longhi lo restituì definitivamente a Ceruti, vedendovi un esempio della pittura di realtà lombarda; fu poi scelto per la copertina del catalogo della mostra del 1953 sui pittori della realtà in Lombardia. I capelli rossi, l’abito turchese e il grande ventaglio viola risaltano sul fondo bruno; alla festosità di gioielli e fiocchi fa da contrappunto una malinconia di fondo nello sguardo della ragazza.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, “Vista da vicino”",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
+        "title": "Ricordo di un dolore (Ritratto di Santina Negri)",
         "room": 16,
         "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
@@ -1359,10 +1359,10 @@ const routes = [
         "key": "pellizza",
         "date": "1889",
         "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
-        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
-        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
-        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
-        "historySourceType": "catalogo ufficiale del museo"
+        "history": "Pellizza dipinse il quadro nel 1889 (è firmato e datato 29 novembre), dopo la morte improvvisa della sorella Antonietta, avvenuta mentre lui si trovava a Parigi per l’Esposizione Universale; rientrò subito a Volpedo. La modella è la giovane Santina Negri, seduta in poltrona con un piccolo libro tra le mani. La viola del pensiero essiccata fra le pagine fu aggiunta più tardi: una fotografia dello studio del 1892 circa mostra il quadro ancora senza. L’opera chiude la fase accademica del pittore, prima della svolta divisionista. Nel 1897 Pellizza la donò all’Accademia Carrara, in segno di gratitudine per la formazione ricevuta alla scuola di Cesare Tallone.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; Accademia Carrara, scheda dell’opera",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01049/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Fra’ Galgario",
@@ -1382,12 +1382,12 @@ const routes = [
           "note": "La dignità personale e la voglia di affermarsi incontrano un brano ritmico, ironico, mai del tutto solenne."
         },
         "key": "galgario",
-        "date": "1732 circa",
+        "date": "1730 – 1732 circa",
         "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
-        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
-        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
-        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
-        "historySourceType": "fonti museali e catalografiche"
+        "history": "Il giovane è ritratto con un pennello, un foglio con un disegno, delle mele e un piedistallo: oggetti da bottega di pittore. Già nel catalogo della galleria Carrara del 1796 è identificato con un giovane allievo di Fra’ Galgario soprannominato “Cerighetto”, del convento dei Paolotti di Bergamo, morto a 22 anni: un’identificazione tradizionale, non documentata in altro modo. La tela è datata intorno al 1730–1732 e proviene dalla collezione del conte Giacomo Carrara. È un buon esempio della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "Lombardia Beni Culturali, scheda di catalogo SIRBeC; La Carrara in Humanitas",
+        "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
+        "historySourceType": "catalogo storico-critico istituzionale"
       }
     ]
   }

@@ -194,7 +194,7 @@ function renderRoute() {
         <section class="history"><h4>Un po’ di storia</h4><p>${esc(w.history)}</p>
           <p class="history-meta">Fonte: <a href="${esc(w.historySourceUrl)}" target="_blank" rel="noopener">${esc(w.historySource)} ↗</a></p>
           <p class="availability"><strong>Dove si trova:</strong> ${esc(w.availability)}</p></section>
-        <div class="music-pick"><div class="music-kicker">DA ASCOLTARE</div><p class="music-title"><strong>${esc(w.music.title)}</strong> — ${esc(w.music.artist)}</p><p class="music-style">${esc(w.music.style)}</p><p class="music-note">${esc(w.music.note)}</p><a class="music-link" href="${esc(w.music.url)}" target="_blank" rel="noopener">▶ Ascolta su YouTube ↗</a></div>
+        <div class="music-pick"><div class="music-kicker">MUSICA ABBINATA</div><p class="music-title"><strong>${esc(w.music.title)}</strong> — ${esc(w.music.artist)}</p><p class="music-style">${esc(w.music.style)}</p><p class="music-note">${esc(w.music.note)}</p><a class="music-link" href="${esc(w.music.url)}" target="_blank" rel="noopener">Cerca il brano su YouTube ↗</a></div>
       </div>
     </article>`).join("");
 

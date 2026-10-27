@@ -36,3 +36,19 @@ Le immagini sono mostrate inline tramite URL diretti ai file di Wikimedia Common
 
 MUSICA
 I collegamenti sono ricerche YouTube mirate, non incorporamenti audio garantiti: la disponibilità dei video può variare per territorio o nel tempo.
+
+CONTROLLO DEI TESTI (27 ottobre 2026, pomeriggio)
+Le note "Un po' di storia" sono state ricontrollate opera per opera sulle schede di catalogo SIRBeC (Lombardia Beni Culturali, stesse schede del Catalogo generale dei beni culturali) e sul catalogo online della Carrara. Correzioni principali:
+- Botticelli: finestra socchiusa e tortora appartengono alla versione di Washington, non a quella di Bergamo; attribuzione corretta in "Botticelli e aiuti", datazione 1478 – 1480 circa; provenienza dal lascito Morelli (1891).
+- Lotto: aggiunto il rebus "CI" nella luna (LU-CI-NA) e lo stemma Brembati sull'anello; acquisto del 1882; datazione 1518 – 1523 circa secondo la scheda regionale.
+- Moroni, bambina Redetti: datazione corretta in 1566 – 1570 circa; provenienza Lochis (1866).
+- Moroni, Isotta Brembati: datazione corretta in 1550 – 1555 circa (non "seconda metà del XVI secolo"); il ritratto a figura intera si trova a Palazzo Moroni, non alla Carrara.
+- Ceruti: eliminati l'aneddoto della "portinaia" e il confronto con Manet, non riscontrati nelle fonti; aggiunte le attribuzioni storiche (Zuccarelli, Pietro Longhi) e l'attribuzione di Roberto Longhi del 1927.
+- Pellizza: eliminati dettagli non riscontrati (nome del fotografo, lettera a Vittorio Pica); la ragazza tiene un piccolo libro, non una lettera; il fiore è una viola del pensiero.
+- Jacobello: eliminati "bacile retto dalla mano scorciata", "paesaggio costiero" e "acquistato prima del 1780", non riscontrati; aggiunte la derivazione da un originale perduto di Antonello (Longhi 1953) e la provenienza dalla collezione di Giacomo Carrara (catalogo 1796).
+- San Gerolamo: indicata anche l'ipotesi della scheda regionale (copia da Rogier van der Weyden, avvicinata a Zanetto Bugatto).
+- Fra' Galgario: oggetti corretti secondo la scheda (pennello, foglio con disegno, mele, piedistallo; non gessetto e pagnotta).
+- Baschenis: eliminata una citazione attribuita al museo non riscontrata e la datazione 1650–1660, non verificata; aggiunto il contesto della donazione Scaglia (2022).
+- Spini: datazione 1570 circa, descrizione degli abiti e delle iscrizioni secondo le schede regionali.
+- Pisanello: confermato; aggiunti roseto, restauro 2004–2008 e provenienza Costabili–Morelli.
+Limiti: le pagine delle singole opere sul sito lacarrara.it non erano leggibili da questa sessione; per collocazioni in sala e dati più recenti fa fede il museo. I testi interpretativi e le domande non contengono affermazioni di fatto oltre a quelle verificate qui.

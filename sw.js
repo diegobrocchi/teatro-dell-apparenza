@@ -1,6 +1,6 @@
 /* Service worker — Dieci percorsi, Accademia Carrara
    Quando aggiorni i file del sito, cambia VERSION: i telefoni scaricheranno la nuova versione. */
-const VERSION = "2026-10-27-2";
+const VERSION = "2026-10-27-3";
 const SHELL_CACHE = "carrara-app-" + VERSION;
 const IMG_CACHE = "carrara-immagini";   // non viene cancellata agli aggiornamenti
 const DATA_CACHE = "carrara-dati";
@@ -27,9 +27,9 @@ self.addEventListener("fetch", event => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
 
-  // File del sito: risposta immediata dalla cache, aggiornamento in sottofondo
+  // File del sito: prima la rete (così si vede sempre l'ultima versione), la cache se offline
   if (url.origin === self.location.origin) {
-    event.respondWith(staleWhileRevalidate(req));
+    event.respondWith(shellNetworkFirst(req));
     return;
   }
   // Immagini Wikimedia: prima la cache (così funzionano anche senza rete)
@@ -44,16 +44,21 @@ self.addEventListener("fetch", event => {
   }
 });
 
-async function staleWhileRevalidate(req) {
+async function shellNetworkFirst(req) {
   const cache = await caches.open(SHELL_CACHE);
   const key = req.mode === "navigate" ? "./index.html" : req;
-  const cached = await cache.match(key, { ignoreSearch: true });
-  const network = fetch(req).then(res => {
+  try {
+    // con segnale debole non si aspetta più di 4 secondi, poi si usa la copia salvata
+    const res = await Promise.race([
+      fetch(req, { cache: "no-cache" }),
+      new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), 4000))
+    ]);
     if (res && res.ok && !res.redirected) cache.put(key, res.clone());
     return res;
-  }).catch(() => null);
-  if (cached) return cached;
-  return (await network) || new Response("Sei offline e questa pagina non è ancora salvata.", { status: 503, headers: { "Content-Type": "text/plain; charset=utf-8" } });
+  } catch (e) {
+    const cached = await cache.match(key, { ignoreSearch: true });
+    return cached || new Response("Sei offline e questa pagina non è ancora salvata.", { status: 503, headers: { "Content-Type": "text/plain; charset=utf-8" } });
+  }
 }
 
 async function cacheFirst(req, name) {
