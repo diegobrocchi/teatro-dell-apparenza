@@ -1,7 +1,7 @@
 {
   "name": "Dieci percorsi — Accademia Carrara",
   "short_name": "Carrara",
-  "description": "Dieci percorsi tematici tra le opere dell'Accademia Carrara, con spiegazioni da ascoltare e un brano per ogni opera.",
+  "description": "Dieci percorsi tematici tra le opere dell'Accademia Carrara, con una breve guida e un brano per ogni opera.",
   "lang": "it",
   "start_url": "./",
   "scope": "./",

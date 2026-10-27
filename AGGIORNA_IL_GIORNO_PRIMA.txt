@@ -18,6 +18,6 @@ PRIORITÀ 3 — IMMAGINI E MUSICA
 9. Mantieni brani italiani cantati in italiano o musica strumentale, con collegamento YouTube preciso e una motivazione basata su ritmo, timbro, atmosfera o contrasto; evita abbinamenti soltanto letterali. Verifica che il link funzioni.
 
 OUTPUT
-10. Mantieni mobile-first, sintesi vocale italiana, progressi locali per percorso, immagini grandi e navigazione semplice.
+10. Mantieni mobile-first, senza sintesi vocale del browser, con progressi locali per percorso, immagini ridimensionate, elenco dei percorsi con miniature e PWA installabile (manifest, sw.js, icons/). Se cambi i file, aggiorna VERSION in sw.js.
 11. Aggiorna `VERIFICA_VISITA.txt` con data/ora, fonti consultate, disponibilità confermate, sale, opere escluse/sostituite e ogni punto irrisolto.
 12. Esegui controlli di sintassi e prova che i dieci percorsi carichino correttamente. Produci un nuovo ZIP completo pronto per GitHub Pages. Non dichiarare verificata una disponibilità che non è stata effettivamente verificata.

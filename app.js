@@ -21,13 +21,10 @@ const COMMONS = "https://commons.wikimedia.org";
 
 let activeRoute = -1;
 const completedByRoute = {};
-let currentUtterance = null;
-let isPaused = false;
 let largeText = false;
 
 const $ = id => document.getElementById(id);
 const root = $("artworks");
-const audioDock = $("audioDock");
 
 /* ---------- Opere: indice per chiave ---------- */
 const worksByKey = {};
@@ -136,39 +133,6 @@ function updateProgress() {
   });
 }
 
-/* ---------- Voce ---------- */
-function stopSpeech() {
-  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
-  currentUtterance = null; isPaused = false; audioDock.hidden = true;
-}
-function speak(idx) {
-  if (!("speechSynthesis" in window)) {
-    alert("Questo telefono non riesce a leggere ad alta voce. Puoi leggere il testo nella scheda.");
-    return;
-  }
-  stopSpeech();
-  const w = routes[activeRoute].works[idx];
-  currentUtterance = new SpeechSynthesisUtterance(`${w.artist}. ${w.title}. ${w.text} Domanda per te: ${w.question}`);
-  currentUtterance.lang = "it-IT";
-  currentUtterance.rate = 0.93;
-  currentUtterance.onstart = () => {
-    audioDock.hidden = false;
-    $("dockTitle").textContent = `${String(idx + 1).padStart(2, "0")} · ${w.title}`;
-    $("pauseAudio").textContent = "Pausa";
-    isPaused = false;
-  };
-  currentUtterance.onend = () => {
-    doneSet().add(idx); saveProgress(); audioDock.hidden = true; currentUtterance = null; isPaused = false;
-  };
-  currentUtterance.onerror = (event) => {
-    if (event.error !== "canceled" && event.error !== "interrupted") {
-      audioDock.hidden = true;
-      alert("Il telefono non è riuscito a leggere il testo. Riprova, oppure leggi il testo nella scheda.");
-    }
-  };
-  window.speechSynthesis.speak(currentUtterance);
-}
-
 /* ---------- Home: elenco percorsi ---------- */
 function renderHome() {
   const list = $("routeList");
@@ -222,12 +186,11 @@ function renderRoute() {
       ${imageMarkup(w, i)}
       <div class="artwork-body">
         <p class="question">${esc(w.question)}</p>
+        <p class="work-text">${esc(w.text)}</p>
         <div class="actions">
-          <button class="listen" type="button" data-index="${i}">▶ Ascolta</button>
-          <button class="read-toggle" type="button" aria-expanded="false" data-index="${i}">Leggi il testo</button>
           <button class="done-toggle" type="button" aria-pressed="false" data-index="${i}">Segna come vista</button>
+          <a class="source-link" href="${esc(w.museumPage)}" target="_blank" rel="noopener">Scheda dell’opera ↗</a>
         </div>
-        <div class="script" id="script-${i}" aria-hidden="true"><p>${esc(w.text)}</p><p><strong>Domanda:</strong> ${esc(w.question)}</p><a class="source-link" href="${esc(w.museumPage)}" target="_blank" rel="noopener">Scheda dell’opera ↗</a></div>
         <section class="history"><h4>Un po’ di storia</h4><p>${esc(w.history)}</p>
           <p class="history-meta">Fonte: <a href="${esc(w.historySourceUrl)}" target="_blank" rel="noopener">${esc(w.historySource)} ↗</a></p>
           <p class="availability"><strong>Dove si trova:</strong> ${esc(w.availability)}</p></section>
@@ -250,14 +213,6 @@ function renderRoute() {
     img.addEventListener("click", () => openLightbox(img));
   });
 
-  root.querySelectorAll(".listen").forEach(btn => btn.addEventListener("click", () => speak(Number(btn.dataset.index))));
-  root.querySelectorAll(".read-toggle").forEach(btn => btn.addEventListener("click", () => {
-    const script = $(`script-${btn.dataset.index}`);
-    const open = script.classList.toggle("open");
-    script.setAttribute("aria-hidden", String(!open));
-    btn.setAttribute("aria-expanded", String(open));
-    btn.textContent = open ? "Nascondi testo" : "Leggi il testo";
-  }));
   root.querySelectorAll(".done-toggle").forEach(btn => btn.addEventListener("click", () => {
     const idx = Number(btn.dataset.index);
     if (doneSet().has(idx)) doneSet().delete(idx); else doneSet().add(idx);
@@ -287,7 +242,6 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") closeLightbo
 
 /* ---------- Navigazione ---------- */
 function route() {
-  stopSpeech();
   closeLightbox();
   const m = location.hash.match(/^#\/percorso\/(.+)$/);
   const idx = m ? routes.findIndex(r => r.id === decodeURIComponent(m[1])) : -1;
@@ -307,12 +261,6 @@ function route() {
 }
 window.addEventListener("hashchange", route);
 
-$("pauseAudio").addEventListener("click", () => {
-  if (!("speechSynthesis" in window)) return;
-  if (isPaused) { window.speechSynthesis.resume(); isPaused = false; $("pauseAudio").textContent = "Pausa"; }
-  else { window.speechSynthesis.pause(); isPaused = true; $("pauseAudio").textContent = "Riprendi"; }
-});
-$("stopAudio").addEventListener("click", stopSpeech);
 $("resetProgress").addEventListener("click", () => {
   if (confirm("Vuoi azzerare le opere segnate in questo percorso?")) { completedByRoute[activeRoute] = new Set(); saveProgress(); }
 });
@@ -320,12 +268,6 @@ $("textSize").addEventListener("click", () => {
   largeText = !largeText; document.body.classList.toggle("large-text", largeText);
   $("textSize").textContent = largeText ? "A−" : "A+";
 });
-document.addEventListener("visibilitychange", () => {
-  if (document.hidden && "speechSynthesis" in window && currentUtterance && !isPaused) {
-    window.speechSynthesis.pause(); isPaused = true; $("pauseAudio").textContent = "Riprendi";
-  }
-});
-
 /* ---------- App installabile e uso offline ---------- */
 const isStandalone = () => window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
 const isIos = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);

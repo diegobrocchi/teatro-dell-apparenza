@@ -19,7 +19,7 @@ button{font:inherit}
 .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
 .eyebrow,.brand,.hero-meta,.section-title,.route-subtitle,.progress-label,.back-link,.pill,.quiet-button,.text-button,
 .rc-meta,.rc-num,.number,.sala,figcaption,.history h4,.history-meta,.availability,.actions button,.music-kicker,.music-style,.music-link,
-.source-link,.note,.footer,.dock-kicker,.dock-controls button,.lightbox-caption,.img-missing{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+.source-link,.note,.footer,.lightbox-caption,.img-missing{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
 
 /* Barra in alto */
 .topbar{position:sticky;top:0;z-index:10;background:rgba(244,241,233,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
@@ -100,11 +100,9 @@ h1 em{color:var(--petrol)}
 .artwork-body{padding:16px 16px 20px}
 .question{font-size:19px;line-height:1.35;color:var(--petrol);margin:0 0 14px}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
-.actions button,.dock-controls button{border:1px solid var(--line);background:transparent;border-radius:999px;padding:9px 13px;cursor:pointer;font-size:13px;color:var(--ink)}
-.actions .listen{background:var(--petrol);border-color:var(--petrol);color:#fff}
-.script{display:none;border-top:1px solid var(--line);padding-top:14px;margin:0 0 16px}
-.script.open{display:block}
-.script p{margin:0 0 10px}
+.actions button{border:1px solid var(--line);background:transparent;border-radius:999px;padding:9px 13px;cursor:pointer;font-size:13px;color:var(--ink)}
+.actions{align-items:center;gap:14px}
+.work-text{margin:0 0 16px}
 .source-link{font-size:12px}
 .history{border-top:1px solid var(--line);padding:14px 0 4px;margin-bottom:14px}
 .history h4{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--terracotta);margin:0 0 7px}
@@ -140,14 +138,6 @@ h1 em{color:var(--petrol)}
 .lightbox img{max-width:100%;max-height:calc(100% - 40px);object-fit:contain}
 .lightbox-caption{color:#d7dfdc;font-size:12px;text-align:center;margin:10px 0 0}
 .lightbox-close{position:absolute;top:10px;right:12px;width:40px;height:40px;border-radius:50%;border:1px solid #556;background:transparent;color:#fff;font-size:18px;cursor:pointer}
-
-/* Audio */
-.audio-dock{position:fixed;bottom:0;left:0;right:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:#202b29;color:#fff;box-shadow:0 -4px 20px #0002}
-.dock-info{display:flex;flex-direction:column;min-width:0}
-.dock-kicker{font-size:10px;letter-spacing:.13em;color:#b9d2cb}
-.dock-info strong{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.dock-controls{display:flex;gap:6px;flex-shrink:0}
-.dock-controls button{border-color:#63736f;color:#fff}
 
 /* Installazione e uso offline */
 .app-box{padding-top:22px}
