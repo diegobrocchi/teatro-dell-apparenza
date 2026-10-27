@@ -12,7 +12,7 @@ const routes = [
         "roomLabel": "Sala 2 · da riconfermare",
         "image": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Pisanello,_ritratto_di_leonello_d%27este,_1441_circa,_02.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
         "question": "Quando guardiamo un potente, vediamo l’uomo o il ruolo che deve rappresentare?",
         "text": "Nel Quattrocento il ritratto di corte non conserva soltanto le sembianze: costruisce una presenza pubblica. Il profilo netto, l’acconciatura e la cura dei dettagli restituiscono un personaggio composto e riconoscibile. Ma ogni immagine è anche una scelta: mostra alcuni aspetti e ne lascia fuori altri. Prova a distinguere ciò che vedi davvero da ciò che immagini sulla persona.",
         "music": {
@@ -22,7 +22,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Caparezza+La+scelta+video+ufficiale",
           "note": "Il ritratto costruisce un’immagine pubblica; la canzone mette al centro le decisioni che definiscono una persona."
         },
-        "key": "pisanello"
+        "key": "pisanello",
+        "date": "1441",
+        "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
+        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
+        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Sandro Botticelli",
@@ -31,7 +37,7 @@ const routes = [
         "roomLabel": "Sala 7 · da riconfermare",
         "image": "Botticelli - Giuliano de' Medici - Accademia Carrara Bergamo.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Botticelli_-_Giuliano_de%27_Medici_-_Accademia_Carrara_Bergamo.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
         "question": "Un’immagine può diventare più importante della persona che rappresenta?",
         "text": "Il ritratto fissa una persona nella memoria, ma nel farlo trasforma anche il suo volto in un’immagine pubblica. Il soggetto storico scompare; il personaggio dipinto continua a circolare. Guarda la posa e la distanza che il quadro crea fra te e Giuliano: quanto ti sembra di conoscere, e quanto invece rimane inaccessibile?",
         "music": {
@@ -41,13 +47,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Colapesce+Dimartino+Musica+leggerissima+ufficiale",
           "note": "Una leggerezza apparente fa da contrappunto alla solennità del ritratto e alla distanza fra persona e personaggio."
         },
-        "key": "botticelli"
+        "key": "botticelli",
+        "date": "dopo il 1476 – prima del 1480",
+        "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
+        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -60,16 +72,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Madame+Voce+official",
           "note": "Un ritratto pieno di codici incontra una voce che cerca di affermare la propria identità."
         },
-        "key": "lotto"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di bambina di casa Redetti",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di bambina di casa redetti, 1570-73.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bambina_di_casa_redetti,_1570-73.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
         "question": "Quanto della nostra identità ci viene lasciato scegliere?",
         "text": "Anche l’infanzia è rappresentata attraverso convenzioni sociali: abiti, postura e modo di stare davanti al pittore. La bambina è una persona singola, ma anche parte di una famiglia e di un mondo che decide come presentarla. Evita di attribuirle emozioni senza prove: osserva ciò che il dipinto mostra e chiediti quanto sia scelta individuale e quanto sia ruolo.",
         "music": {
@@ -79,16 +97,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Elisa+A+modo+tuo+video+ufficiale",
           "note": "La crescita è il tempo necessario per diventare se stessi, oltre le aspettative degli altri."
         },
-        "key": "redetti"
+        "key": "redetti",
+        "date": "1570–1573 circa",
+        "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
+        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di Isotta Brembati Grumelli",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di isotta brembati grumelli, 1550-55 circa.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_isotta_brembati_grumelli,_1550-55_circa.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
         "question": "L’eleganza è un ornamento o una forma di potere?",
         "text": "Il ritratto presenta Isotta come una persona precisa e, insieme, come una figura sociale. Abiti, accessori e posa non sono dettagli neutri: contribuiscono a comunicare posizione, gusto e reputazione. Prova a immaginare quanto cambierebbe la lettura del dipinto se togliessimo mentalmente tutti i segni esteriori del rango.",
         "music": {
@@ -98,16 +122,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Annalisa+Bellissima+video+ufficiale",
           "note": "L’eleganza diventa una performance e un modo di controllare lo sguardo altrui."
         },
-        "key": "isotta"
+        "key": "isotta",
+        "date": "seconda metà del XVI secolo",
+        "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
+        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giacomo Ceruti",
         "title": "Ritratto di fanciulla con ventaglio",
         "room": 12,
-        "roomLabel": "Sala 12 · da riconfermare",
+        "roomLabel": "Sala 12 · riferimento museale da riconfermare",
         "image": "Giacomo Ceruti - Ritratto di fanciulla con ventaglio, 1740 circa, 58MR00065.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giacomo_Ceruti_-_Ritratto_di_fanciulla_con_ventaglio,_1740_circa,_58MR00065.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
         "question": "Che cosa rivela una posa e che cosa continua a nascondere?",
         "text": "Il ventaglio e la posa attirano lo sguardo, ma non ci consegnano automaticamente l’interiorità della ragazza. Il ritratto è una presenza e anche un limite: ci permette di osservare un volto, un gesto, un abbigliamento, senza poter conoscere tutta la persona. Prova a separare le evidenze dalle interpretazioni.",
         "music": {
@@ -117,16 +147,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Madame+Marea+video+ufficiale",
           "note": "Il movimento della musica contrasta con la posa ferma e con ciò che il ritratto non lascia vedere."
         },
-        "key": "ceruti"
+        "key": "ceruti",
+        "date": "1740 circa",
+        "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
+        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
+        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
+        "historySourceType": "fonti museali ufficiali"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
         "title": "Ricordo di un dolore",
         "room": 16,
-        "roomLabel": "Sala 16 · da riconfermare",
+        "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
         "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
         "music": {
@@ -136,7 +172,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Blanco+Blu+Celeste+video+ufficiale",
           "note": "Una chiusura sull’assenza e su ciò che resta quando la presenza non può essere recuperata."
         },
-        "key": "pellizza"
+        "key": "pellizza",
+        "date": "1889",
+        "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
+        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
+        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
+        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "historySourceType": "catalogo ufficiale del museo"
       }
     ]
   },
@@ -150,7 +192,7 @@ const routes = [
         "artist": "Jacopo (o Jacobello) di Antonello",
         "title": "Madonna col Bambino",
         "room": 4,
-        "roomLabel": "Sala 4 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 4 · catalogo permanente",
         "image": "Jacopo di Antonello Madonna col Bambino Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Jacopo%20di%20Antonello%20Madonna%20col%20Bambino%20Accademia%20Carrara",
         "museumPage": "https://lacarrara.it/opera/madonna-col-bambino-5/",
@@ -163,13 +205,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Ludovico+Einaudi+Nuvole+Bianche+official",
           "note": "Il pianoforte crea uno spazio contemplativo senza imporre una lettura religiosa univoca."
         },
-        "key": "jacopo"
+        "key": "jacopo",
+        "date": "1480",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 4 (consultata il 27 ottobre 2026).",
+        "history": "È l’unica opera firmata e datata del figlio di Antonello da Messina e l’unico dipinto assegnatogli con certezza. Alla morte del padre, nel febbraio 1479, Jacobello ereditò la bottega e si impegnò a completare le opere rimaste incompiute; la Madonna della Carrara potrebbe essere una di queste. La modellazione tridimensionale dei volti, la mano scorciata che regge il bacile di vetro e il paesaggio costiero minuzioso mostrano il dialogo con la pittura del padre e con la precisione fiamminga. Il conte Giacomo Carrara acquistò il dipinto prima del 1780.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Madonna col Bambino”",
+        "historySourceUrl": "https://lacarrara.it/opera/madonna-col-bambino-5/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Pittore lombardo o ligure",
         "title": "San Gerolamo leva la spina al leone",
         "room": 8,
-        "roomLabel": "Sala 8 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 8 · catalogo permanente",
         "image": "San Gerolamo leva la spina al leone Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=San%20Gerolamo%20leva%20la%20spina%20al%20leone%20Accademia%20Carrara",
         "museumPage": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
@@ -182,13 +230,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Niccolo+Fabi+Una+somma+di+piccole+cose+ufficiale",
           "note": "La cura è fatta di azioni piccole e concrete, come il gesto al centro del dipinto."
         },
-        "key": "girolamo"
+        "key": "girolamo",
+        "date": "1465–1475",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 8 (consultata il 27 ottobre 2026).",
+        "history": "La tavola mostra san Girolamo nell’atto di estrarre una spina dalla zampa del leone, episodio della leggenda del santo: il gesto di cura trasforma l’animale feroce in compagno riconoscente. Il catalogo attribuisce il dipinto a un pittore lombardo o ligure e lo data tra il 1465 e il 1475; non propone un nome certo. L’opera entrò nelle raccolte dell’Accademia attraverso il legato di Guglielmo Lochis nel 1866. L’incertezza sull’autore non è un difetto da risolvere a ogni costo: è parte della storia critica del dipinto.",
+        "historySource": "Accademia Carrara, scheda di catalogo “San Gerolamo leva la spina al leone”",
+        "historySourceUrl": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -201,16 +255,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Franco+Battiato+E+ti+vengo+a+cercare+ufficiale",
           "note": "Una ricerca dell’altro che può essere letta come desiderio, tensione spirituale o bisogno di prossimità."
         },
-        "key": "lotto"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di bambina di casa Redetti",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di bambina di casa redetti, 1570-73.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bambina_di_casa_redetti,_1570-73.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
         "question": "Quanto della nostra identità ci viene lasciato scegliere?",
         "text": "Anche l’infanzia è rappresentata attraverso convenzioni sociali: abiti, postura e modo di stare davanti al pittore. La bambina è una persona singola, ma anche parte di una famiglia e di un mondo che decide come presentarla. Evita di attribuirle emozioni senza prove: osserva ciò che il dipinto mostra e chiediti quanto sia scelta individuale e quanto sia ruolo.",
         "music": {
@@ -220,16 +280,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Elisa+A+modo+tuo+video+ufficiale",
           "note": "Il gesto di protezione e la crescita dialogano con la vulnerabilità dell’infanzia."
         },
-        "key": "redetti"
+        "key": "redetti",
+        "date": "1570–1573 circa",
+        "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
+        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
         "title": "Ricordo di un dolore",
         "room": 16,
-        "roomLabel": "Sala 16 · da riconfermare",
+        "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
         "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
         "music": {
@@ -239,7 +305,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Sufjan+Stevens+Fourth+of+July+official",
           "note": "Eccezione per la musica e l’atmosfera, non per il testo: una chiusura rarefatta sul ricordo e sulla perdita."
         },
-        "key": "pellizza"
+        "key": "pellizza",
+        "date": "1889",
+        "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
+        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
+        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
+        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "historySourceType": "catalogo ufficiale del museo"
       }
     ]
   },
@@ -256,7 +328,7 @@ const routes = [
         "roomLabel": "Sala 2 · da riconfermare",
         "image": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Pisanello,_ritratto_di_leonello_d%27este,_1441_circa,_02.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
         "question": "Quando guardiamo un potente, vediamo l’uomo o il ruolo che deve rappresentare?",
         "text": "Nel Quattrocento il ritratto di corte non conserva soltanto le sembianze: costruisce una presenza pubblica. Il profilo netto, l’acconciatura e la cura dei dettagli restituiscono un personaggio composto e riconoscibile. Ma ogni immagine è anche una scelta: mostra alcuni aspetti e ne lascia fuori altri. Prova a distinguere ciò che vedi davvero da ciò che immagini sulla persona.",
         "music": {
@@ -266,7 +338,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Diodato+Fai+rumore+ufficiale",
           "note": "La distanza fra chi si mostra e chi cerca di raggiungerlo diventa tensione."
         },
-        "key": "pisanello"
+        "key": "pisanello",
+        "date": "1441",
+        "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
+        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
+        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Sandro Botticelli",
@@ -275,7 +353,7 @@ const routes = [
         "roomLabel": "Sala 7 · da riconfermare",
         "image": "Botticelli - Giuliano de' Medici - Accademia Carrara Bergamo.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Botticelli_-_Giuliano_de%27_Medici_-_Accademia_Carrara_Bergamo.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
         "question": "Un’immagine può diventare più importante della persona che rappresenta?",
         "text": "Il ritratto fissa una persona nella memoria, ma nel farlo trasforma anche il suo volto in un’immagine pubblica. Il soggetto storico scompare; il personaggio dipinto continua a circolare. Guarda la posa e la distanza che il quadro crea fra te e Giuliano: quanto ti sembra di conoscere, e quanto invece rimane inaccessibile?",
         "music": {
@@ -285,13 +363,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Lucio+Corsi+Volevo+essere+un+duro+ufficiale",
           "note": "Il personaggio pubblico e la fragilità che può nascondere."
         },
-        "key": "botticelli"
+        "key": "botticelli",
+        "date": "dopo il 1476 – prima del 1480",
+        "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
+        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -304,16 +388,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Giorgio+Poi+Missili+official",
           "note": "Una trama di dettagli e impressioni, come un ritratto che chiede di essere interpretato."
         },
-        "key": "lotto"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Giacomo Ceruti",
         "title": "Ritratto di fanciulla con ventaglio",
         "room": 12,
-        "roomLabel": "Sala 12 · da riconfermare",
+        "roomLabel": "Sala 12 · riferimento museale da riconfermare",
         "image": "Giacomo Ceruti - Ritratto di fanciulla con ventaglio, 1740 circa, 58MR00065.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giacomo_Ceruti_-_Ritratto_di_fanciulla_con_ventaglio,_1740_circa,_58MR00065.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
         "question": "Che cosa rivela una posa e che cosa continua a nascondere?",
         "text": "Il ventaglio e la posa attirano lo sguardo, ma non ci consegnano automaticamente l’interiorità della ragazza. Il ritratto è una presenza e anche un limite: ci permette di osservare un volto, un gesto, un abbigliamento, senza poter conoscere tutta la persona. Prova a separare le evidenze dalle interpretazioni.",
         "music": {
@@ -323,16 +413,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Marlene+Kuntz+Nuotando+nell%27aria+ufficiale",
           "note": "La trama sonora avvolge una figura che resta enigmatica."
         },
-        "key": "ceruti"
+        "key": "ceruti",
+        "date": "1740 circa",
+        "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
+        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
+        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
+        "historySourceType": "fonti museali ufficiali"
       },
       {
         "artist": "Fra’ Galgario",
         "title": "Ritratto di giovane pittore",
-        "room": 20,
-        "roomLabel": "Sala 20 · da riconfermare",
+        "room": 21,
+        "roomLabel": "Sala 21 · da riconfermare",
         "image": "Ghislandi Vittore, detto Fra' Galgario, (1655–1743) - Ritratto di giovane pittore - 58AC00113 - Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Ghislandi_Vittore,_detto_Fra%27_Galgario,_(1655%E2%80%931743)_-_Ritratto_di_giovane_pittore_-_58AC00113_-_Accademia_Carrara.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
         "question": "Un ritratto può sembrare spontaneo anche quando è accuratamente costruito?",
         "text": "Fra’ Galgario dipinge una presenza che sembra individuale, concreta, quasi incontrata per caso. Eppure anche questa impressione nasce da scelte di posa, luce, colore e inquadratura. Guarda la materia pittorica e chiediti se la persona ti sembra distante, vicina, sicura o incerta: quali dettagli ti portano a questa lettura?",
         "music": {
@@ -342,7 +438,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Motta+La+nostra+ultima+canzone+ufficiale",
           "note": "Una presenza concreta e sfuggente incontra una musica che non risolve del tutto la distanza."
         },
-        "key": "galgario"
+        "key": "galgario",
+        "date": "1732 circa",
+        "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
+        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
+        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
+        "historySourceType": "fonti museali e catalografiche"
       }
     ]
   },
@@ -359,7 +461,7 @@ const routes = [
         "roomLabel": "Sala 2 · da riconfermare",
         "image": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Pisanello,_ritratto_di_leonello_d%27este,_1441_circa,_02.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
         "question": "Quando guardiamo un potente, vediamo l’uomo o il ruolo che deve rappresentare?",
         "text": "Nel Quattrocento il ritratto di corte non conserva soltanto le sembianze: costruisce una presenza pubblica. Il profilo netto, l’acconciatura e la cura dei dettagli restituiscono un personaggio composto e riconoscibile. Ma ogni immagine è anche una scelta: mostra alcuni aspetti e ne lascia fuori altri. Prova a distinguere ciò che vedi davvero da ciò che immagini sulla persona.",
         "music": {
@@ -369,13 +471,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Caparezza+La+scelta+ufficiale",
           "note": "Il ruolo pubblico nasce da scelte e vincoli."
         },
-        "key": "pisanello"
+        "key": "pisanello",
+        "date": "1441",
+        "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
+        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
+        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -388,16 +496,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Myss+Keta+Pazzeska+official",
           "note": "La maschera e la teatralità diventano una strategia esplicita."
         },
-        "key": "lotto"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di Isotta Brembati Grumelli",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di isotta brembati grumelli, 1550-55 circa.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_isotta_brembati_grumelli,_1550-55_circa.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
         "question": "L’eleganza è un ornamento o una forma di potere?",
         "text": "Il ritratto presenta Isotta come una persona precisa e, insieme, come una figura sociale. Abiti, accessori e posa non sono dettagli neutri: contribuiscono a comunicare posizione, gusto e reputazione. Prova a immaginare quanto cambierebbe la lettura del dipinto se togliessimo mentalmente tutti i segni esteriori del rango.",
         "music": {
@@ -407,16 +521,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Annalisa+Bellissima+video+ufficiale",
           "note": "La presenza elegante è anche una performance."
         },
-        "key": "isotta"
+        "key": "isotta",
+        "date": "seconda metà del XVI secolo",
+        "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
+        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di bambina di casa Redetti",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di bambina di casa redetti, 1570-73.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bambina_di_casa_redetti,_1570-73.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
         "question": "Quanto della nostra identità ci viene lasciato scegliere?",
         "text": "Anche l’infanzia è rappresentata attraverso convenzioni sociali: abiti, postura e modo di stare davanti al pittore. La bambina è una persona singola, ma anche parte di una famiglia e di un mondo che decide come presentarla. Evita di attribuirle emozioni senza prove: osserva ciò che il dipinto mostra e chiediti quanto sia scelta individuale e quanto sia ruolo.",
         "music": {
@@ -426,16 +546,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Francesca+Michielin+Vulcano+video+ufficiale",
           "note": "Un contrappunto energico alle aspettative imposte dall’ambiente."
         },
-        "key": "redetti"
+        "key": "redetti",
+        "date": "1570–1573 circa",
+        "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
+        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Fra’ Galgario",
         "title": "Ritratto di giovane pittore",
-        "room": 20,
-        "roomLabel": "Sala 20 · da riconfermare",
+        "room": 21,
+        "roomLabel": "Sala 21 · da riconfermare",
         "image": "Ghislandi Vittore, detto Fra' Galgario, (1655–1743) - Ritratto di giovane pittore - 58AC00113 - Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Ghislandi_Vittore,_detto_Fra%27_Galgario,_(1655%E2%80%931743)_-_Ritratto_di_giovane_pittore_-_58AC00113_-_Accademia_Carrara.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
         "question": "Un ritratto può sembrare spontaneo anche quando è accuratamente costruito?",
         "text": "Fra’ Galgario dipinge una presenza che sembra individuale, concreta, quasi incontrata per caso. Eppure anche questa impressione nasce da scelte di posa, luce, colore e inquadratura. Guarda la materia pittorica e chiediti se la persona ti sembra distante, vicina, sicura o incerta: quali dettagli ti portano a questa lettura?",
         "music": {
@@ -445,7 +571,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Lucio+Corsi+Cosa+faremo+da+grandi+ufficiale",
           "note": "La domanda sull’identità rimane aperta anche quando il ritratto sembra compiuto."
         },
-        "key": "galgario"
+        "key": "galgario",
+        "date": "1732 circa",
+        "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
+        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
+        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
+        "historySourceType": "fonti museali e catalografiche"
       }
     ]
   },
@@ -462,7 +594,7 @@ const routes = [
         "roomLabel": "Sala 7 · da riconfermare",
         "image": "Botticelli - Giuliano de' Medici - Accademia Carrara Bergamo.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Botticelli_-_Giuliano_de%27_Medici_-_Accademia_Carrara_Bergamo.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
         "question": "Un’immagine può diventare più importante della persona che rappresenta?",
         "text": "Il ritratto fissa una persona nella memoria, ma nel farlo trasforma anche il suo volto in un’immagine pubblica. Il soggetto storico scompare; il personaggio dipinto continua a circolare. Guarda la posa e la distanza che il quadro crea fra te e Giuliano: quanto ti sembra di conoscere, e quanto invece rimane inaccessibile?",
         "music": {
@@ -472,13 +604,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Colapesce+Dimartino+Musica+leggerissima+ufficiale",
           "note": "La memoria può conservare un’immagine mentre la vita continua altrove."
         },
-        "key": "botticelli"
+        "key": "botticelli",
+        "date": "dopo il 1476 – prima del 1480",
+        "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
+        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -491,16 +629,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Carmen+Consoli+L%27ultimo+bacio+ufficiale",
           "note": "La bellezza di un momento porta con sé la coscienza che passerà."
         },
-        "key": "lotto"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di bambina di casa Redetti",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di bambina di casa redetti, 1570-73.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bambina_di_casa_redetti,_1570-73.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
         "question": "Quanto della nostra identità ci viene lasciato scegliere?",
         "text": "Anche l’infanzia è rappresentata attraverso convenzioni sociali: abiti, postura e modo di stare davanti al pittore. La bambina è una persona singola, ma anche parte di una famiglia e di un mondo che decide come presentarla. Evita di attribuirle emozioni senza prove: osserva ciò che il dipinto mostra e chiediti quanto sia scelta individuale e quanto sia ruolo.",
         "music": {
@@ -510,16 +654,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Elisa+A+modo+tuo+ufficiale",
           "note": "La crescita trasforma l’identità oltre l’istante ritratto."
         },
-        "key": "redetti"
+        "key": "redetti",
+        "date": "1570–1573 circa",
+        "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
+        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giacomo Ceruti",
         "title": "Ritratto di fanciulla con ventaglio",
         "room": 12,
-        "roomLabel": "Sala 12 · da riconfermare",
+        "roomLabel": "Sala 12 · riferimento museale da riconfermare",
         "image": "Giacomo Ceruti - Ritratto di fanciulla con ventaglio, 1740 circa, 58MR00065.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giacomo_Ceruti_-_Ritratto_di_fanciulla_con_ventaglio,_1740_circa,_58MR00065.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
         "question": "Che cosa rivela una posa e che cosa continua a nascondere?",
         "text": "Il ventaglio e la posa attirano lo sguardo, ma non ci consegnano automaticamente l’interiorità della ragazza. Il ritratto è una presenza e anche un limite: ci permette di osservare un volto, un gesto, un abbigliamento, senza poter conoscere tutta la persona. Prova a separare le evidenze dalle interpretazioni.",
         "music": {
@@ -529,16 +679,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Brunori+Sas+La+verita+ufficiale",
           "note": "La persona resta più complessa della figura fissata sulla tela."
         },
-        "key": "ceruti"
+        "key": "ceruti",
+        "date": "1740 circa",
+        "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
+        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
+        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
+        "historySourceType": "fonti museali ufficiali"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
         "title": "Ricordo di un dolore",
         "room": 16,
-        "roomLabel": "Sala 16 · da riconfermare",
+        "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
         "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
         "music": {
@@ -548,7 +704,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Niccolo+Fabi+Costruire+ufficiale",
           "note": "La memoria non cancella la perdita, ma dà forma a ciò che resta."
         },
-        "key": "pellizza"
+        "key": "pellizza",
+        "date": "1889",
+        "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
+        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
+        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
+        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "historySourceType": "catalogo ufficiale del museo"
       }
     ]
   },
@@ -565,7 +727,7 @@ const routes = [
         "roomLabel": "Sala 2 · da riconfermare",
         "image": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Pisanello,_ritratto_di_leonello_d%27este,_1441_circa,_02.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
         "question": "Quando guardiamo un potente, vediamo l’uomo o il ruolo che deve rappresentare?",
         "text": "Nel Quattrocento il ritratto di corte non conserva soltanto le sembianze: costruisce una presenza pubblica. Il profilo netto, l’acconciatura e la cura dei dettagli restituiscono un personaggio composto e riconoscibile. Ma ogni immagine è anche una scelta: mostra alcuni aspetti e ne lascia fuori altri. Prova a distinguere ciò che vedi davvero da ciò che immagini sulla persona.",
         "music": {
@@ -575,13 +737,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Subsonica+Discolabirinto+ufficiale",
           "note": "La precisione dei dettagli incontra una musica costruita per strati."
         },
-        "key": "pisanello"
+        "key": "pisanello",
+        "date": "1441",
+        "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
+        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
+        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -594,16 +762,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Rosalia+A+Pale+official",
           "note": "Eccezione sonora: la produzione percussiva e materica dialoga con ornamenti e codici visivi."
         },
-        "key": "lotto"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di Isotta Brembati Grumelli",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di isotta brembati grumelli, 1550-55 circa.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_isotta_brembati_grumelli,_1550-55_circa.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
         "question": "L’eleganza è un ornamento o una forma di potere?",
         "text": "Il ritratto presenta Isotta come una persona precisa e, insieme, come una figura sociale. Abiti, accessori e posa non sono dettagli neutri: contribuiscono a comunicare posizione, gusto e reputazione. Prova a immaginare quanto cambierebbe la lettura del dipinto se togliessimo mentalmente tutti i segni esteriori del rango.",
         "music": {
@@ -613,16 +787,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Madame+Marea+official",
           "note": "Un ritmo mobile contrasta con i segni statici del rango."
         },
-        "key": "isotta"
+        "key": "isotta",
+        "date": "seconda metà del XVI secolo",
+        "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
+        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di bambina di casa Redetti",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di bambina di casa redetti, 1570-73.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bambina_di_casa_redetti,_1570-73.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
         "question": "Quanto della nostra identità ci viene lasciato scegliere?",
         "text": "Anche l’infanzia è rappresentata attraverso convenzioni sociali: abiti, postura e modo di stare davanti al pittore. La bambina è una persona singola, ma anche parte di una famiglia e di un mondo che decide come presentarla. Evita di attribuirle emozioni senza prove: osserva ciò che il dipinto mostra e chiediti quanto sia scelta individuale e quanto sia ruolo.",
         "music": {
@@ -632,16 +812,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Giorgia+Oronero+official",
           "note": "L’immagine esterna e il giudizio altrui diventano materia di riflessione."
         },
-        "key": "redetti"
+        "key": "redetti",
+        "date": "1570–1573 circa",
+        "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
+        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Evaristo Baschenis",
         "title": "Ragazzo con canestra di pane e dolciumi",
-        "room": 23,
-        "roomLabel": "Sala 23 · da riconfermare",
+        "room": 11,
+        "roomLabel": "Sala 11 · da riconfermare",
         "image": "Evaristo Baschenis Ragazzo con canestra di pane e dolciumi Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Evaristo%20Baschenis%20Ragazzo%20con%20canestra%20di%20pane%20e%20dolciumi%20Accademia%20Carrara",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
         "question": "Quando un oggetto comune diventa il protagonista di un quadro?",
         "text": "Pane, dolci e canestra sono oggetti quotidiani, ma la pittura li rende degni di attenzione. La natura morta e il ritratto si incontrano: il ragazzo è una presenza viva, mentre ciò che porta con sé racconta abbondanza, lavoro e cultura materiale. Osserva la consistenza delle superfici e chiediti che cosa la pittura ci insegna a guardare con più attenzione.",
         "music": {
@@ -651,7 +837,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Ludovico+Einaudi+Experience+official",
           "note": "Una trama musicale ripetitiva invita a osservare le superfici come se fossero vive."
         },
-        "key": "baschenis"
+        "key": "baschenis",
+        "date": "1650–1660",
+        "availability": "Il catalogo e le fonti del museo confermano l’opera nella collezione; una relazione ufficiale di riordinamento colloca il dipinto nella sala 11. Verificare il display attuale.",
+        "history": "Il dipinto unisce il ritratto di un ragazzo alla presenza concreta di una canestra colma di pane e dolciumi. La Carrara lo descrive come un’immagine di straordinaria schiettezza e verità, in cui il cesto non è un accessorio marginale ma un secondo centro d’attenzione. L’opera, datata 1650–1660, è entrata nel museo come dono di Mario Scaglia e completa il nucleo di dipinti di Baschenis già conservati in collezione. Il pittore è celebre soprattutto per le nature morte di strumenti musicali, ma questo lavoro mostra la sua attenzione anche alle persone e agli oggetti quotidiani.",
+        "historySource": "Accademia Carrara, mostra “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia; relazione sul nuovo ordinamento",
+        "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
+        "historySourceType": "fonti ufficiali del museo"
       }
     ]
   },
@@ -665,10 +857,10 @@ const routes = [
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di bambina di casa Redetti",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di bambina di casa redetti, 1570-73.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bambina_di_casa_redetti,_1570-73.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
         "question": "Quanto della nostra identità ci viene lasciato scegliere?",
         "text": "Anche l’infanzia è rappresentata attraverso convenzioni sociali: abiti, postura e modo di stare davanti al pittore. La bambina è una persona singola, ma anche parte di una famiglia e di un mondo che decide come presentarla. Evita di attribuirle emozioni senza prove: osserva ciò che il dipinto mostra e chiediti quanto sia scelta individuale e quanto sia ruolo.",
         "music": {
@@ -678,7 +870,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Elisa+A+modo+tuo+ufficiale",
           "note": "La fragilità dell’infanzia e la libertà di crescere."
         },
-        "key": "redetti"
+        "key": "redetti",
+        "date": "1570–1573 circa",
+        "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
+        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -699,7 +897,7 @@ const routes = [
         ],
         "image": "Giovan battista moroni, ritratto di bernardo spini, 1573-75.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bernardo_spini,_1573-75.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://www.lacarrara.it/wp-content/uploads/L_ATELIER-DEL-COSTUME.pdf",
         "question": "Che cosa cambia quando l’identità viene raccontata in relazione a un’altra persona?",
         "text": "Due ritratti accostati non mostrano soltanto due individui: mettono in scena una relazione. Posture, abiti e modo di occupare lo spazio costruiscono un racconto pubblico. Ma l’immagine non dimostra automaticamente che cosa i due provassero nella vita privata. Confronta i segnali visibili: che cosa li accomuna e che cosa li distingue?",
         "music": {
@@ -709,16 +907,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Brunori+Sas+Per+due+che+come+noi+ufficiale",
           "note": "Due ritratti raccontano una relazione pubblica, non tutta l’intimità privata."
         },
-        "key": "spini"
+        "key": "spini",
+        "date": "seconda metà del XVI secolo",
+        "availability": "Il museo ha incluso l’opera in materiali educativi; la sala attuale va riconfermata.",
+        "history": "Il doppio ritratto di Bernardo Spini e Pace Rivola Spini appartiene alla tradizione dei ritratti familiari della Bergamo del Cinquecento. La presenza della coppia consente di leggere abiti, postura e distanza reciproca come segni di relazione e di posizione sociale. I materiali educativi della Carrara lo inseriscono in percorsi dedicati al costume e alla moda, ma la scheda pubblica consultata non fornisce una nota storica dettagliata sufficiente a ricostruire una cronologia più precisa: per questo la guida mantiene prudente la datazione e non aggiunge dettagli biografici non verificati.",
+        "historySource": "Accademia Carrara, materiale educativo “L’atelier del costume: tra arte e moda”",
+        "historySourceUrl": "https://www.lacarrara.it/wp-content/uploads/L_ATELIER-DEL-COSTUME.pdf",
+        "historySourceType": "fonte educativa ufficiale"
       },
       {
         "artist": "Giacomo Ceruti",
         "title": "Ritratto di fanciulla con ventaglio",
         "room": 12,
-        "roomLabel": "Sala 12 · da riconfermare",
+        "roomLabel": "Sala 12 · riferimento museale da riconfermare",
         "image": "Giacomo Ceruti - Ritratto di fanciulla con ventaglio, 1740 circa, 58MR00065.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giacomo_Ceruti_-_Ritratto_di_fanciulla_con_ventaglio,_1740_circa,_58MR00065.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
         "question": "Che cosa rivela una posa e che cosa continua a nascondere?",
         "text": "Il ventaglio e la posa attirano lo sguardo, ma non ci consegnano automaticamente l’interiorità della ragazza. Il ritratto è una presenza e anche un limite: ci permette di osservare un volto, un gesto, un abbigliamento, senza poter conoscere tutta la persona. Prova a separare le evidenze dalle interpretazioni.",
         "music": {
@@ -728,16 +932,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Madame+Voce+official",
           "note": "Una voce esposta accanto a una figura che rimane silenziosa."
         },
-        "key": "ceruti"
+        "key": "ceruti",
+        "date": "1740 circa",
+        "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
+        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
+        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
+        "historySourceType": "fonti museali ufficiali"
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
         "title": "Ricordo di un dolore",
         "room": 16,
-        "roomLabel": "Sala 16 · da riconfermare",
+        "roomLabel": "Sala 16 · riferimento museale da riconfermare",
         "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
         "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
         "music": {
@@ -747,16 +957,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Blanco+Blu+Celeste+ufficiale",
           "note": "Il dolore resta presente senza diventare una spiegazione definitiva."
         },
-        "key": "pellizza"
+        "key": "pellizza",
+        "date": "1889",
+        "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
+        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
+        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
+        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Fra’ Galgario",
         "title": "Ritratto di giovane pittore",
-        "room": 20,
-        "roomLabel": "Sala 20 · da riconfermare",
+        "room": 21,
+        "roomLabel": "Sala 21 · da riconfermare",
         "image": "Ghislandi Vittore, detto Fra' Galgario, (1655–1743) - Ritratto di giovane pittore - 58AC00113 - Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Ghislandi_Vittore,_detto_Fra%27_Galgario,_(1655%E2%80%931743)_-_Ritratto_di_giovane_pittore_-_58AC00113_-_Accademia_Carrara.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
         "question": "Un ritratto può sembrare spontaneo anche quando è accuratamente costruito?",
         "text": "Fra’ Galgario dipinge una presenza che sembra individuale, concreta, quasi incontrata per caso. Eppure anche questa impressione nasce da scelte di posa, luce, colore e inquadratura. Guarda la materia pittorica e chiediti se la persona ti sembra distante, vicina, sicura o incerta: quali dettagli ti portano a questa lettura?",
         "music": {
@@ -766,7 +982,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Motta+Sei+bella+davvero+ufficiale",
           "note": "La persona non si esaurisce nella prima impressione."
         },
-        "key": "galgario"
+        "key": "galgario",
+        "date": "1732 circa",
+        "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
+        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
+        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
+        "historySourceType": "fonti museali e catalografiche"
       }
     ]
   },
@@ -783,7 +1005,7 @@ const routes = [
         "roomLabel": "Sala 2 · da riconfermare",
         "image": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Pisanello,_ritratto_di_leonello_d%27este,_1441_circa,_02.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
         "question": "Quando guardiamo un potente, vediamo l’uomo o il ruolo che deve rappresentare?",
         "text": "Nel Quattrocento il ritratto di corte non conserva soltanto le sembianze: costruisce una presenza pubblica. Il profilo netto, l’acconciatura e la cura dei dettagli restituiscono un personaggio composto e riconoscibile. Ma ogni immagine è anche una scelta: mostra alcuni aspetti e ne lascia fuori altri. Prova a distinguere ciò che vedi davvero da ciò che immagini sulla persona.",
         "music": {
@@ -793,7 +1015,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Caparezza+La+scelta+ufficiale",
           "note": "Il ruolo sociale e la possibilità di scegliere."
         },
-        "key": "pisanello"
+        "key": "pisanello",
+        "date": "1441",
+        "availability": "Presenza da riconfermare il giorno della visita: la scheda storico-critica attesta la collocazione in Accademia Carrara, ma non basta da sola a garantire l’esposizione odierna.",
+        "history": "La tavola è legata a una competizione artistica svoltasi a Ferrara nei primi mesi del 1441. Niccolò III d’Este volle mettere a confronto Pisanello e Jacopo Bellini per il ritratto del figlio Lionello; la gara fu vinta da Bellini. Un sonetto attribuito al poeta Ulisse ricorda la sfida. Pisanello lasciò Ferrara nell’agosto dello stesso anno e il dipinto dovette rimanere in città. Il profilo netto e la descrizione minuziosa dei dettagli appartengono alla cultura del ritratto di corte.",
+        "historySource": "Catalogo generale dei beni culturali, scheda SIRBeC regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00919_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Sandro Botticelli",
@@ -802,7 +1030,7 @@ const routes = [
         "roomLabel": "Sala 7 · da riconfermare",
         "image": "Botticelli - Giuliano de' Medici - Accademia Carrara Bergamo.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Botticelli_-_Giuliano_de%27_Medici_-_Accademia_Carrara_Bergamo.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
         "question": "Un’immagine può diventare più importante della persona che rappresenta?",
         "text": "Il ritratto fissa una persona nella memoria, ma nel farlo trasforma anche il suo volto in un’immagine pubblica. Il soggetto storico scompare; il personaggio dipinto continua a circolare. Guarda la posa e la distanza che il quadro crea fra te e Giuliano: quanto ti sembra di conoscere, e quanto invece rimane inaccessibile?",
         "music": {
@@ -812,16 +1040,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Lucio+Corsi+Volevo+essere+un+duro+ufficiale",
           "note": "La figura ideale che costruiamo e la persona che siamo davvero."
         },
-        "key": "botticelli"
+        "key": "botticelli",
+        "date": "dopo il 1476 – prima del 1480",
+        "availability": "Opera conservata in Accademia Carrara; esposizione e sala da riconfermare. Il catalogo nazionale ne documenta la conservazione, non l’esposizione odierna.",
+        "history": "Il dipinto raffigura Giuliano de’ Medici, fratello minore di Lorenzo il Magnifico, morto durante la congiura dei Pazzi del 1478. Per questo il ritratto è stato spesso interpretato come commemorativo. L’attribuzione e il rapporto con altre versioni del soggetto sono stati discussi dagli studiosi: la critica lo ha riferito a Botticelli, alla sua bottega o all’ambiente vicino. Nella versione bergamasca sono stati letti dettagli simbolici, come la finestra socchiusa e la tortora, associati al lutto e alla fedeltà.",
+        "historySource": "Catalogo generale dei beni culturali; scheda storico-critica regionale",
+        "historySourceUrl": "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/C0050-00927_R03",
+        "historySourceType": "catalogo storico-critico istituzionale"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di bambina di casa Redetti",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di bambina di casa redetti, 1570-73.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_bambina_di_casa_redetti,_1570-73.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
         "question": "Quanto della nostra identità ci viene lasciato scegliere?",
         "text": "Anche l’infanzia è rappresentata attraverso convenzioni sociali: abiti, postura e modo di stare davanti al pittore. La bambina è una persona singola, ma anche parte di una famiglia e di un mondo che decide come presentarla. Evita di attribuirle emozioni senza prove: osserva ciò che il dipinto mostra e chiediti quanto sia scelta individuale e quanto sia ruolo.",
         "music": {
@@ -831,16 +1065,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Elisa+A+modo+tuo+ufficiale",
           "note": "Crescere significa trasformare il modo in cui gli altri ci vedono."
         },
-        "key": "redetti"
+        "key": "redetti",
+        "date": "1570–1573 circa",
+        "availability": "Riferimento museale recente: evento ufficiale del 22 febbraio 2026 in sala 11. Riconfermare l’esposizione il giorno della visita.",
+        "history": "La bambina è identificata attraverso il legame con la famiglia Redetti. Il ritratto è stato scelto dal museo per gli incontri “Vista da vicino”, che invitano a osservare postura, espressione e dettagli del vestire senza trattarli come semplici decorazioni. Come in altri ritratti di Moroni, la precisione degli oggetti e dei tessuti dà consistenza alla persona rappresentata; non autorizza però, da sola, a ricostruirne carattere o sentimenti privati. La datazione intorno al 1570–1573 è quella comunemente associata all’opera.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di una bambina di casa Redetti”; catalogo online",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Giovan Battista Moroni",
         "title": "Ritratto di Isotta Brembati Grumelli",
         "room": 11,
-        "roomLabel": "Sala 11 · da riconfermare",
+        "roomLabel": "Sala 11 · riferimento museale da riconfermare",
         "image": "Giovan battista moroni, ritratto di isotta brembati grumelli, 1550-55 circa.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Giovan_battista_moroni,_ritratto_di_isotta_brembati_grumelli,_1550-55_circa.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
         "question": "L’eleganza è un ornamento o una forma di potere?",
         "text": "Il ritratto presenta Isotta come una persona precisa e, insieme, come una figura sociale. Abiti, accessori e posa non sono dettagli neutri: contribuiscono a comunicare posizione, gusto e reputazione. Prova a immaginare quanto cambierebbe la lettura del dipinto se togliessimo mentalmente tutti i segni esteriori del rango.",
         "music": {
@@ -850,16 +1090,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Annalisa+Bellissima+ufficiale",
           "note": "L’immagine esteriore può essere una dichiarazione di autonomia."
         },
-        "key": "isotta"
+        "key": "isotta",
+        "date": "seconda metà del XVI secolo",
+        "availability": "Riferimento museale: evento ufficiale in sala 11 nel settembre 2024. La collocazione odierna va riconfermata.",
+        "history": "Il museo identifica il soggetto come Isotta Brembati Grumelli e ha dedicato al dipinto un incontro “Vista da vicino” in sala 11. Il doppio cognome richiama la storia familiare e matrimoniale della nobildonna; l’opera va quindi letta anche come documento di identità sociale. Per i dettagli biografici non esplicitati nella scheda pubblica consultata, questa guida evita di presentare ipotesi come fatti. L’abbigliamento e la posa possono essere osservati come elementi costruiti per rendere visibile il rango.",
+        "historySource": "Accademia Carrara, “Vista da vicino – Ritratto di Isotta Brembati Grumelli”",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/",
+        "historySourceType": "fonte museale ufficiale"
       },
       {
         "artist": "Fra’ Galgario",
         "title": "Ritratto di giovane pittore",
-        "room": 20,
-        "roomLabel": "Sala 20 · da riconfermare",
+        "room": 21,
+        "roomLabel": "Sala 21 · da riconfermare",
         "image": "Ghislandi Vittore, detto Fra' Galgario, (1655–1743) - Ritratto di giovane pittore - 58AC00113 - Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Ghislandi_Vittore,_detto_Fra%27_Galgario,_(1655%E2%80%931743)_-_Ritratto_di_giovane_pittore_-_58AC00113_-_Accademia_Carrara.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
         "question": "Un ritratto può sembrare spontaneo anche quando è accuratamente costruito?",
         "text": "Fra’ Galgario dipinge una presenza che sembra individuale, concreta, quasi incontrata per caso. Eppure anche questa impressione nasce da scelte di posa, luce, colore e inquadratura. Guarda la materia pittorica e chiediti se la persona ti sembra distante, vicina, sicura o incerta: quali dettagli ti portano a questa lettura?",
         "music": {
@@ -869,7 +1115,13 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Gazzelle+Destri+official",
           "note": "Il ritratto fissa un volto, la canzone suggerisce un’identità in movimento."
         },
-        "key": "galgario"
+        "key": "galgario",
+        "date": "1732 circa",
+        "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
+        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
+        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
+        "historySourceType": "fonti museali e catalografiche"
       }
     ]
   },
@@ -883,7 +1135,7 @@ const routes = [
         "artist": "Jacopo (o Jacobello) di Antonello",
         "title": "Madonna col Bambino",
         "room": 4,
-        "roomLabel": "Sala 4 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 4 · catalogo permanente",
         "image": "Jacopo di Antonello Madonna col Bambino Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Jacopo%20di%20Antonello%20Madonna%20col%20Bambino%20Accademia%20Carrara",
         "museumPage": "https://lacarrara.it/opera/madonna-col-bambino-5/",
@@ -896,13 +1148,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Ludovico+Einaudi+Nuvole+Bianche+official",
           "note": "Il pianoforte lascia spazio alla contemplazione e al gesto sacro."
         },
-        "key": "jacopo"
+        "key": "jacopo",
+        "date": "1480",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 4 (consultata il 27 ottobre 2026).",
+        "history": "È l’unica opera firmata e datata del figlio di Antonello da Messina e l’unico dipinto assegnatogli con certezza. Alla morte del padre, nel febbraio 1479, Jacobello ereditò la bottega e si impegnò a completare le opere rimaste incompiute; la Madonna della Carrara potrebbe essere una di queste. La modellazione tridimensionale dei volti, la mano scorciata che regge il bacile di vetro e il paesaggio costiero minuzioso mostrano il dialogo con la pittura del padre e con la precisione fiamminga. Il conte Giacomo Carrara acquistò il dipinto prima del 1780.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Madonna col Bambino”",
+        "historySourceUrl": "https://lacarrara.it/opera/madonna-col-bambino-5/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Pittore lombardo o ligure",
         "title": "San Gerolamo leva la spina al leone",
         "room": 8,
-        "roomLabel": "Sala 8 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 8 · catalogo permanente",
         "image": "San Gerolamo leva la spina al leone Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=San%20Gerolamo%20leva%20la%20spina%20al%20leone%20Accademia%20Carrara",
         "museumPage": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
@@ -915,13 +1173,19 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Giovanni+Allevi+Come+sei+veramente+official",
           "note": "Una linea melodica delicata per accompagnare un gesto di cura."
         },
-        "key": "girolamo"
+        "key": "girolamo",
+        "date": "1465–1475",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 8 (consultata il 27 ottobre 2026).",
+        "history": "La tavola mostra san Girolamo nell’atto di estrarre una spina dalla zampa del leone, episodio della leggenda del santo: il gesto di cura trasforma l’animale feroce in compagno riconoscente. Il catalogo attribuisce il dipinto a un pittore lombardo o ligure e lo data tra il 1465 e il 1475; non propone un nome certo. L’opera entrò nelle raccolte dell’Accademia attraverso il legato di Guglielmo Lochis nel 1866. L’incertezza sull’autore non è un difetto da risolvere a ogni costo: è parte della storia critica del dipinto.",
+        "historySource": "Accademia Carrara, scheda di catalogo “San Gerolamo leva la spina al leone”",
+        "historySourceUrl": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -934,35 +1198,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Ezio+Bosso+Following+a+Bird+official",
           "note": "Il movimento musicale invita a cercare significati nei dettagli del ritratto."
         },
-        "key": "lotto"
-      },
-      {
-        "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
-        "room": 16,
-        "roomLabel": "Sala 16 · da riconfermare",
-        "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
-        "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
-        "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
-        "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
-        "music": {
-          "artist": "Giovanni Allevi",
-          "title": "Back to Life",
-          "style": "Pianoforte strumentale",
-          "url": "https://www.youtube.com/results?search_query=Giovanni+Allevi+Back+to+Life+official",
-          "note": "Un finale contemplativo, senza bisogno di parole."
-        },
-        "key": "pellizza"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Evaristo Baschenis",
         "title": "Ragazzo con canestra di pane e dolciumi",
-        "room": 23,
-        "roomLabel": "Sala 23 · da riconfermare",
+        "room": 11,
+        "roomLabel": "Sala 11 · da riconfermare",
         "image": "Evaristo Baschenis Ragazzo con canestra di pane e dolciumi Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Evaristo%20Baschenis%20Ragazzo%20con%20canestra%20di%20pane%20e%20dolciumi%20Accademia%20Carrara",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
         "question": "Quando un oggetto comune diventa il protagonista di un quadro?",
         "text": "Pane, dolci e canestra sono oggetti quotidiani, ma la pittura li rende degni di attenzione. La natura morta e il ritratto si incontrano: il ragazzo è una presenza viva, mentre ciò che porta con sé racconta abbondanza, lavoro e cultura materiale. Osserva la consistenza delle superfici e chiediti che cosa la pittura ci insegna a guardare con più attenzione.",
         "music": {
@@ -972,7 +1223,38 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Ludovico+Einaudi+Experience+official",
           "note": "Una trama sonora che rende quasi palpabili le superfici dipinte."
         },
-        "key": "baschenis"
+        "key": "baschenis",
+        "date": "1650–1660",
+        "availability": "Il catalogo e le fonti del museo confermano l’opera nella collezione; una relazione ufficiale di riordinamento colloca il dipinto nella sala 11. Verificare il display attuale.",
+        "history": "Il dipinto unisce il ritratto di un ragazzo alla presenza concreta di una canestra colma di pane e dolciumi. La Carrara lo descrive come un’immagine di straordinaria schiettezza e verità, in cui il cesto non è un accessorio marginale ma un secondo centro d’attenzione. L’opera, datata 1650–1660, è entrata nel museo come dono di Mario Scaglia e completa il nucleo di dipinti di Baschenis già conservati in collezione. Il pittore è celebre soprattutto per le nature morte di strumenti musicali, ma questo lavoro mostra la sua attenzione anche alle persone e agli oggetti quotidiani.",
+        "historySource": "Accademia Carrara, mostra “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia; relazione sul nuovo ordinamento",
+        "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
+        "historySourceType": "fonti ufficiali del museo"
+      },
+      {
+        "artist": "Giuseppe Pellizza da Volpedo",
+        "title": "Ricordo di un dolore",
+        "room": 16,
+        "roomLabel": "Sala 16 · riferimento museale da riconfermare",
+        "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+        "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
+        "museumPage": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
+        "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
+        "music": {
+          "artist": "Giovanni Allevi",
+          "title": "Back to Life",
+          "style": "Pianoforte strumentale",
+          "url": "https://www.youtube.com/results?search_query=Giovanni+Allevi+Back+to+Life+official",
+          "note": "Un finale contemplativo, senza bisogno di parole."
+        },
+        "key": "pellizza",
+        "date": "1889",
+        "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
+        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
+        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
+        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "historySourceType": "catalogo ufficiale del museo"
       }
     ]
   },
@@ -986,7 +1268,7 @@ const routes = [
         "artist": "Lorenzo Lotto",
         "title": "Ritratto di Lucina Brembati",
         "room": 10,
-        "roomLabel": "Sala 10 · catalogo: esposizione permanente",
+        "roomLabel": "Sala 10 · catalogo permanente",
         "image": "Lotto, ritratto di lucina brembati.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/File:Lotto,_ritratto_di_lucina_brembati.jpg",
         "museumPage": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
@@ -999,73 +1281,22 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Subsonica+Tutti+i+miei+sbagli+video+ufficiale",
           "note": "Una trama sonora inquieta accompagna i dettagli del ritratto come indizi di una personalità non del tutto decifrabile."
         },
-        "key": "lotto"
-      },
-      {
-        "artist": "Giacomo Ceruti",
-        "title": "Ritratto di fanciulla con ventaglio",
-        "room": 12,
-        "roomLabel": "Sala 12 · da riconfermare",
-        "image": "Giacomo Ceruti - Ritratto di fanciulla con ventaglio, 1740 circa, 58MR00065.jpg",
-        "imagePage": "https://commons.wikimedia.org/wiki/File:Giacomo_Ceruti_-_Ritratto_di_fanciulla_con_ventaglio,_1740_circa,_58MR00065.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
-        "question": "Che cosa rivela una posa e che cosa continua a nascondere?",
-        "text": "Il ventaglio e la posa attirano lo sguardo, ma non ci consegnano automaticamente l’interiorità della ragazza. Il ritratto è una presenza e anche un limite: ci permette di osservare un volto, un gesto, un abbigliamento, senza poter conoscere tutta la persona. Prova a separare le evidenze dalle interpretazioni.",
-        "music": {
-          "artist": "Giorgia",
-          "title": "Gocce di memoria",
-          "style": "Pop orchestrale",
-          "url": "https://www.youtube.com/results?search_query=Giorgia+Gocce+di+memoria+video+ufficiale",
-          "note": "La voce e l’arrangiamento amplificano il senso di presenza e assenza, senza ridurre la figura a un semplice simbolo."
-        },
-        "key": "ceruti"
-      },
-      {
-        "artist": "Giuseppe Pellizza da Volpedo",
-        "title": "Ricordo di un dolore",
-        "room": 16,
-        "roomLabel": "Sala 16 · da riconfermare",
-        "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
-        "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
-        "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
-        "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
-        "music": {
-          "artist": "Niccolò Fabi",
-          "title": "Costruire",
-          "style": "Cantautorato",
-          "url": "https://www.youtube.com/results?search_query=Niccolo+Fabi+Costruire+video+ufficiale",
-          "note": "La costruzione di senso dopo una perdita si lega alla capacità della pittura di dare forma a ciò che resta."
-        },
-        "key": "pellizza"
-      },
-      {
-        "artist": "Fra’ Galgario",
-        "title": "Ritratto di giovane pittore",
-        "room": 20,
-        "roomLabel": "Sala 20 · da riconfermare",
-        "image": "Ghislandi Vittore, detto Fra' Galgario, (1655–1743) - Ritratto di giovane pittore - 58AC00113 - Accademia Carrara.jpg",
-        "imagePage": "https://commons.wikimedia.org/wiki/File:Ghislandi_Vittore,_detto_Fra%27_Galgario,_(1655%E2%80%931743)_-_Ritratto_di_giovane_pittore_-_58AC00113_-_Accademia_Carrara.jpg",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
-        "question": "Un ritratto può sembrare spontaneo anche quando è accuratamente costruito?",
-        "text": "Fra’ Galgario dipinge una presenza che sembra individuale, concreta, quasi incontrata per caso. Eppure anche questa impressione nasce da scelte di posa, luce, colore e inquadratura. Guarda la materia pittorica e chiediti se la persona ti sembra distante, vicina, sicura o incerta: quali dettagli ti portano a questa lettura?",
-        "music": {
-          "artist": "Daniele Silvestri",
-          "title": "Salirò",
-          "style": "Pop d’autore",
-          "url": "https://www.youtube.com/results?search_query=Daniele+Silvestri+Salir%C3%B2+video+ufficiale",
-          "note": "La dignità personale e la voglia di affermarsi incontrano un brano ritmico, ironico, mai del tutto solenne."
-        },
-        "key": "galgario"
+        "key": "lotto",
+        "date": "1521 – circa 1523",
+        "availability": "Scheda ufficiale: esposizione permanente, piano 2, sala 10 (consultata il 27 ottobre 2026).",
+        "history": "La scheda del museo data il ritratto tra il 1521 e circa il 1523 e registra l’ingresso dell’opera nelle raccolte civiche nel 1958. La bibliografia testimonia una lunga storia di studi e interpretazioni: il quadro è stato discusso fin dall’Ottocento e identificato con Lucina Brembati, figura della società bergamasca. Il ritratto non è soltanto una registrazione fisionomica: gioielli, abito e dettagli minuti rendono leggibili status, cultura e codici sociali, mentre lo sguardo mantiene una presenza individuale difficile da ridurre a un simbolo.",
+        "historySource": "Accademia Carrara, scheda di catalogo “Ritratto di Lucina Brembati”",
+        "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-lucina-brembati/",
+        "historySourceType": "catalogo ufficiale del museo"
       },
       {
         "artist": "Evaristo Baschenis",
         "title": "Ragazzo con canestra di pane e dolciumi",
-        "room": 23,
-        "roomLabel": "Sala 23 · da riconfermare",
+        "room": 11,
+        "roomLabel": "Sala 11 · da riconfermare",
         "image": "Evaristo Baschenis Ragazzo con canestra di pane e dolciumi Accademia Carrara.jpg",
         "imagePage": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Evaristo%20Baschenis%20Ragazzo%20con%20canestra%20di%20pane%20e%20dolciumi%20Accademia%20Carrara",
-        "museumPage": "https://lacarrara.it/collezioni-online/",
+        "museumPage": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
         "question": "Quando un oggetto comune diventa il protagonista di un quadro?",
         "text": "Pane, dolci e canestra sono oggetti quotidiani, ma la pittura li rende degni di attenzione. La natura morta e il ritratto si incontrano: il ragazzo è una presenza viva, mentre ciò che porta con sé racconta abbondanza, lavoro e cultura materiale. Osserva la consistenza delle superfici e chiediti che cosa la pittura ci insegna a guardare con più attenzione.",
         "music": {
@@ -1075,7 +1306,88 @@ const routes = [
           "url": "https://www.youtube.com/results?search_query=Ludovico+Einaudi+Experience+official",
           "note": "Il crescendo strumentale invita a soffermarsi su materia, luce e superfici, come se gli oggetti avessero una loro voce."
         },
-        "key": "baschenis"
+        "key": "baschenis",
+        "date": "1650–1660",
+        "availability": "Il catalogo e le fonti del museo confermano l’opera nella collezione; una relazione ufficiale di riordinamento colloca il dipinto nella sala 11. Verificare il display attuale.",
+        "history": "Il dipinto unisce il ritratto di un ragazzo alla presenza concreta di una canestra colma di pane e dolciumi. La Carrara lo descrive come un’immagine di straordinaria schiettezza e verità, in cui il cesto non è un accessorio marginale ma un secondo centro d’attenzione. L’opera, datata 1650–1660, è entrata nel museo come dono di Mario Scaglia e completa il nucleo di dipinti di Baschenis già conservati in collezione. Il pittore è celebre soprattutto per le nature morte di strumenti musicali, ma questo lavoro mostra la sua attenzione anche alle persone e agli oggetti quotidiani.",
+        "historySource": "Accademia Carrara, mostra “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia; relazione sul nuovo ordinamento",
+        "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
+        "historySourceType": "fonti ufficiali del museo"
+      },
+      {
+        "artist": "Giacomo Ceruti",
+        "title": "Ritratto di fanciulla con ventaglio",
+        "room": 12,
+        "roomLabel": "Sala 12 · riferimento museale da riconfermare",
+        "image": "Giacomo Ceruti - Ritratto di fanciulla con ventaglio, 1740 circa, 58MR00065.jpg",
+        "imagePage": "https://commons.wikimedia.org/wiki/File:Giacomo_Ceruti_-_Ritratto_di_fanciulla_con_ventaglio,_1740_circa,_58MR00065.jpg",
+        "museumPage": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
+        "question": "Che cosa rivela una posa e che cosa continua a nascondere?",
+        "text": "Il ventaglio e la posa attirano lo sguardo, ma non ci consegnano automaticamente l’interiorità della ragazza. Il ritratto è una presenza e anche un limite: ci permette di osservare un volto, un gesto, un abbigliamento, senza poter conoscere tutta la persona. Prova a separare le evidenze dalle interpretazioni.",
+        "music": {
+          "artist": "Giorgia",
+          "title": "Gocce di memoria",
+          "style": "Pop orchestrale",
+          "url": "https://www.youtube.com/results?search_query=Giorgia+Gocce+di+memoria+video+ufficiale",
+          "note": "La voce e l’arrangiamento amplificano il senso di presenza e assenza, senza ridurre la figura a un semplice simbolo."
+        },
+        "key": "ceruti",
+        "date": "1740 circa",
+        "availability": "Riferimento museale: incontri ufficiali del 2024–2025 indicano la sala 12. Riconfermare il numero di sala e la presenza attuale.",
+        "history": "Il dipinto appartenne al collezionista e storico dell’arte Giovanni Morelli, che lo teneva nell’anticamera e chiamava la figura “la sua portinaia”. L’attribuzione a Giacomo Ceruti e la ricostruzione del catalogo dell’artista furono sostenute da Roberto Longhi nel 1927, quando Ceruti era ancora poco conosciuto dalla critica. La sobrietà cromatica, il ventaglio reso con pochi segni e il rosso dei capelli danno al ritratto una modernità che ha suggerito confronti con la pittura successiva, pur senza dimostrare una diretta anticipazione di Manet.",
+        "historySource": "Accademia Carrara, evento “Vista da vicino – Ritratto di fanciulla con ventaglio”; La Carrara in Humanitas",
+        "historySourceUrl": "https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/",
+        "historySourceType": "fonti museali ufficiali"
+      },
+      {
+        "artist": "Giuseppe Pellizza da Volpedo",
+        "title": "Ricordo di un dolore",
+        "room": 16,
+        "roomLabel": "Sala 16 · riferimento museale da riconfermare",
+        "image": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+        "imagePage": "https://commons.wikimedia.org/wiki/File:Giuseppe_pellizza_da_volpedo,_ricordo_di_un_dolore_(ritratto_di_santina_negri),_1889.jpg",
+        "museumPage": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "question": "Come si rappresenta un dolore che non può essere spiegato del tutto?",
+        "text": "Qui il ritratto non sembra puntare alla celebrazione del rango, ma alla persistenza di un sentimento. Il titolo orienta lo sguardo verso la memoria e la perdita, ma il dipinto non esaurisce il dolore in una spiegazione. Lascia che la figura resti in parte misteriosa: a volte l’arte non risolve un’emozione, le dà una forma.",
+        "music": {
+          "artist": "Niccolò Fabi",
+          "title": "Costruire",
+          "style": "Cantautorato",
+          "url": "https://www.youtube.com/results?search_query=Niccolo+Fabi+Costruire+video+ufficiale",
+          "note": "La costruzione di senso dopo una perdita si lega alla capacità della pittura di dare forma a ciò che resta."
+        },
+        "key": "pellizza",
+        "date": "1889",
+        "availability": "Riferimento museale recente: evento ufficiale del 18 gennaio 2025 in sala 16. Riconfermare l’esposizione attuale.",
+        "history": "Pellizza dipinse l’opera nel 1889, poche settimane dopo la morte improvvisa della sorella Antonietta, mentre si trovava a Parigi per l’Esposizione Universale. Tornato a Volpedo, raffigurò la giovane Santina Negri intenta a leggere una lettera e assorta nel ricordo di un dolore. Tra le pagine fu aggiunta in seguito una viola essiccata: una fotografia dello studio dell’artista, scattata dall’amico Davide Cicala nel 1892, mostra il dipinto prima di quell’aggiunta. Nel 1900 Pellizza spiegò a Vittorio Pica il desiderio di conservare memoria del proprio dolore. Nel 1897 donò il quadro all’Accademia Carrara, in segno di riconoscenza per gli insegnamenti ricevuti da Cesare Tallone a Bergamo.",
+        "historySource": "Accademia Carrara, scheda “Ricordo di un dolore” e incontro “Vista da vicino”",
+        "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
+        "historySourceType": "catalogo ufficiale del museo"
+      },
+      {
+        "artist": "Fra’ Galgario",
+        "title": "Ritratto di giovane pittore",
+        "room": 21,
+        "roomLabel": "Sala 21 · da riconfermare",
+        "image": "Ghislandi Vittore, detto Fra' Galgario, (1655–1743) - Ritratto di giovane pittore - 58AC00113 - Accademia Carrara.jpg",
+        "imagePage": "https://commons.wikimedia.org/wiki/File:Ghislandi_Vittore,_detto_Fra%27_Galgario,_(1655%E2%80%931743)_-_Ritratto_di_giovane_pittore_-_58AC00113_-_Accademia_Carrara.jpg",
+        "museumPage": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
+        "question": "Un ritratto può sembrare spontaneo anche quando è accuratamente costruito?",
+        "text": "Fra’ Galgario dipinge una presenza che sembra individuale, concreta, quasi incontrata per caso. Eppure anche questa impressione nasce da scelte di posa, luce, colore e inquadratura. Guarda la materia pittorica e chiediti se la persona ti sembra distante, vicina, sicura o incerta: quali dettagli ti portano a questa lettura?",
+        "music": {
+          "artist": "Daniele Silvestri",
+          "title": "Salirò",
+          "style": "Pop d’autore",
+          "url": "https://www.youtube.com/results?search_query=Daniele+Silvestri+Salir%C3%B2+video+ufficiale",
+          "note": "La dignità personale e la voglia di affermarsi incontrano un brano ritmico, ironico, mai del tutto solenne."
+        },
+        "key": "galgario",
+        "date": "1732 circa",
+        "availability": "Fonte museale collegata alla Carrara indica la sala 21; il catalogo attuale e l’esposizione odierna vanno riconfermati.",
+        "history": "Il giovane è raffigurato con un gessetto in mano, accanto a un disegno, due mele e una pagnotta: oggetti che hanno suggerito l’identificazione con un giovane pittore o un garzone della bottega. La tradizione lo ha riconosciuto nel cosiddetto Cerighetto, allievo del convento dei Paolotti, morto a 22 anni; l’identificazione resta tradizionale, non una certezza documentaria. La tela è datata intorno al 1732 ed è considerata un esempio notevole della capacità di Fra’ Galgario di rendere vivi incarnati, stoffe e materia pittorica.",
+        "historySource": "La Carrara in Humanitas; catalogo storico-critico della Regione Lombardia",
+        "historySourceUrl": "https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/",
+        "historySourceType": "fonti museali e catalografiche"
       }
     ]
   }

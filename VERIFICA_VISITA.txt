@@ -1,16 +1,38 @@
-VERIFICA VISITA — VERSIONE DI PARTENZA
+VERIFICA VISITA — ACCADEMIA CARRARA
+Data della ricerca: 27 ottobre 2026
+Ambito: 12 opere uniche usate nei 10 percorsi.
 
-Data di generazione: 26 ottobre 2026.
+RISULTATO
+La guida ora distingue per ogni opera la nota storico-critica, la fonte, la datazione e lo stato di verifica della collocazione. I percorsi sono riordinati per sala crescente sulla base dei riferimenti disponibili. Non è corretto leggere questo file come attestazione che tutte le opere siano materialmente visibili oggi: per alcune schede il catalogo pubblico non restituisce una conferma aggiornata dell’esposizione.
 
-Fonti ufficiali consultate per impostare il progetto:
+FONTI CONSULTATE
 - Catalogo online Accademia Carrara: https://lacarrara.it/collezioni-online/
-- Scheda ufficiale “Ritratto di Lucina Brembati”: https://lacarrara.it/opera/ritratto-di-lucina-brembati/ (indica esposizione permanente, piano 2, sala 10).
-- Scheda ufficiale “Madonna col Bambino”, Jacopo/Jacobello di Antonello: https://lacarrara.it/opera/madonna-col-bambino-5/ (indica esposizione permanente, piano 2, sala 4).
-- Scheda ufficiale “San Gerolamo leva la spina al leone”: https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/ (indica esposizione permanente, piano 2, sala 8).
-- Catalogo opere in prestito: https://lacarrara.it/opere-in-prestito/
-- Catalogo opere in restauro: https://lacarrara.it/opere-in-restauro/
+- Scheda ufficiale “Ritratto di Lucina Brembati”: https://lacarrara.it/opera/ritratto-di-lucina-brembati/ (esposizione permanente, piano 2, sala 10).
+- Scheda ufficiale “Madonna col Bambino”: https://lacarrara.it/opera/madonna-col-bambino-5/ (esposizione permanente, piano 2, sala 4; note storiche).
+- Scheda ufficiale “San Gerolamo leva la spina al leone”: https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/ (esposizione permanente, piano 2, sala 8).
+- Evento ufficiale “Vista da vicino – Ritratto di una bambina di casa Redetti”: https://lacarrara.it/evento/vista-da-vicino-ritratto-di-una-bambina-di-casa-redetti/ (sala 11, evento 2026).
+- Evento ufficiale “Vista da vicino – Ritratto di Isotta Brembati Grumelli”: https://lacarrara.it/evento/vista-da-vicino-ritratto-di-isotta-brembati-grumelli/ (sala 11, evento 2024).
+- Evento ufficiale “Vista da vicino – Ritratto di fanciulla con ventaglio”: https://lacarrara.it/evento/vista-da-vicino-ritratto-di-fanciulla-con-ventaglio/ (sala 12, evento 2024).
+- Evento ufficiale “Vista da vicino – Ricordo di un dolore”: https://lacarrara.it/evento/vista-da-vicino-ricordo-di-un-dolore/ (sala 16, evento 2025).
+- Catalogo generale dei beni culturali, schede storico-critiche per Pisanello e Botticelli: https://catalogo.beniculturali.it/
+- La Carrara in Humanitas, “Ritratto di giovane pittore”: https://www.lacarrarainhumanitas.it/oip-opera/oip-ritratto-di-giovane-pittore/ (sala 21; identificazione del giovane tradizionale e non certa).
+- Accademia Carrara, “Baschenis 1617–2017” e scheda del collezionista Mario Scaglia: https://lacarrara.it/mostra/baschenis-1617-2017/ ; https://lacarrara.it/collezioni/collezionisti/mario-scaglia/
+- Materiale educativo ufficiale “L’atelier del costume: tra arte e moda”: https://www.lacarrara.it/wp-content/uploads/L_ATELIER-DEL-COSTUME.pdf (include i ritratti Spini e Isotta Brembati).
+- Pagina ufficiale “Opere in prestito”: https://lacarrara.it/opere-in-prestito/
+- Pagina ufficiale “Opere in restauro”: https://lacarrara.it/opere-in-restauro/
+- Orari e visita: https://lacarrara.it/visita/biglietti-e-orari/
 
-ATTENZIONE
-Questa è una versione tematica iniziale, non una certificazione dell’allestimento del giorno della visita. Per diverse opere, la collocazione indicata deriva da riferimenti museali o didattici non aggiornati al giorno corrente; per questo l’interfaccia segnala “da riconfermare”. Il percorso include anche opere per le quali la disponibilità attuale deve essere controllata direttamente nella scheda del catalogo. Prima di usare la guida in museo, esegui il prompt in AGGIORNA_IL_GIORNO_PRIMA.txt e sostituisci ogni opera non confermata con un’opera esposta.
+DISPONIBILITÀ E SALE: LIMITI
+- Lotto, Madonna col Bambino di Jacobello e San Gerolamo: la scheda ufficiale riporta esposizione permanente e sala.
+- Redetti, Isotta Brembati Grumelli, Ceruti e Pellizza: sono state trovate pagine ufficiali recenti di eventi in museo con riferimenti alle sale (rispettivamente 11, 11, 12 e 16); sono riferimenti datati, non una conferma in tempo reale per il giorno della visita.
+- Fra’ Galgario: una fonte museale collegata indica sala 21.
+- Baschenis: la relazione ufficiale sul riordinamento colloca l’opera in sala 11, ma è una fonte di progetto/allestimento e va riconfermata.
+- Pisanello e Botticelli: schede storico-critiche istituzionali confermano le opere nella collezione Carrara; non è stata verificata una collocazione attuale direttamente in una scheda espositiva aggiornata.
+- Ritratti di Bernardo e Pace Rivola Spini: i materiali educativi del museo attestano l’inclusione dell’opera nei percorsi, ma non bastano a confermare la sala attuale.
+- La ricerca pubblica non ha consentito di attestare in modo conclusivo l’esposizione contemporanea di tutte le dodici opere. Controllare nuovamente catalogo, prestiti e restauri il giorno prima; se una tappa è indispensabile, chiedere conferma diretta al museo.
 
-Opere non da inserire senza ulteriore verifica: Autoritratto con tavolozza del Piccio (il catalogo ha indicato l’opera come in prestito in una precedente verifica); qualunque opera con scheda “Non esposto”, in prestito o in restauro.
+IMMAGINI
+Le immagini sono mostrate inline tramite URL diretti ai file di Wikimedia Commons. Non sono scaricate nel pacchetto perché il runtime di questa sessione non dispone di accesso di rete diretto per il download dei file; sono quindi remote e non utilizzabili offline. Il collegamento alla pagina del file rimane disponibile sotto ogni immagine per verifica della licenza.
+
+MUSICA
+I collegamenti sono ricerche YouTube mirate, non incorporamenti audio garantiti: la disponibilità dei video può variare per territorio o nel tempo.

@@ -82,7 +82,7 @@ function imageMarkup(w) {
   const imgs = w.images || [{file:w.image, caption:`${w.artist}, ${w.title}`, page:w.imagePage}];
   return imgs.map(img => {
     const direct = img.page.includes("Special:MediaSearch") ? img.page : `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(img.file)}?width=1800`;
-    return `<figure class="painting-figure"><a href="${img.page}" target="_blank" rel="noopener" aria-label="Apri fonte immagine"><img src="${direct}" alt="${img.caption || w.title}" loading="lazy" decoding="async"></a><figcaption>${img.caption || `${w.artist}, ${w.title}`} · <a href="${img.page}" target="_blank" rel="noopener">fonte / licenza ↗</a></figcaption></figure>`;
+    return `<figure class="painting-figure"><img src="${direct}" alt="${img.caption || `${w.artist}, ${w.title}`}" loading="lazy" decoding="async"><figcaption>${img.caption || `${w.artist}, ${w.title}`} · <a href="${img.page}" target="_blank" rel="noopener">fonte immagine / licenza ↗</a></figcaption></figure>`;
   }).join("");
 }
 function render() {
@@ -96,9 +96,10 @@ function render() {
       <div class="artwork-top"><div class="number">${String(i+1).padStart(2,"0")}</div><div><h3>${w.title}</h3><p class="artist">${w.artist}</p></div><span class="sala">${w.roomLabel}</span></div>
       <div class="painting-gallery">${imageMarkup(w)}</div>
       <div class="artwork-body">
+        <section class="history"><h4>Storia documentata</h4><p>${w.history}</p><p class="history-meta"><strong>Fonte:</strong> ${w.historySource} · ${w.historySourceType} · <a href="${w.historySourceUrl}" target="_blank" rel="noopener">Apri la fonte ↗</a></p><p class="availability"><strong>Esposizione:</strong> ${w.availability}</p></section>
         <p class="question">${w.question}</p>
         <div class="actions"><button class="listen" type="button" data-index="${i}">▶ Ascolta spiegazione</button><button class="read-toggle" type="button" aria-expanded="false" data-index="${i}">Leggi il testo</button><button class="done-toggle" type="button" aria-pressed="${doneSet().has(i)}" data-index="${i}">${doneSet().has(i) ? "✓ Segnata" : "Segna vista"}</button></div>
-        <div class="script" id="script-${i}" aria-hidden="true"><p>${w.text}</p><p><strong>Domanda:</strong> ${w.question}</p><a class="source-link" href="${w.museumPage}" target="_blank" rel="noopener">Controlla la scheda nel catalogo ufficiale ↗</a></div>
+        <div class="script" id="script-${i}" aria-hidden="true"><p>${w.text}</p><p><strong>Domanda:</strong> ${w.question}</p><p><strong>Datazione:</strong> ${w.date}</p><a class="source-link" href="${w.museumPage}" target="_blank" rel="noopener">Apri la scheda o la fonte catalografica ↗</a></div>
         <div class="music-pick"><div class="music-kicker">ACCOSTAMENTO MUSICALE</div><p class="music-title"><strong>${w.music.title}</strong> — ${w.music.artist}</p><p class="music-style">${w.music.style}</p><p class="music-note">${w.music.note}</p><a class="music-link" href="${w.music.url}" target="_blank" rel="noopener">▶ Cerca il brano su YouTube ↗</a></div>
       </div>
     </article>`).join("");

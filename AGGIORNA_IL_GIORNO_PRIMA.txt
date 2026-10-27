@@ -1,33 +1,23 @@
-PROMPT DA USARE IL GIORNO PRIMA DELLA VISITA
-Accademia Carrara — aggiornamento dei dieci percorsi
+PROMPT DI AGGIORNAMENTO — DA USARE IL GIORNO PRIMA DELLA VISITA
 
-Aggiorna il progetto web “Dieci modi di guardare” contenuto nello ZIP/repository GitHub Pages che ti fornirò. La visita è prevista per DOMANI: usa il web e verifica informazioni aggiornate al momento della ricerca.
+Aggiorna la guida “Dieci modi di guardare — Accademia Carrara” fornita come ZIP o repository GitHub Pages. La data della visita è DOMANI. Usa ricerche web aggiornate e documenta l’ora della verifica.
 
-OBIETTIVO
-Mantenere dieci percorsi tematici coerenti tra le opere dell’Accademia Carrara di Bergamo, con immagini grandi leggibili da telefono, spiegazioni in italiano, una traccia musicale per ogni opera e sequenza di visita ordinata per sala, senza tornare indietro inutilmente.
+PRIORITÀ 1 — DISPONIBILITÀ REALE
+1. Parti da https://lacarrara.it/collezioni-online/ e apri la scheda di ciascuna opera. Verifica “solo opere esposte”, collocazione, piano e sala.
+2. Controlla https://lacarrara.it/opere-in-prestito/ , https://lacarrara.it/opere-in-restauro/ , https://lacarrara.it/ricerca-mostre/ e le notizie ufficiali. Considera eventuali mostre che possano spostare opere o cambiare l’allestimento.
+3. Distingui sempre: (a) scheda che dichiara esposizione permanente, (b) evento passato che menziona una sala, (c) opera in collezione senza prova di esposizione corrente. Non trattare (b) o (c) come conferma in tempo reale. Se non puoi verificare, segnala “da confermare” oppure sostituisci con un’opera sicuramente esposta.
+4. Ordina le tappe di ciascun percorso per numero di sala crescente. Evita ritorni; se necessari, spiega il motivo.
 
-FONTI E VERIFICHE OBBLIGATORIE
-1. Parti dal catalogo ufficiale: https://lacarrara.it/collezioni-online/
-2. Per ogni opera candidata apri la sua scheda ufficiale e verifica esplicitamente:
-   - che risulti esposta (non basta che appartenga alla collezione);
-   - piano e numero di sala aggiornati;
-   - eventuali avvisi di prestito, restauro, riallestimento o temporanea indisponibilità.
-3. Controlla anche le pagine ufficiali “Opere in prestito”, “Opere in restauro”, le mostre in corso e le notizie del museo: https://lacarrara.it/opere-in-prestito/ , https://lacarrara.it/opere-in-restauro/ e https://lacarrara.it/ricerca-mostre/
-4. Non dedurre la disponibilità da vecchie pagine di eventi o da risultati del motore di ricerca. Se la scheda ufficiale non consente di verificare l’esposizione, escludi l’opera dal percorso del giorno o segnalala chiaramente come da confermare; non inventare sale.
-5. Per immagini grandi, usa un’immagine affidabile e pertinente dell’opera, preferibilmente Wikimedia Commons o una risorsa ufficiale; controlla che il file raffiguri proprio quel dipinto e conserva il link alla fonte/licenza. Non sostituire un’immagine incerta con una generica.
-6. Per ogni brano, preferisci musica italiana cantata in italiano oppure musica strumentale. Un brano straniero è ammesso solo se il collegamento è principalmente musicale e lo spieghi esplicitamente. Non scegliere brani soltanto perché il testo dice qualcosa di simile: cerca contrasti o analogie originali tra suono, ritmo, timbro e opera. Inserisci un link YouTube diretto o una ricerca YouTube precisa e stabile.
-7. Verifica anche eventuali modifiche recenti all’allestimento e gli orari/chiusure del giorno della visita.
+PRIORITÀ 2 — STORIA E FONTI
+5. Per ogni opera usa prima la sezione “Note storiche” della scheda ufficiale del museo. Riassumi in italiano, senza copiare lunghi passaggi. Se la sezione manca, usa un’altra fonte istituzionale attendibile e indica chiaramente che non è la nota storica del museo. Non inventare dati biografici, attribuzioni o interpretazioni.
+6. Mantieni distinti: storia documentata, testo interpretativo da ascoltare (circa 60–90 secondi), domanda per osservare, musica e motivazione dell’accostamento.
 
-COSTRUZIONE DEI PERCORSI
-- Conserva il percorso “Il teatro dell’apparenza” e gli altri nove percorsi tematici, salvo che la verifica renda necessario sostituire opere.
-- Mantieni un filo narrativo riconoscibile in ogni percorso; evita liste casuali.
-- Ogni opera deve avere: autore, titolo ufficiale, datazione se verificabile, numero di sala, grande immagine con fonte/licenza, spiegazione originale in italiano adatta all’ascolto (circa 60–90 secondi), domanda per osservare meglio, accostamento musicale e motivazione dell’abbinamento, link alla scheda ufficiale.
-- Ordina le opere per numero di sala crescente all’interno di ogni percorso. Se il filo narrativo richiede un ritorno a una sala precedente, fallo solo quando è davvero necessario e spiega il motivo.
-- Elimina tutte le opere non esposte quel giorno. Se una tappa cade, sostituiscila con un’opera effettivamente esposta che mantenga il tema.
-- Evita di promettere che l’immagine sia disponibile offline: le immagini possono essere caricate da Internet.
+PRIORITÀ 3 — IMMAGINI E MUSICA
+7. Verifica che ogni immagine raffiguri esattamente l’opera. Preferisci file immagine diretti, così da visualizzare l’immagine inline senza aprire Wikimedia al tocco. Conserva un link separato alla pagina fonte/licenza. Se possibile e consentito dalla licenza, scarica il file e includilo nella cartella `assets/`; non usare immagini generiche o non verificate.
+8. Se non è possibile scaricare un’immagine localmente, usa un URL diretto al file immagine e scrivi chiaramente che serve Internet. Controlla licenza e attribuzione.
+9. Mantieni brani italiani cantati in italiano o musica strumentale, con collegamento YouTube preciso e una motivazione basata su ritmo, timbro, atmosfera o contrasto; evita abbinamenti soltanto letterali. Verifica che il link funzioni.
 
 OUTPUT
-1. Restituisci un nuovo ZIP completo pronto per GitHub Pages, non solo frammenti di codice.
-2. Mantieni la struttura e le funzioni mobile-first: immagini grandi, testo leggibile, voce italiana del telefono, progressi salvati per percorso, link YouTube e fonti.
-3. Aggiorna anche questo file prompt se necessario e includi nel pacchetto un breve file “VERIFICA_VISITA.txt” con data/ora della verifica, fonti ufficiali consultate, opere escluse e punti non verificabili.
-4. Nel messaggio finale, riassumi in modo breve quali opere o sale sono cambiate e allega il link al nuovo ZIP. Se non riesci a verificare una disponibilità, dichiaralo senza inventare dati.
+10. Mantieni mobile-first, sintesi vocale italiana, progressi locali per percorso, immagini grandi e navigazione semplice.
+11. Aggiorna `VERIFICA_VISITA.txt` con data/ora, fonti consultate, disponibilità confermate, sale, opere escluse/sostituite e ogni punto irrisolto.
+12. Esegui controlli di sintassi e prova che i dieci percorsi carichino correttamente. Produci un nuovo ZIP completo pronto per GitHub Pages. Non dichiarare verificata una disponibilità che non è stata effettivamente verificata.
