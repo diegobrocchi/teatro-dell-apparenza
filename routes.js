@@ -53,6 +53,24 @@ const routes = [
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
             ]
           ]
+        },
+        "track": {
+          "title": "Ave Regina caelorum",
+          "composer": "Guillaume Du Fay",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/03AveReginaCaelorum-GuillaumeDufay.mp3",
+          "sizeMB": 11.4,
+          "duration": 487,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Guillaume Du Fay (1397–1474) fu tra i maggiori compositori del suo tempo e fu legato anche alla corte degli Este a Ferrara, la stessa di Leonello. Qui un’antifona dedicata alla Vergine.",
+          "facts": [
+            [
+              "Wikipedia, Guillaume Du Fay",
+              "https://en.wikipedia.org/wiki/Guillaume_Du_Fay"
+            ]
+          ]
         }
       },
       {
@@ -191,6 +209,28 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Kyrie",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac",
+          "sizeMB": 3.2,
+          "duration": 214,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni. La Missa Papae Marcelli è la sua messa più celebre: una leggenda nata alla fine del Cinquecento racconta che convinse il Concilio di Trento a non vietare la musica a più voci nelle chiese.",
+          "facts": [
+            [
+              "Wikipedia, Pope Marcellus Mass",
+              "https://en.wikipedia.org/wiki/Pope_Marcellus_Mass"
+            ],
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -233,6 +273,24 @@ const routes = [
               "https://fondoambiente.it/luoghi/palazzo-moroni"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Agnus Dei I",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac",
+          "sizeMB": 2.2,
+          "duration": 148,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni e di Isotta, che amava la poesia e le lettere. Un movimento della Missa Papae Marcelli, la sua messa più celebre.",
+          "facts": [
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -273,6 +331,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (datazione)",
               "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "La primavera – I. Allegro",
+          "composer": "Antonio Vivaldi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+          "sizeMB": 5.8,
+          "duration": 215,
+          "performer": "John Harrison (violino), Wichita State University Chamber Players",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Il primo concerto delle Quattro stagioni, pubblicate ad Amsterdam nel 1725: gli anni in cui Ceruti dipingeva questa ragazza.",
+          "facts": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
             ]
           ]
         }
@@ -319,6 +395,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (note storiche)",
               "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Cavalleria rusticana – Intermezzo",
+          "composer": "Pietro Mascagni",
+          "src": "https://archive.org/download/loc-jukebox-337398-cavalleria-rusticana-intermezzo/jukebox-337398_cavalleria-rusticana-intermezzo.mp3",
+          "page": "https://www.loc.gov/item/jukebox-337398/",
+          "sizeMB": 5.6,
+          "duration": 175,
+          "performer": "Victor Concert Orchestra, dir. Walter B. Rogers (registrazione del 1912)",
+          "license": "Pubblico dominio (Library of Congress, National Jukebox)",
+          "licenseUrl": "https://archive.org/details/loc-jukebox-337398-cavalleria-rusticana-intermezzo",
+          "note": "Cavalleria rusticana debuttò a Roma il 17 maggio 1890, sei mesi dopo la data di questo quadro. Una registrazione storica del 1912, con il suono dei dischi di allora.",
+          "facts": [
+            [
+              "Wikipedia, Cavalleria rusticana",
+              "https://en.wikipedia.org/wiki/Cavalleria_rusticana"
             ]
           ]
         }
@@ -375,6 +469,24 @@ const routes = [
               "https://lacarrara.it/opera/madonna-col-bambino-5/"
             ]
           ]
+        },
+        "track": {
+          "title": "Alma Redemptoris Mater",
+          "composer": "Johannes Ockeghem",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/12AlmaRedemptoris-JohannesOckeghem.mp3",
+          "sizeMB": 7,
+          "duration": 303,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Johannes Ockeghem (circa 1410–1497) era contemporaneo di Antonello da Messina e di suo figlio Jacobello. Alma Redemptoris Mater è un’antifona dedicata alla Madonna, come questa tavola.",
+          "facts": [
+            [
+              "Wikipedia, Johannes Ockeghem",
+              "https://en.wikipedia.org/wiki/Johannes_Ockeghem"
+            ]
+          ]
         }
       },
       {
@@ -417,6 +529,19 @@ const routes = [
               "https://en.wikipedia.org/wiki/Gerasimus_of_the_Jordan"
             ]
           ]
+        },
+        "track": {
+          "title": "Salve Regina (canto gregoriano, tono solenne)",
+          "composer": "Canto gregoriano",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/08SalveRegina-Plainchant-SolemnTone.mp3",
+          "sizeMB": 3.8,
+          "duration": 173,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Il canto gregoriano, a una sola voce e senza strumenti, era la musica di ogni giorno nelle chiese e nei conventi quando questa tavola fu dipinta.",
+          "facts": []
         }
       },
       {
@@ -509,6 +634,28 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Kyrie",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac",
+          "sizeMB": 3.2,
+          "duration": 214,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni. La Missa Papae Marcelli è la sua messa più celebre: una leggenda nata alla fine del Cinquecento racconta che convinse il Concilio di Trento a non vietare la musica a più voci nelle chiese.",
+          "facts": [
+            [
+              "Wikipedia, Pope Marcellus Mass",
+              "https://en.wikipedia.org/wiki/Pope_Marcellus_Mass"
+            ],
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -553,6 +700,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (note storiche)",
               "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Cavalleria rusticana – Intermezzo",
+          "composer": "Pietro Mascagni",
+          "src": "https://archive.org/download/loc-jukebox-337398-cavalleria-rusticana-intermezzo/jukebox-337398_cavalleria-rusticana-intermezzo.mp3",
+          "page": "https://www.loc.gov/item/jukebox-337398/",
+          "sizeMB": 5.6,
+          "duration": 175,
+          "performer": "Victor Concert Orchestra, dir. Walter B. Rogers (registrazione del 1912)",
+          "license": "Pubblico dominio (Library of Congress, National Jukebox)",
+          "licenseUrl": "https://archive.org/details/loc-jukebox-337398-cavalleria-rusticana-intermezzo",
+          "note": "Cavalleria rusticana debuttò a Roma il 17 maggio 1890, sei mesi dopo la data di questo quadro. Una registrazione storica del 1912, con il suono dei dischi di allora.",
+          "facts": [
+            [
+              "Wikipedia, Cavalleria rusticana",
+              "https://en.wikipedia.org/wiki/Cavalleria_rusticana"
             ]
           ]
         }
@@ -611,6 +776,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Ave Regina caelorum",
+          "composer": "Guillaume Du Fay",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/03AveReginaCaelorum-GuillaumeDufay.mp3",
+          "sizeMB": 11.4,
+          "duration": 487,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Guillaume Du Fay (1397–1474) fu tra i maggiori compositori del suo tempo e fu legato anche alla corte degli Este a Ferrara, la stessa di Leonello. Qui un’antifona dedicata alla Vergine.",
+          "facts": [
+            [
+              "Wikipedia, Guillaume Du Fay",
+              "https://en.wikipedia.org/wiki/Guillaume_Du_Fay"
             ]
           ]
         }
@@ -751,6 +934,24 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
             ]
           ]
+        },
+        "track": {
+          "title": "La primavera – I. Allegro",
+          "composer": "Antonio Vivaldi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+          "sizeMB": 5.8,
+          "duration": 215,
+          "performer": "John Harrison (violino), Wichita State University Chamber Players",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Il primo concerto delle Quattro stagioni, pubblicate ad Amsterdam nel 1725: gli anni in cui Ceruti dipingeva questa ragazza.",
+          "facts": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ]
+          ]
         }
       },
       {
@@ -791,6 +992,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Sonata op. VI n. 5 – Aria (Vivace)",
+          "composer": "Pietro Locatelli",
+          "src": "https://archive.org/download/LOCATELLISonateOp.VINo.5Extract/LOCATELLI%20-%20Sonate%20op.%20VI%20no.%205-extract.mp3",
+          "page": "https://archive.org/details/LOCATELLISonateOp.VINo.5Extract",
+          "sizeMB": 5.2,
+          "duration": 204,
+          "performer": "Conservatoire national supérieur de musique et de danse de Paris (T.-L. Faucon-Cohen, S. Gron-Catil, C. Ravot; dir. Pascal Duc)",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Pietro Locatelli nacque a Bergamo nel 1695 e da ragazzo suonava il violino nella cappella musicale di Santa Maria Maggiore; poi fece carriera a Roma e ad Amsterdam. Era un bergamasco contemporaneo di Fra’ Galgario.",
+          "facts": [
+            [
+              "Wikipedia, Pietro Locatelli",
+              "https://en.wikipedia.org/wiki/Pietro_Locatelli"
             ]
           ]
         }
@@ -849,6 +1068,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Ave Regina caelorum",
+          "composer": "Guillaume Du Fay",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/03AveReginaCaelorum-GuillaumeDufay.mp3",
+          "sizeMB": 11.4,
+          "duration": 487,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Guillaume Du Fay (1397–1474) fu tra i maggiori compositori del suo tempo e fu legato anche alla corte degli Este a Ferrara, la stessa di Leonello. Qui un’antifona dedicata alla Vergine.",
+          "facts": [
+            [
+              "Wikipedia, Guillaume Du Fay",
+              "https://en.wikipedia.org/wiki/Guillaume_Du_Fay"
             ]
           ]
         }
@@ -943,6 +1180,24 @@ const routes = [
               "https://fondoambiente.it/luoghi/palazzo-moroni"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Agnus Dei I",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac",
+          "sizeMB": 2.2,
+          "duration": 148,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni e di Isotta, che amava la poesia e le lettere. Un movimento della Missa Papae Marcelli, la sua messa più celebre.",
+          "facts": [
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -985,6 +1240,28 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Kyrie",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac",
+          "sizeMB": 3.2,
+          "duration": 214,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni. La Missa Papae Marcelli è la sua messa più celebre: una leggenda nata alla fine del Cinquecento racconta che convinse il Concilio di Trento a non vietare la musica a più voci nelle chiese.",
+          "facts": [
+            [
+              "Wikipedia, Pope Marcellus Mass",
+              "https://en.wikipedia.org/wiki/Pope_Marcellus_Mass"
+            ],
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -1025,6 +1302,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Sonata op. VI n. 5 – Aria (Vivace)",
+          "composer": "Pietro Locatelli",
+          "src": "https://archive.org/download/LOCATELLISonateOp.VINo.5Extract/LOCATELLI%20-%20Sonate%20op.%20VI%20no.%205-extract.mp3",
+          "page": "https://archive.org/details/LOCATELLISonateOp.VINo.5Extract",
+          "sizeMB": 5.2,
+          "duration": 204,
+          "performer": "Conservatoire national supérieur de musique et de danse de Paris (T.-L. Faucon-Cohen, S. Gron-Catil, C. Ravot; dir. Pascal Duc)",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Pietro Locatelli nacque a Bergamo nel 1695 e da ragazzo suonava il violino nella cappella musicale di Santa Maria Maggiore; poi fece carriera a Roma e ad Amsterdam. Era un bergamasco contemporaneo di Fra’ Galgario.",
+          "facts": [
+            [
+              "Wikipedia, Pietro Locatelli",
+              "https://en.wikipedia.org/wiki/Pietro_Locatelli"
             ]
           ]
         }
@@ -1173,6 +1468,28 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Kyrie",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac",
+          "sizeMB": 3.2,
+          "duration": 214,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni. La Missa Papae Marcelli è la sua messa più celebre: una leggenda nata alla fine del Cinquecento racconta che convinse il Concilio di Trento a non vietare la musica a più voci nelle chiese.",
+          "facts": [
+            [
+              "Wikipedia, Pope Marcellus Mass",
+              "https://en.wikipedia.org/wiki/Pope_Marcellus_Mass"
+            ],
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -1213,6 +1530,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (datazione)",
               "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "La primavera – I. Allegro",
+          "composer": "Antonio Vivaldi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+          "sizeMB": 5.8,
+          "duration": 215,
+          "performer": "John Harrison (violino), Wichita State University Chamber Players",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Il primo concerto delle Quattro stagioni, pubblicate ad Amsterdam nel 1725: gli anni in cui Ceruti dipingeva questa ragazza.",
+          "facts": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
             ]
           ]
         }
@@ -1259,6 +1594,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (note storiche)",
               "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Cavalleria rusticana – Intermezzo",
+          "composer": "Pietro Mascagni",
+          "src": "https://archive.org/download/loc-jukebox-337398-cavalleria-rusticana-intermezzo/jukebox-337398_cavalleria-rusticana-intermezzo.mp3",
+          "page": "https://www.loc.gov/item/jukebox-337398/",
+          "sizeMB": 5.6,
+          "duration": 175,
+          "performer": "Victor Concert Orchestra, dir. Walter B. Rogers (registrazione del 1912)",
+          "license": "Pubblico dominio (Library of Congress, National Jukebox)",
+          "licenseUrl": "https://archive.org/details/loc-jukebox-337398-cavalleria-rusticana-intermezzo",
+          "note": "Cavalleria rusticana debuttò a Roma il 17 maggio 1890, sei mesi dopo la data di questo quadro. Una registrazione storica del 1912, con il suono dei dischi di allora.",
+          "facts": [
+            [
+              "Wikipedia, Cavalleria rusticana",
+              "https://en.wikipedia.org/wiki/Cavalleria_rusticana"
             ]
           ]
         }
@@ -1317,6 +1670,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Ave Regina caelorum",
+          "composer": "Guillaume Du Fay",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/03AveReginaCaelorum-GuillaumeDufay.mp3",
+          "sizeMB": 11.4,
+          "duration": 487,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Guillaume Du Fay (1397–1474) fu tra i maggiori compositori del suo tempo e fu legato anche alla corte degli Este a Ferrara, la stessa di Leonello. Qui un’antifona dedicata alla Vergine.",
+          "facts": [
+            [
+              "Wikipedia, Guillaume Du Fay",
+              "https://en.wikipedia.org/wiki/Guillaume_Du_Fay"
             ]
           ]
         }
@@ -1411,6 +1782,24 @@ const routes = [
               "https://fondoambiente.it/luoghi/palazzo-moroni"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Agnus Dei I",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac",
+          "sizeMB": 2.2,
+          "duration": 148,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni e di Isotta, che amava la poesia e le lettere. Un movimento della Missa Papae Marcelli, la sua messa più celebre.",
+          "facts": [
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -1453,6 +1842,28 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Kyrie",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac",
+          "sizeMB": 3.2,
+          "duration": 214,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni. La Missa Papae Marcelli è la sua messa più celebre: una leggenda nata alla fine del Cinquecento racconta che convinse il Concilio di Trento a non vietare la musica a più voci nelle chiese.",
+          "facts": [
+            [
+              "Wikipedia, Pope Marcellus Mass",
+              "https://en.wikipedia.org/wiki/Pope_Marcellus_Mass"
+            ],
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -1493,6 +1904,24 @@ const routes = [
             [
               "Wikipedia, Evaristo Baschenis",
               "https://en.wikipedia.org/wiki/Evaristo_Baschenis"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Quel augellin che canta",
+          "composer": "Claudio Monteverdi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg",
+          "sizeMB": 2.4,
+          "duration": 120,
+          "performer": "The Tudor Consort, dir. Alastair Carey",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "note": "Claudio Monteverdi nacque nel 1567 a Cremona, la città dei grandi liutai, e morì nel 1643, negli anni in cui Baschenis diventava sacerdote. Un madrigale a più voci.",
+          "facts": [
+            [
+              "Wikipedia, Claudio Monteverdi",
+              "https://en.wikipedia.org/wiki/Claudio_Monteverdi"
             ]
           ]
         }
@@ -1543,6 +1972,28 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (datazione)",
               "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Kyrie",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac",
+          "sizeMB": 3.2,
+          "duration": 214,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni. La Missa Papae Marcelli è la sua messa più celebre: una leggenda nata alla fine del Cinquecento racconta che convinse il Concilio di Trento a non vietare la musica a più voci nelle chiese.",
+          "facts": [
+            [
+              "Wikipedia, Pope Marcellus Mass",
+              "https://en.wikipedia.org/wiki/Pope_Marcellus_Mass"
+            ],
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
             ]
           ]
         }
@@ -1608,6 +2059,24 @@ const routes = [
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00488/"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Sanctus",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Missa_Papae_Marcelli_-_IV._Sanctus.flac/Missa_Papae_Marcelli_-_IV._Sanctus.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_IV._Sanctus.flac",
+          "sizeMB": 5.4,
+          "duration": null,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni: la musica che si ascoltava nelle chiese mentre nascevano questi due ritratti.",
+          "facts": [
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -1650,6 +2119,24 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
             ]
           ]
+        },
+        "track": {
+          "title": "La primavera – I. Allegro",
+          "composer": "Antonio Vivaldi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+          "sizeMB": 5.8,
+          "duration": 215,
+          "performer": "John Harrison (violino), Wichita State University Chamber Players",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Il primo concerto delle Quattro stagioni, pubblicate ad Amsterdam nel 1725: gli anni in cui Ceruti dipingeva questa ragazza.",
+          "facts": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ]
+          ]
         }
       },
       {
@@ -1690,6 +2177,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Sonata op. VI n. 5 – Aria (Vivace)",
+          "composer": "Pietro Locatelli",
+          "src": "https://archive.org/download/LOCATELLISonateOp.VINo.5Extract/LOCATELLI%20-%20Sonate%20op.%20VI%20no.%205-extract.mp3",
+          "page": "https://archive.org/details/LOCATELLISonateOp.VINo.5Extract",
+          "sizeMB": 5.2,
+          "duration": 204,
+          "performer": "Conservatoire national supérieur de musique et de danse de Paris (T.-L. Faucon-Cohen, S. Gron-Catil, C. Ravot; dir. Pascal Duc)",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Pietro Locatelli nacque a Bergamo nel 1695 e da ragazzo suonava il violino nella cappella musicale di Santa Maria Maggiore; poi fece carriera a Roma e ad Amsterdam. Era un bergamasco contemporaneo di Fra’ Galgario.",
+          "facts": [
+            [
+              "Wikipedia, Pietro Locatelli",
+              "https://en.wikipedia.org/wiki/Pietro_Locatelli"
             ]
           ]
         }
@@ -1736,6 +2241,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (note storiche)",
               "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Cavalleria rusticana – Intermezzo",
+          "composer": "Pietro Mascagni",
+          "src": "https://archive.org/download/loc-jukebox-337398-cavalleria-rusticana-intermezzo/jukebox-337398_cavalleria-rusticana-intermezzo.mp3",
+          "page": "https://www.loc.gov/item/jukebox-337398/",
+          "sizeMB": 5.6,
+          "duration": 175,
+          "performer": "Victor Concert Orchestra, dir. Walter B. Rogers (registrazione del 1912)",
+          "license": "Pubblico dominio (Library of Congress, National Jukebox)",
+          "licenseUrl": "https://archive.org/details/loc-jukebox-337398-cavalleria-rusticana-intermezzo",
+          "note": "Cavalleria rusticana debuttò a Roma il 17 maggio 1890, sei mesi dopo la data di questo quadro. Una registrazione storica del 1912, con il suono dei dischi di allora.",
+          "facts": [
+            [
+              "Wikipedia, Cavalleria rusticana",
+              "https://en.wikipedia.org/wiki/Cavalleria_rusticana"
             ]
           ]
         }
@@ -1794,6 +2317,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Ave Regina caelorum",
+          "composer": "Guillaume Du Fay",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/03AveReginaCaelorum-GuillaumeDufay.mp3",
+          "sizeMB": 11.4,
+          "duration": 487,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Guillaume Du Fay (1397–1474) fu tra i maggiori compositori del suo tempo e fu legato anche alla corte degli Este a Ferrara, la stessa di Leonello. Qui un’antifona dedicata alla Vergine.",
+          "facts": [
+            [
+              "Wikipedia, Guillaume Du Fay",
+              "https://en.wikipedia.org/wiki/Guillaume_Du_Fay"
             ]
           ]
         }
@@ -1884,6 +2425,28 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Kyrie",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac",
+          "sizeMB": 3.2,
+          "duration": 214,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni. La Missa Papae Marcelli è la sua messa più celebre: una leggenda nata alla fine del Cinquecento racconta che convinse il Concilio di Trento a non vietare la musica a più voci nelle chiese.",
+          "facts": [
+            [
+              "Wikipedia, Pope Marcellus Mass",
+              "https://en.wikipedia.org/wiki/Pope_Marcellus_Mass"
+            ],
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -1926,6 +2489,24 @@ const routes = [
               "https://fondoambiente.it/luoghi/palazzo-moroni"
             ]
           ]
+        },
+        "track": {
+          "title": "Missa Papae Marcelli – Agnus Dei I",
+          "composer": "Giovanni Pierluigi da Palestrina",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac",
+          "sizeMB": 2.2,
+          "duration": 148,
+          "performer": "European Archive",
+          "license": "CC0 (pubblico dominio)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Palestrina (1525/26–1594) era contemporaneo di Moroni e di Isotta, che amava la poesia e le lettere. Un movimento della Missa Papae Marcelli, la sua messa più celebre.",
+          "facts": [
+            [
+              "Wikipedia, Palestrina",
+              "https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+            ]
+          ]
         }
       },
       {
@@ -1966,6 +2547,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Sonata op. VI n. 5 – Aria (Vivace)",
+          "composer": "Pietro Locatelli",
+          "src": "https://archive.org/download/LOCATELLISonateOp.VINo.5Extract/LOCATELLI%20-%20Sonate%20op.%20VI%20no.%205-extract.mp3",
+          "page": "https://archive.org/details/LOCATELLISonateOp.VINo.5Extract",
+          "sizeMB": 5.2,
+          "duration": 204,
+          "performer": "Conservatoire national supérieur de musique et de danse de Paris (T.-L. Faucon-Cohen, S. Gron-Catil, C. Ravot; dir. Pascal Duc)",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Pietro Locatelli nacque a Bergamo nel 1695 e da ragazzo suonava il violino nella cappella musicale di Santa Maria Maggiore; poi fece carriera a Roma e ad Amsterdam. Era un bergamasco contemporaneo di Fra’ Galgario.",
+          "facts": [
+            [
+              "Wikipedia, Pietro Locatelli",
+              "https://en.wikipedia.org/wiki/Pietro_Locatelli"
             ]
           ]
         }
@@ -2022,6 +2621,24 @@ const routes = [
               "https://lacarrara.it/opera/madonna-col-bambino-5/"
             ]
           ]
+        },
+        "track": {
+          "title": "Alma Redemptoris Mater",
+          "composer": "Johannes Ockeghem",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/12AlmaRedemptoris-JohannesOckeghem.mp3",
+          "sizeMB": 7,
+          "duration": 303,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Johannes Ockeghem (circa 1410–1497) era contemporaneo di Antonello da Messina e di suo figlio Jacobello. Alma Redemptoris Mater è un’antifona dedicata alla Madonna, come questa tavola.",
+          "facts": [
+            [
+              "Wikipedia, Johannes Ockeghem",
+              "https://en.wikipedia.org/wiki/Johannes_Ockeghem"
+            ]
+          ]
         }
       },
       {
@@ -2064,6 +2681,19 @@ const routes = [
               "https://en.wikipedia.org/wiki/Gerasimus_of_the_Jordan"
             ]
           ]
+        },
+        "track": {
+          "title": "Salve Regina (canto gregoriano, tono solenne)",
+          "composer": "Canto gregoriano",
+          "src": "https://archive.org/download/Zefiro-MarianAntiphons_158/08SalveRegina-Plainchant-SolemnTone.mp3",
+          "sizeMB": 3.8,
+          "duration": 173,
+          "performer": "Zefiro (ensemble vocale)",
+          "license": "CC BY-NC 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "page": "https://archive.org/details/Zefiro-MarianAntiphons_158",
+          "note": "Il canto gregoriano, a una sola voce e senza strumenti, era la musica di ogni giorno nelle chiese e nei conventi quando questa tavola fu dipinta.",
+          "facts": []
         }
       },
       {
@@ -2156,6 +2786,24 @@ const routes = [
               "https://en.wikipedia.org/wiki/Evaristo_Baschenis"
             ]
           ]
+        },
+        "track": {
+          "title": "Quel augellin che canta",
+          "composer": "Claudio Monteverdi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg",
+          "sizeMB": 2.4,
+          "duration": 120,
+          "performer": "The Tudor Consort, dir. Alastair Carey",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "note": "Claudio Monteverdi nacque nel 1567 a Cremona, la città dei grandi liutai, e morì nel 1643, negli anni in cui Baschenis diventava sacerdote. Un madrigale a più voci.",
+          "facts": [
+            [
+              "Wikipedia, Claudio Monteverdi",
+              "https://en.wikipedia.org/wiki/Claudio_Monteverdi"
+            ]
+          ]
         }
       },
       {
@@ -2200,6 +2848,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (note storiche)",
               "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Cavalleria rusticana – Intermezzo",
+          "composer": "Pietro Mascagni",
+          "src": "https://archive.org/download/loc-jukebox-337398-cavalleria-rusticana-intermezzo/jukebox-337398_cavalleria-rusticana-intermezzo.mp3",
+          "page": "https://www.loc.gov/item/jukebox-337398/",
+          "sizeMB": 5.6,
+          "duration": 175,
+          "performer": "Victor Concert Orchestra, dir. Walter B. Rogers (registrazione del 1912)",
+          "license": "Pubblico dominio (Library of Congress, National Jukebox)",
+          "licenseUrl": "https://archive.org/details/loc-jukebox-337398-cavalleria-rusticana-intermezzo",
+          "note": "Cavalleria rusticana debuttò a Roma il 17 maggio 1890, sei mesi dopo la data di questo quadro. Una registrazione storica del 1912, con il suono dei dischi di allora.",
+          "facts": [
+            [
+              "Wikipedia, Cavalleria rusticana",
+              "https://en.wikipedia.org/wiki/Cavalleria_rusticana"
             ]
           ]
         }
@@ -2302,6 +2968,24 @@ const routes = [
               "https://en.wikipedia.org/wiki/Evaristo_Baschenis"
             ]
           ]
+        },
+        "track": {
+          "title": "Quel augellin che canta",
+          "composer": "Claudio Monteverdi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg",
+          "sizeMB": 2.4,
+          "duration": 120,
+          "performer": "The Tudor Consort, dir. Alastair Carey",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "note": "Claudio Monteverdi nacque nel 1567 a Cremona, la città dei grandi liutai, e morì nel 1643, negli anni in cui Baschenis diventava sacerdote. Un madrigale a più voci.",
+          "facts": [
+            [
+              "Wikipedia, Claudio Monteverdi",
+              "https://en.wikipedia.org/wiki/Claudio_Monteverdi"
+            ]
+          ]
         }
       },
       {
@@ -2344,6 +3028,24 @@ const routes = [
               "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
             ]
           ]
+        },
+        "track": {
+          "title": "La primavera – I. Allegro",
+          "composer": "Antonio Vivaldi",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+          "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+          "sizeMB": 5.8,
+          "duration": 215,
+          "performer": "John Harrison (violino), Wichita State University Chamber Players",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Il primo concerto delle Quattro stagioni, pubblicate ad Amsterdam nel 1725: gli anni in cui Ceruti dipingeva questa ragazza.",
+          "facts": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ]
+          ]
         }
       },
       {
@@ -2384,6 +3086,24 @@ const routes = [
             [
               "Lombardia Beni Culturali, scheda SIRBeC",
               "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Sonata op. VI n. 5 – Aria (Vivace)",
+          "composer": "Pietro Locatelli",
+          "src": "https://archive.org/download/LOCATELLISonateOp.VINo.5Extract/LOCATELLI%20-%20Sonate%20op.%20VI%20no.%205-extract.mp3",
+          "page": "https://archive.org/details/LOCATELLISonateOp.VINo.5Extract",
+          "sizeMB": 5.2,
+          "duration": 204,
+          "performer": "Conservatoire national supérieur de musique et de danse de Paris (T.-L. Faucon-Cohen, S. Gron-Catil, C. Ravot; dir. Pascal Duc)",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Pietro Locatelli nacque a Bergamo nel 1695 e da ragazzo suonava il violino nella cappella musicale di Santa Maria Maggiore; poi fece carriera a Roma e ad Amsterdam. Era un bergamasco contemporaneo di Fra’ Galgario.",
+          "facts": [
+            [
+              "Wikipedia, Pietro Locatelli",
+              "https://en.wikipedia.org/wiki/Pietro_Locatelli"
             ]
           ]
         }
@@ -2430,6 +3150,24 @@ const routes = [
             [
               "Accademia Carrara, scheda dell’opera (note storiche)",
               "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        },
+        "track": {
+          "title": "Cavalleria rusticana – Intermezzo",
+          "composer": "Pietro Mascagni",
+          "src": "https://archive.org/download/loc-jukebox-337398-cavalleria-rusticana-intermezzo/jukebox-337398_cavalleria-rusticana-intermezzo.mp3",
+          "page": "https://www.loc.gov/item/jukebox-337398/",
+          "sizeMB": 5.6,
+          "duration": 175,
+          "performer": "Victor Concert Orchestra, dir. Walter B. Rogers (registrazione del 1912)",
+          "license": "Pubblico dominio (Library of Congress, National Jukebox)",
+          "licenseUrl": "https://archive.org/details/loc-jukebox-337398-cavalleria-rusticana-intermezzo",
+          "note": "Cavalleria rusticana debuttò a Roma il 17 maggio 1890, sei mesi dopo la data di questo quadro. Una registrazione storica del 1912, con il suono dei dischi di allora.",
+          "facts": [
+            [
+              "Wikipedia, Cavalleria rusticana",
+              "https://en.wikipedia.org/wiki/Cavalleria_rusticana"
             ]
           ]
         }

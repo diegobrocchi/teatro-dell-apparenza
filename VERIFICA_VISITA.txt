@@ -27,7 +27,17 @@ IMMAGINI
 Tutti i file Wikimedia Commons verificati il 27/10/2026 tramite le API di Commons. I tre che mancavano (Jacobello, San Gerolamo, Baschenis) sono stati individuati e confrontati visivamente con l'immagine della scheda del museo; per il Ceruti è stato scelto un file a risoluzione più alta. La pagina non fa più ricerche automatiche di immagini.
 
 MUSICA
-I collegamenti sono ricerche YouTube mirate: la disponibilità dei video può variare.
+- Abbinamento di oggi: ricerche YouTube mirate (link esterno); la disponibilità dei video può variare.
+- Musica del tempo dell'opera (player integrato, 28 ottobre 2026): registrazioni con licenze che permettono anche il futuro montaggio con la voce (pubblico dominio, CC0, CC BY, CC BY-SA, CC BY-NC; escluse le licenze ND). File ospitati su Wikimedia Commons e Internet Archive; il pulsante "Scarica la musica" li salva sul telefono (circa 52 MB).
+  Pisanello: Du Fay, Ave Regina caelorum (Zefiro, CC BY-NC 3.0) – Du Fay legato alla corte Este di Ferrara.
+  Jacobello: Ockeghem, Alma Redemptoris Mater (Zefiro, CC BY-NC 3.0).
+  San Gerolamo: Salve Regina, canto gregoriano (Zefiro, CC BY-NC 3.0).
+  Redetti / Isotta / Spini: Palestrina, Missa Papae Marcelli – Kyrie / Agnus Dei I / Sanctus (European Archive, CC0).
+  Ceruti: Vivaldi, La primavera I (John Harrison, CC BY-SA 4.0) – Quattro stagioni pubblicate nel 1725.
+  Fra' Galgario: Locatelli, Sonata op. VI n. 5, Aria (CNSMD Paris, CC BY 4.0) – Locatelli nato a Bergamo nel 1695.
+  Baschenis: Monteverdi, Quel augellin che canta (The Tudor Consort, CC BY 3.0) – Monteverdi nato a Cremona nel 1567, morto nel 1643.
+  Pellizza: Mascagni, Intermezzo da Cavalleria rusticana (Victor Concert Orchestra, 1912, pubblico dominio – Library of Congress) – prima a Roma il 17 maggio 1890.
+  Lotto e Botticelli: nessuna registrazione adatta trovata (le candidate erano con licenza ND o troppo pesanti: Josquin, Stabat Mater, 23 MB). Resta solo l'abbinamento di oggi.
 
 SEZIONE "UN DETTAGLIO" (28 ottobre 2026)
 Un elemento in più per ogni opera, con le fonti indicate nella pagina:

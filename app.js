@@ -162,6 +162,55 @@ function extraMarkup(w, i) {
     </section>`;
 }
 
+/* ---------- Musica d'epoca (player integrato) ---------- */
+let player = null, playingIdx = null;
+function fmtTime(t) { if (!isFinite(t)) return "–:––"; t = Math.round(t); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
+function trackMarkup(w, i) {
+  const t = w.track; if (!t) return "";
+  const facts = (t.facts || []).map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join(" · ");
+  return `<div class="track" id="track-${i}">
+      <div class="music-kicker">MUSICA DEL TEMPO DELL’OPERA</div>
+      <div class="track-row">
+        <button class="track-play" type="button" data-i="${i}" aria-label="Ascolta ${esc(t.title)}">▶</button>
+        <div class="track-info">
+          <p class="track-title"><strong>${esc(t.title)}</strong> — ${esc(t.composer)}</p>
+          <div class="track-bar"><span class="track-fill"></span></div>
+          <p class="track-time"><span class="track-cur">0:00</span> / <span class="track-dur">${t.duration ? fmtTime(t.duration) : "–:––"}</span></p>
+        </div>
+      </div>
+      <p class="track-note">${esc(t.note)}</p>
+      <p class="track-credit">Esecuzione: ${esc(t.performer)} · <a href="${esc(t.licenseUrl)}" target="_blank" rel="noopener">${esc(t.license)}</a> · <a href="${esc(t.page || t.src)}" target="_blank" rel="noopener">fonte ↗</a>${facts ? `<br>Notizie: ${facts}` : ""}</p>
+    </div>`;
+}
+function trackUI(i) { const el = $(`track-${i}`); return el && { el, btn: el.querySelector(".track-play"), fill: el.querySelector(".track-fill"), cur: el.querySelector(".track-cur"), dur: el.querySelector(".track-dur"), bar: el.querySelector(".track-bar") }; }
+function stopTrack() {
+  if (player) { player.pause(); }
+  if (playingIdx !== null) { const u = trackUI(playingIdx); if (u) { u.btn.textContent = "▶"; u.el.classList.remove("playing"); } }
+}
+function toggleTrack(i) {
+  const w = routes[activeRoute].works[i];
+  if (!player) {
+    player = new Audio(); player.preload = "none";
+    player.addEventListener("timeupdate", () => { const u = trackUI(playingIdx); if (!u) return; u.cur.textContent = fmtTime(player.currentTime); if (player.duration) { u.fill.style.width = (player.currentTime / player.duration * 100) + "%"; u.dur.textContent = fmtTime(player.duration); } });
+    player.addEventListener("ended", () => { const u = trackUI(playingIdx); if (u) { u.btn.textContent = "▶"; u.el.classList.remove("playing"); u.fill.style.width = "0%"; } });
+    player.addEventListener("waiting", () => { const u = trackUI(playingIdx); if (u) u.btn.textContent = "…"; });
+    player.addEventListener("playing", () => { const u = trackUI(playingIdx); if (u) u.btn.textContent = "❚❚"; });
+    player.addEventListener("error", () => { const u = trackUI(playingIdx); if (u) { u.btn.textContent = "▶"; u.el.classList.remove("playing"); u.cur.textContent = "Brano non disponibile senza connessione"; } });
+  }
+  if (playingIdx === i && !player.paused) { stopTrack(); return; }
+  if (playingIdx !== i) { stopTrack(); player.src = w.track.src; playingIdx = i; }
+  const u = trackUI(i); u.el.classList.add("playing"); u.btn.textContent = "…";
+  player.play().catch(() => { u.btn.textContent = "▶"; u.el.classList.remove("playing"); });
+  if ("mediaSession" in navigator) {
+    try { navigator.mediaSession.metadata = new MediaMetadata({ title: w.track.title, artist: w.track.composer, album: w.title }); } catch (e) {}
+  }
+}
+function seekTrack(i, ev) {
+  if (playingIdx !== i || !player || !player.duration) return;
+  const r = ev.currentTarget.getBoundingClientRect();
+  player.currentTime = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)) * player.duration;
+}
+
 /* ---------- Percorso ---------- */
 function imageMarkup(w, i) {
   const imgs = imagesOf(w);
@@ -199,7 +248,8 @@ function renderRoute() {
         <section class="history"><h4>Un po’ di storia</h4><p>${esc(w.history)}</p>
           <p class="history-meta">Fonte: <a href="${esc(w.historySourceUrl)}" target="_blank" rel="noopener">${esc(w.historySource)} ↗</a></p>
           <p class="availability"><strong>Dove si trova:</strong> ${esc(w.availability)}</p></section>
-        <div class="music-pick"><div class="music-kicker">MUSICA ABBINATA</div><p class="music-title"><strong>${esc(w.music.title)}</strong> — ${esc(w.music.artist)}</p><p class="music-style">${esc(w.music.style)}</p><p class="music-note">${esc(w.music.note)}</p><a class="music-link" href="${esc(w.music.url)}" target="_blank" rel="noopener">Cerca il brano su YouTube ↗</a></div>
+        ${trackMarkup(w, i)}
+        <div class="music-pick"><div class="music-kicker">${w.track ? "UN ABBINAMENTO DI OGGI" : "MUSICA ABBINATA"}</div><p class="music-title"><strong>${esc(w.music.title)}</strong> — ${esc(w.music.artist)}</p><p class="music-style">${esc(w.music.style)}</p><p class="music-note">${esc(w.music.note)}</p><a class="music-link" href="${esc(w.music.url)}" target="_blank" rel="noopener">Cerca il brano su YouTube ↗</a></div>
       </div>
     </article>`).join("");
 
@@ -218,6 +268,8 @@ function renderRoute() {
     img.addEventListener("click", () => openLightbox(img));
   });
 
+  root.querySelectorAll(".track-play").forEach(btn => btn.addEventListener("click", () => toggleTrack(Number(btn.dataset.i))));
+  root.querySelectorAll(".track").forEach(el => { const i = Number(el.id.slice(6)); el.querySelector(".track-bar").addEventListener("click", ev => seekTrack(i, ev)); });
   root.querySelectorAll(".where-btn").forEach(btn => btn.addEventListener("click", () => {
     const box = $(`where-${btn.dataset.i}`);
     box.hidden = !box.hidden;
@@ -267,6 +319,7 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") closeLightbo
 /* ---------- Navigazione ---------- */
 function route() {
   closeLightbox();
+  stopTrack(); playingIdx = null;
   const m = location.hash.match(/^#\/percorso\/(.+)$/);
   const idx = m ? routes.findIndex(r => r.id === decodeURIComponent(m[1])) : -1;
   if (idx >= 0) {
@@ -303,6 +356,7 @@ function refreshAppBox() {
   $("installIos").hidden = standalone || !isIos;
   $("offlineBox").hidden = !("serviceWorker" in navigator && navigator.serviceWorker.controller);
   $("appTitle").textContent = standalone ? "Pronta per la visita" : "Tienila sul telefono";
+  refreshMusicBox();
   $("appBox").hidden = $("installAndroid").hidden && $("installIos").hidden && $("offlineBox").hidden;
   try { if (localStorage.getItem("carraraOfflineReady")) markOfflineReady(); } catch (e) {}
 }
@@ -350,6 +404,33 @@ async function downloadForOffline() {
   if (failed) $("offlineText").textContent += ` (${failed} immagini non disponibili.)`;
 }
 $("offlineBtn").addEventListener("click", downloadForOffline);
+
+// Musica per l'uso offline: i brani si salvano interi in una cache dedicata
+function uniqueTracks() { const m = new Map(); Object.values(worksByKey).forEach(w => { if (w.track) m.set(w.track.src, w.track); }); return [...m.values()]; }
+function musicSizeMB() { return Math.round(uniqueTracks().reduce((a, t) => a + (t.sizeMB || 0), 0)); }
+async function musicSaved() {
+  try { const c = await caches.open("carrara-musica"); const keys = await c.keys(); return uniqueTracks().every(t => keys.some(k => k.url === t.src)); } catch (e) { return false; }
+}
+async function refreshMusicBox() {
+  if (!("caches" in window)) { $("musicBtn").hidden = true; $("musicText").hidden = true; return; }
+  if (await musicSaved()) { $("musicText").textContent = "Musica salvata su questo telefono: si ascolta anche senza connessione."; $("musicBtn").textContent = "Aggiorna la musica"; }
+  else { $("musicText").textContent = `La musica del tempo delle opere pesa circa ${musicSizeMB()} MB: meglio scaricarla con il wi-fi.`; $("musicBtn").textContent = "Scarica la musica"; }
+}
+async function downloadMusic() {
+  const btn = $("musicBtn"), txt = $("musicText"); btn.disabled = true;
+  try { if (navigator.storage && navigator.storage.persist) await navigator.storage.persist(); } catch (e) {}
+  const list = uniqueTracks(); let ok = 0, fail = 0;
+  const cache = await caches.open("carrara-musica");
+  for (const t of list) {
+    txt.textContent = `Scarico la musica… ${ok + fail + 1} di ${list.length}`;
+    try { const r = await fetch(t.src, { mode: "cors" }); if (!r.ok) throw new Error(r.status); await cache.put(t.src, r); ok++; }
+    catch (e) { fail++; }
+  }
+  btn.disabled = false;
+  await refreshMusicBox();
+  if (fail) txt.textContent = `Salvati ${ok} brani su ${list.length}: riprova con una connessione migliore per gli altri.`;
+}
+$("musicBtn").addEventListener("click", downloadMusic);
 
 if ("serviceWorker" in navigator && location.protocol !== "file:") {
   navigator.serviceWorker.register("./sw.js").catch(() => {});

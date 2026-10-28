@@ -170,3 +170,18 @@ h1 em{color:var(--petrol)}
 /* Avviso di aggiornamento */
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom));transform:translate(-50%,20px);opacity:0;transition:opacity .3s,transform .3s;background:#202b29;color:#fff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:13px;padding:10px 16px;border-radius:999px;z-index:40;box-shadow:0 4px 18px #0003;white-space:nowrap}
 .toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* Musica del tempo dell'opera */
+.track{background:#e9efe9;border-radius:8px;padding:14px;margin:0 0 12px}
+.track-row{display:flex;gap:12px;align-items:center;margin-top:6px}
+.track-play{flex:none;width:46px;height:46px;border-radius:50%;border:0;background:var(--petrol);color:#fff;font-size:16px;cursor:pointer;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+.track-info{flex:1;min-width:0}
+.track-title{margin:0 0 6px;font-size:16px;line-height:1.3}
+.track-bar{height:6px;background:#cfd9d3;border-radius:6px;overflow:hidden;cursor:pointer}
+.track-fill{display:block;height:100%;width:0;background:var(--petrol);transition:width .25s linear}
+.track-time{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:11.5px;color:var(--muted);margin:4px 0 0}
+.track-note{font-size:14px;margin:10px 0 6px}
+.track-credit{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:11px;color:var(--muted);margin:0;line-height:1.5}
+.track-credit a{color:var(--petrol)}
+.track .music-kicker{color:var(--petrol)}
+#musicText{margin-top:12px}

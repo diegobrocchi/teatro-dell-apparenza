@@ -3,10 +3,11 @@
    vengono sempre chiesti prima alla rete e la pagina controlla da sola se è
    uscita una versione nuova (vedi "Aggiornamento automatico" in app.js).
    Cambia SW_REVISION solo se modifichi questo file. */
-const SW_REVISION = "2026-10-28-2";
+const SW_REVISION = "2026-10-28-3";
 const SHELL_CACHE = "carrara-app";        // file della guida (index, css, js, icone)
 const IMG_CACHE = "carrara-immagini";    // immagini Wikimedia scaricate per l'uso offline
 const DATA_CACHE = "carrara-dati";
+const AUDIO_CACHE = "carrara-musica";   // brani salvati con "Scarica la musica"
 
 const SHELL = [
   "./index.html", "./styles.css", "./app.js", "./routes.js", "./manifest.webmanifest",
@@ -44,6 +45,11 @@ self.addEventListener("fetch", event => {
 
   if (url.origin === self.location.origin) {
     event.respondWith(shellNetworkFirst(req));
+    return;
+  }
+  // Musica: se il brano è stato salvato si serve dalla cache (anche a pezzi, come chiedono i telefoni)
+  if (/\.mp3$/i.test(url.pathname) && (url.hostname === "upload.wikimedia.org" || /(^|\.)archive\.org$/.test(url.hostname))) {
+    event.respondWith(audioResponse(req));
     return;
   }
   if ((url.hostname === "commons.wikimedia.org" && url.pathname.startsWith("/wiki/Special:FilePath")) ||
@@ -103,4 +109,30 @@ async function networkFirst(req, name) {
   } catch (e) {
     return (await cache.match(req.url)) || Response.error();
   }
+}
+
+async function audioResponse(req) {
+  const cache = await caches.open(AUDIO_CACHE);
+  const cached = await cache.match(req.url.split("#")[0]);
+  if (!cached) {
+    try { return await fetch(req); } catch (e) { return Response.error(); }
+  }
+  const blob = await cached.blob();
+  const size = blob.size;
+  const type = cached.headers.get("Content-Type") || "audio/mpeg";
+  const range = req.headers.get("Range");
+  const m = range && /bytes=(\d*)-(\d*)/.exec(range);
+  if (!m) {
+    return new Response(blob, { status: 200, headers: { "Content-Type": type, "Content-Length": String(size), "Accept-Ranges": "bytes" } });
+  }
+  let start = m[1] === "" ? NaN : parseInt(m[1], 10);
+  let end = m[2] === "" ? NaN : parseInt(m[2], 10);
+  if (isNaN(start)) { start = Math.max(0, size - (isNaN(end) ? 0 : end)); end = size - 1; }  // bytes=-N
+  if (isNaN(end) || end >= size) end = size - 1;
+  if (start >= size || start > end) {
+    return new Response(null, { status: 416, headers: { "Content-Range": `bytes */${size}` } });
+  }
+  return new Response(blob.slice(start, end + 1), { status: 206, headers: {
+    "Content-Type": type, "Content-Length": String(end - start + 1),
+    "Content-Range": `bytes ${start}-${end}/${size}`, "Accept-Ranges": "bytes" } });
 }
