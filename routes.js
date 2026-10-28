@@ -30,7 +30,30 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-leonello-deste/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un roseto da erbario",
+          "text": "Guarda i fiori dietro Leonello: rose e boccioli dipinti con una precisione da erbario, petalo per petalo. Per molto tempo il quadro si è visto diverso: un fondo nero aggiunto in seguito copriva il cielo. Il restauro dell’Opificio delle Pietre Dure (2004–2008) lo ha tolto e ha restituito il blu su cui oggi si stagliano profilo e fiori.",
+          "crop": {
+            "file": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
+            "ar": 0.7292062286365363,
+            "x": 3,
+            "y": 32,
+            "w": 32,
+            "h": 22
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera",
+              "https://lacarrara.it/opera/ritratto-di-leonello-deste/"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Sandro Botticelli",
@@ -57,7 +80,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "La medaglia della congiura",
+          "text": "Dopo l’agguato del 26 aprile 1478 Lorenzo il Magnifico fece realizzare allo scultore di famiglia, Bertoldo di Giovanni, una medaglia per denunciare e ricordare l’accaduto. È un oggetto insolito: ogni faccia unisce un ritratto e, sotto, una scena dell’attentato nel coro del Duomo di Firenze; su un lato si legge “lutto pubblico”. Ne esistono esemplari, per esempio, al Metropolitan Museum di New York e al British Museum di Londra.",
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/"
+            ],
+            [
+              "The Metropolitan Museum of Art, medaglia di Bertoldo di Giovanni",
+              "https://www.metmuseum.org/art/collection/search/195063"
+            ],
+            [
+              "British Museum, via Google Arts & Culture",
+              "https://artsandculture.google.com/asset/cast-bronze-medal-commemorating-the-pazzi-conspiracy-by-bertoldo-di-giovanni/uAH8D-ShjQossA"
+            ]
+          ]
+        }
       },
       {
         "artist": "Lorenzo Lotto",
@@ -84,7 +126,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -111,7 +176,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, sopra la città",
+          "text": "Negli anni in cui Moroni dipingeva questa bambina (1570–1573), sul colle di Bergamo si stavano ancora costruendo le Mura veneziane. La Repubblica di Venezia, di cui Bergamo faceva parte, le aveva avviate nel 1561; i lavori durarono circa ventisette anni, fino al 1588. Dal 2017 sono patrimonio UNESCO, insieme ad altre fortezze veneziane come Peschiera, Palmanova, Zara, Sebenico e Cattaro.",
+          "sources": [
+            [
+              "Artribune, Le Mura di Bergamo patrimonio UNESCO (2017)",
+              "https://www.artribune.com/?p=490538"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -138,7 +218,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "museo",
+          "title": "L’altra Isotta, a pochi passi",
+          "text": "Moroni ritrasse Isotta anche a figura intera: seduta, in abito di broccato verde e oro, con un ventaglio e uno zibellino. Quel quadro è a Palazzo Moroni, in Città Alta (via Porta Dipinta 12), gestito dal FAI e aperto al pubblico. Nella stessa sala c’è il “Cavaliere in rosa”, ritratto di Gian Gerolamo Grumelli, il cognato che Isotta sposò in seconde nozze nel 1561. Nell’Ottocento la tela di Isotta fu persino allungata per farne il pendant di quella del marito; le aggiunte sono state tolte nel restauro del 2002.",
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC del ritratto a Palazzo Moroni",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/2p390-01655/"
+            ],
+            [
+              "FAI, Palazzo Moroni",
+              "https://fondoambiente.it/luoghi/palazzo-moroni"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giacomo Ceruti",
@@ -165,7 +260,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, ad Amsterdam",
+          "text": "Negli stessi anni in cui Ceruti dipingeva questa ragazza (1725–1730), nel 1725 usciva ad Amsterdam, presso l’editore Michel-Charles Le Cène, l’opera 8 di Antonio Vivaldi, “Il cimento dell’armonia e dell’inventione”: dodici concerti, i primi quattro dei quali sono Le quattro stagioni. Un buon sottofondo per guardarla, se cerchi un’alternativa al brano proposto.",
+          "sources": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
@@ -192,7 +302,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il fiore aggiunto dopo",
+          "text": "Tra le pagine aperte c’è una viola del pensiero essiccata. Nel 1889 non c’era: Pellizza la aggiunse più tardi, e lo sappiamo grazie a una fotografia dello studio scattata nel 1892 dall’amico Davide Cicala, in cui il quadro appare ancora senza fiore. Secondo il museo, la viola riassume i colori di tutta la tela: il beige della parete, l’azzurro della gonna, il giallo della fusciacca.",
+          "crop": {
+            "file": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+            "ar": 0.7833537331701347,
+            "x": 28,
+            "y": 64,
+            "w": 22,
+            "h": 10
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -227,7 +356,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/madonna-col-bambino-5/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un biglietto in bilico",
+          "text": "In basso a destra, appoggiato in bilico sul parapetto, c’è un cartiglio con la firma e la data, 1480. Jacobello vi si presenta come figlio di un pittore “non umano”, cioè inimitabile: suo padre, Antonello da Messina, morto l’anno prima. Cerca il foglietto sul quadro: è piccolo, ma è l’unica firma certa di Jacobello che conosciamo.",
+          "crop": {
+            "file": "Jacobello da Messina Madonna Carrara.jpg",
+            "ar": 0.692141312184571,
+            "x": 71,
+            "y": 85,
+            "w": 23,
+            "h": 7
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera",
+              "https://lacarrara.it/opera/madonna-col-bambino-5/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Pittore lombardo o ligure",
@@ -254,7 +402,22 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Un leone preso in prestito",
+          "text": "La storia della spina tolta dalla zampa del leone non nasce con san Girolamo. Giovanni Mosco, nel Prato spirituale, la racconta di Gerasimo, monaco del V secolo vissuto presso il Giordano: il leone guarito resta con lui, sorveglia l’asino del monastero e, quando l’asino viene rubato e lui viene accusato di averlo mangiato, lo riporta a casa. Il racconto passò poi a Girolamo, probabilmente per la somiglianza dei nomi: nel latino tardo Girolamo era “Geronimus”.",
+          "sources": [
+            [
+              "P. Solari, “Gerasimo”, rivista Caritas Ticino (2001)",
+              "https://www.caritas-ticino.ch/media/rivista/archivio/riv_2001/Solari_Patrizia_Gerasimo.pdf"
+            ],
+            [
+              "Wikipedia, Gerasimus of the Jordan",
+              "https://en.wikipedia.org/wiki/Gerasimus_of_the_Jordan"
+            ]
+          ]
+        }
       },
       {
         "artist": "Lorenzo Lotto",
@@ -281,7 +444,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -308,7 +494,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, sopra la città",
+          "text": "Negli anni in cui Moroni dipingeva questa bambina (1570–1573), sul colle di Bergamo si stavano ancora costruendo le Mura veneziane. La Repubblica di Venezia, di cui Bergamo faceva parte, le aveva avviate nel 1561; i lavori durarono circa ventisette anni, fino al 1588. Dal 2017 sono patrimonio UNESCO, insieme ad altre fortezze veneziane come Peschiera, Palmanova, Zara, Sebenico e Cattaro.",
+          "sources": [
+            [
+              "Artribune, Le Mura di Bergamo patrimonio UNESCO (2017)",
+              "https://www.artribune.com/?p=490538"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
@@ -335,7 +536,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il fiore aggiunto dopo",
+          "text": "Tra le pagine aperte c’è una viola del pensiero essiccata. Nel 1889 non c’era: Pellizza la aggiunse più tardi, e lo sappiamo grazie a una fotografia dello studio scattata nel 1892 dall’amico Davide Cicala, in cui il quadro appare ancora senza fiore. Secondo il museo, la viola riassume i colori di tutta la tela: il beige della parete, l’azzurro della gonna, il giallo della fusciacca.",
+          "crop": {
+            "file": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+            "ar": 0.7833537331701347,
+            "x": 28,
+            "y": 64,
+            "w": 22,
+            "h": 10
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -370,7 +590,30 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-leonello-deste/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un roseto da erbario",
+          "text": "Guarda i fiori dietro Leonello: rose e boccioli dipinti con una precisione da erbario, petalo per petalo. Per molto tempo il quadro si è visto diverso: un fondo nero aggiunto in seguito copriva il cielo. Il restauro dell’Opificio delle Pietre Dure (2004–2008) lo ha tolto e ha restituito il blu su cui oggi si stagliano profilo e fiori.",
+          "crop": {
+            "file": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
+            "ar": 0.7292062286365363,
+            "x": 3,
+            "y": 32,
+            "w": 32,
+            "h": 22
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera",
+              "https://lacarrara.it/opera/ritratto-di-leonello-deste/"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Sandro Botticelli",
@@ -397,7 +640,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "La medaglia della congiura",
+          "text": "Dopo l’agguato del 26 aprile 1478 Lorenzo il Magnifico fece realizzare allo scultore di famiglia, Bertoldo di Giovanni, una medaglia per denunciare e ricordare l’accaduto. È un oggetto insolito: ogni faccia unisce un ritratto e, sotto, una scena dell’attentato nel coro del Duomo di Firenze; su un lato si legge “lutto pubblico”. Ne esistono esemplari, per esempio, al Metropolitan Museum di New York e al British Museum di Londra.",
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/"
+            ],
+            [
+              "The Metropolitan Museum of Art, medaglia di Bertoldo di Giovanni",
+              "https://www.metmuseum.org/art/collection/search/195063"
+            ],
+            [
+              "British Museum, via Google Arts & Culture",
+              "https://artsandculture.google.com/asset/cast-bronze-medal-commemorating-the-pazzi-conspiracy-by-bertoldo-di-giovanni/uAH8D-ShjQossA"
+            ]
+          ]
+        }
       },
       {
         "artist": "Lorenzo Lotto",
@@ -424,7 +686,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giacomo Ceruti",
@@ -451,7 +736,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, ad Amsterdam",
+          "text": "Negli stessi anni in cui Ceruti dipingeva questa ragazza (1725–1730), nel 1725 usciva ad Amsterdam, presso l’editore Michel-Charles Le Cène, l’opera 8 di Antonio Vivaldi, “Il cimento dell’armonia e dell’inventione”: dodici concerti, i primi quattro dei quali sono Le quattro stagioni. Un buon sottofondo per guardarla, se cerchi un’alternativa al brano proposto.",
+          "sources": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Fra’ Galgario",
@@ -478,7 +778,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Perché “Fra’ Galgario”",
+          "text": "Vittore Ghislandi era un frate dell’Ordine dei Minimi, i seguaci di san Francesco di Paola, detti anche Paolotti. Dal 1702 visse a Bergamo nel convento del Galgario, da cui prese il nome con cui lo conosciamo. Secondo una tradizione registrata già nel 1796, anche il giovane di questo ritratto, detto “Cerighetto”, apparteneva al convento dei Paolotti.",
+          "sources": [
+            [
+              "Wikipedia, Fra Galgario",
+              "https://en.wikipedia.org/wiki/Fra_Galgario"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -513,7 +828,30 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-leonello-deste/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un roseto da erbario",
+          "text": "Guarda i fiori dietro Leonello: rose e boccioli dipinti con una precisione da erbario, petalo per petalo. Per molto tempo il quadro si è visto diverso: un fondo nero aggiunto in seguito copriva il cielo. Il restauro dell’Opificio delle Pietre Dure (2004–2008) lo ha tolto e ha restituito il blu su cui oggi si stagliano profilo e fiori.",
+          "crop": {
+            "file": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
+            "ar": 0.7292062286365363,
+            "x": 3,
+            "y": 32,
+            "w": 32,
+            "h": 22
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera",
+              "https://lacarrara.it/opera/ritratto-di-leonello-deste/"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Lorenzo Lotto",
@@ -540,7 +878,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -567,7 +928,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "museo",
+          "title": "L’altra Isotta, a pochi passi",
+          "text": "Moroni ritrasse Isotta anche a figura intera: seduta, in abito di broccato verde e oro, con un ventaglio e uno zibellino. Quel quadro è a Palazzo Moroni, in Città Alta (via Porta Dipinta 12), gestito dal FAI e aperto al pubblico. Nella stessa sala c’è il “Cavaliere in rosa”, ritratto di Gian Gerolamo Grumelli, il cognato che Isotta sposò in seconde nozze nel 1561. Nell’Ottocento la tela di Isotta fu persino allungata per farne il pendant di quella del marito; le aggiunte sono state tolte nel restauro del 2002.",
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC del ritratto a Palazzo Moroni",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/2p390-01655/"
+            ],
+            [
+              "FAI, Palazzo Moroni",
+              "https://fondoambiente.it/luoghi/palazzo-moroni"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -594,7 +970,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, sopra la città",
+          "text": "Negli anni in cui Moroni dipingeva questa bambina (1570–1573), sul colle di Bergamo si stavano ancora costruendo le Mura veneziane. La Repubblica di Venezia, di cui Bergamo faceva parte, le aveva avviate nel 1561; i lavori durarono circa ventisette anni, fino al 1588. Dal 2017 sono patrimonio UNESCO, insieme ad altre fortezze veneziane come Peschiera, Palmanova, Zara, Sebenico e Cattaro.",
+          "sources": [
+            [
+              "Artribune, Le Mura di Bergamo patrimonio UNESCO (2017)",
+              "https://www.artribune.com/?p=490538"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Fra’ Galgario",
@@ -621,7 +1012,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Perché “Fra’ Galgario”",
+          "text": "Vittore Ghislandi era un frate dell’Ordine dei Minimi, i seguaci di san Francesco di Paola, detti anche Paolotti. Dal 1702 visse a Bergamo nel convento del Galgario, da cui prese il nome con cui lo conosciamo. Secondo una tradizione registrata già nel 1796, anche il giovane di questo ritratto, detto “Cerighetto”, apparteneva al convento dei Paolotti.",
+          "sources": [
+            [
+              "Wikipedia, Fra Galgario",
+              "https://en.wikipedia.org/wiki/Fra_Galgario"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -656,7 +1062,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "La medaglia della congiura",
+          "text": "Dopo l’agguato del 26 aprile 1478 Lorenzo il Magnifico fece realizzare allo scultore di famiglia, Bertoldo di Giovanni, una medaglia per denunciare e ricordare l’accaduto. È un oggetto insolito: ogni faccia unisce un ritratto e, sotto, una scena dell’attentato nel coro del Duomo di Firenze; su un lato si legge “lutto pubblico”. Ne esistono esemplari, per esempio, al Metropolitan Museum di New York e al British Museum di Londra.",
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/"
+            ],
+            [
+              "The Metropolitan Museum of Art, medaglia di Bertoldo di Giovanni",
+              "https://www.metmuseum.org/art/collection/search/195063"
+            ],
+            [
+              "British Museum, via Google Arts & Culture",
+              "https://artsandculture.google.com/asset/cast-bronze-medal-commemorating-the-pazzi-conspiracy-by-bertoldo-di-giovanni/uAH8D-ShjQossA"
+            ]
+          ]
+        }
       },
       {
         "artist": "Lorenzo Lotto",
@@ -683,7 +1108,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -710,7 +1158,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, sopra la città",
+          "text": "Negli anni in cui Moroni dipingeva questa bambina (1570–1573), sul colle di Bergamo si stavano ancora costruendo le Mura veneziane. La Repubblica di Venezia, di cui Bergamo faceva parte, le aveva avviate nel 1561; i lavori durarono circa ventisette anni, fino al 1588. Dal 2017 sono patrimonio UNESCO, insieme ad altre fortezze veneziane come Peschiera, Palmanova, Zara, Sebenico e Cattaro.",
+          "sources": [
+            [
+              "Artribune, Le Mura di Bergamo patrimonio UNESCO (2017)",
+              "https://www.artribune.com/?p=490538"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giacomo Ceruti",
@@ -737,7 +1200,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, ad Amsterdam",
+          "text": "Negli stessi anni in cui Ceruti dipingeva questa ragazza (1725–1730), nel 1725 usciva ad Amsterdam, presso l’editore Michel-Charles Le Cène, l’opera 8 di Antonio Vivaldi, “Il cimento dell’armonia e dell’inventione”: dodici concerti, i primi quattro dei quali sono Le quattro stagioni. Un buon sottofondo per guardarla, se cerchi un’alternativa al brano proposto.",
+          "sources": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
@@ -764,7 +1242,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il fiore aggiunto dopo",
+          "text": "Tra le pagine aperte c’è una viola del pensiero essiccata. Nel 1889 non c’era: Pellizza la aggiunse più tardi, e lo sappiamo grazie a una fotografia dello studio scattata nel 1892 dall’amico Davide Cicala, in cui il quadro appare ancora senza fiore. Secondo il museo, la viola riassume i colori di tutta la tela: il beige della parete, l’azzurro della gonna, il giallo della fusciacca.",
+          "crop": {
+            "file": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+            "ar": 0.7833537331701347,
+            "x": 28,
+            "y": 64,
+            "w": 22,
+            "h": 10
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -799,7 +1296,30 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-leonello-deste/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un roseto da erbario",
+          "text": "Guarda i fiori dietro Leonello: rose e boccioli dipinti con una precisione da erbario, petalo per petalo. Per molto tempo il quadro si è visto diverso: un fondo nero aggiunto in seguito copriva il cielo. Il restauro dell’Opificio delle Pietre Dure (2004–2008) lo ha tolto e ha restituito il blu su cui oggi si stagliano profilo e fiori.",
+          "crop": {
+            "file": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
+            "ar": 0.7292062286365363,
+            "x": 3,
+            "y": 32,
+            "w": 32,
+            "h": 22
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera",
+              "https://lacarrara.it/opera/ritratto-di-leonello-deste/"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Lorenzo Lotto",
@@ -826,7 +1346,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -853,7 +1396,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "museo",
+          "title": "L’altra Isotta, a pochi passi",
+          "text": "Moroni ritrasse Isotta anche a figura intera: seduta, in abito di broccato verde e oro, con un ventaglio e uno zibellino. Quel quadro è a Palazzo Moroni, in Città Alta (via Porta Dipinta 12), gestito dal FAI e aperto al pubblico. Nella stessa sala c’è il “Cavaliere in rosa”, ritratto di Gian Gerolamo Grumelli, il cognato che Isotta sposò in seconde nozze nel 1561. Nell’Ottocento la tela di Isotta fu persino allungata per farne il pendant di quella del marito; le aggiunte sono state tolte nel restauro del 2002.",
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC del ritratto a Palazzo Moroni",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/2p390-01655/"
+            ],
+            [
+              "FAI, Palazzo Moroni",
+              "https://fondoambiente.it/luoghi/palazzo-moroni"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -880,7 +1438,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, sopra la città",
+          "text": "Negli anni in cui Moroni dipingeva questa bambina (1570–1573), sul colle di Bergamo si stavano ancora costruendo le Mura veneziane. La Repubblica di Venezia, di cui Bergamo faceva parte, le aveva avviate nel 1561; i lavori durarono circa ventisette anni, fino al 1588. Dal 2017 sono patrimonio UNESCO, insieme ad altre fortezze veneziane come Peschiera, Palmanova, Zara, Sebenico e Cattaro.",
+          "sources": [
+            [
+              "Artribune, Le Mura di Bergamo patrimonio UNESCO (2017)",
+              "https://www.artribune.com/?p=490538"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Evaristo Baschenis",
@@ -907,7 +1480,22 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Un prete che dipingeva strumenti",
+          "text": "Evaristo Baschenis (1617–1677) era un sacerdote: fu ordinato tra il 1640 e il 1643 e continuò a dipingere per tutta la vita. È famoso soprattutto per le nature morte con strumenti musicali, tanto imitate da dare vita a una “maniera bergamasca”; la sua passione per liuti e violini potrebbe venire dall’amicizia con una famiglia di liutai di Cremona. Qui il protagonista silenzioso, invece del liuto, è il pane.",
+          "sources": [
+            [
+              "Italian Art Society, Evaristo Baschenis",
+              "https://www.italianartsociety.org/2017/12/painter-evaristo-baschenis-was-born-in-bergamo-on-7-december-1617/"
+            ],
+            [
+              "Wikipedia, Evaristo Baschenis",
+              "https://en.wikipedia.org/wiki/Evaristo_Baschenis"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -942,7 +1530,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, sopra la città",
+          "text": "Negli anni in cui Moroni dipingeva questa bambina (1570–1573), sul colle di Bergamo si stavano ancora costruendo le Mura veneziane. La Repubblica di Venezia, di cui Bergamo faceva parte, le aveva avviate nel 1561; i lavori durarono circa ventisette anni, fino al 1588. Dal 2017 sono patrimonio UNESCO, insieme ad altre fortezze veneziane come Peschiera, Palmanova, Zara, Sebenico e Cattaro.",
+          "sources": [
+            [
+              "Artribune, Le Mura di Bergamo patrimonio UNESCO (2017)",
+              "https://www.artribune.com/?p=490538"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -982,7 +1585,30 @@ const routes = [
         "historySourceType": "",
         "floor": 2,
         "availabilityChecked": "27 ottobre 2026",
-        "museumPage2": "https://lacarrara.it/opera/ritratto-di-pace-rivola-spini/"
+        "museumPage2": "https://lacarrara.it/opera/ritratto-di-pace-rivola-spini/",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un necrologio sulla tela",
+          "text": "In alto a destra, nel ritratto di Pace, si legge “PAX RIVOLA SPINUS / OBYT AN. 1613 ETATIS 72”: Pace morì nel 1613, a 72 anni. Un’iscrizione simile sul ritratto del marito ricorda che Bernardo morì nel 1612, a 76 anni. Sono scritte aggiunte decenni dopo la morte di Moroni: i ritratti, nati per mostrare la coppia viva, sono diventati anche la sua memoria.",
+          "crop": {
+            "file": "Giovan battista moroni, ritratto di pace rivola spini, 1573-75.jpg",
+            "ar": 0.49763593380614657,
+            "x": 66,
+            "y": 12,
+            "w": 26,
+            "h": 6
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC (Pace Rivola Spini)",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00489/"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC (Bernardo Spini)",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00488/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giacomo Ceruti",
@@ -1009,7 +1635,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, ad Amsterdam",
+          "text": "Negli stessi anni in cui Ceruti dipingeva questa ragazza (1725–1730), nel 1725 usciva ad Amsterdam, presso l’editore Michel-Charles Le Cène, l’opera 8 di Antonio Vivaldi, “Il cimento dell’armonia e dell’inventione”: dodici concerti, i primi quattro dei quali sono Le quattro stagioni. Un buon sottofondo per guardarla, se cerchi un’alternativa al brano proposto.",
+          "sources": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Fra’ Galgario",
@@ -1036,7 +1677,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Perché “Fra’ Galgario”",
+          "text": "Vittore Ghislandi era un frate dell’Ordine dei Minimi, i seguaci di san Francesco di Paola, detti anche Paolotti. Dal 1702 visse a Bergamo nel convento del Galgario, da cui prese il nome con cui lo conosciamo. Secondo una tradizione registrata già nel 1796, anche il giovane di questo ritratto, detto “Cerighetto”, apparteneva al convento dei Paolotti.",
+          "sources": [
+            [
+              "Wikipedia, Fra Galgario",
+              "https://en.wikipedia.org/wiki/Fra_Galgario"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
@@ -1063,7 +1719,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il fiore aggiunto dopo",
+          "text": "Tra le pagine aperte c’è una viola del pensiero essiccata. Nel 1889 non c’era: Pellizza la aggiunse più tardi, e lo sappiamo grazie a una fotografia dello studio scattata nel 1892 dall’amico Davide Cicala, in cui il quadro appare ancora senza fiore. Secondo il museo, la viola riassume i colori di tutta la tela: il beige della parete, l’azzurro della gonna, il giallo della fusciacca.",
+          "crop": {
+            "file": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+            "ar": 0.7833537331701347,
+            "x": 28,
+            "y": 64,
+            "w": 22,
+            "h": 10
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -1098,7 +1773,30 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-leonello-deste/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un roseto da erbario",
+          "text": "Guarda i fiori dietro Leonello: rose e boccioli dipinti con una precisione da erbario, petalo per petalo. Per molto tempo il quadro si è visto diverso: un fondo nero aggiunto in seguito copriva il cielo. Il restauro dell’Opificio delle Pietre Dure (2004–2008) lo ha tolto e ha restituito il blu su cui oggi si stagliano profilo e fiori.",
+          "crop": {
+            "file": "Pisanello, ritratto di leonello d'este, 1441 circa, 02.jpg",
+            "ar": 0.7292062286365363,
+            "x": 3,
+            "y": 32,
+            "w": 32,
+            "h": 22
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera",
+              "https://lacarrara.it/opera/ritratto-di-leonello-deste/"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00919/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Sandro Botticelli",
@@ -1125,7 +1823,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "La medaglia della congiura",
+          "text": "Dopo l’agguato del 26 aprile 1478 Lorenzo il Magnifico fece realizzare allo scultore di famiglia, Bertoldo di Giovanni, una medaglia per denunciare e ricordare l’accaduto. È un oggetto insolito: ogni faccia unisce un ritratto e, sotto, una scena dell’attentato nel coro del Duomo di Firenze; su un lato si legge “lutto pubblico”. Ne esistono esemplari, per esempio, al Metropolitan Museum di New York e al British Museum di Londra.",
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ritratto-di-giuliano-de-medici/"
+            ],
+            [
+              "The Metropolitan Museum of Art, medaglia di Bertoldo di Giovanni",
+              "https://www.metmuseum.org/art/collection/search/195063"
+            ],
+            [
+              "British Museum, via Google Arts & Culture",
+              "https://artsandculture.google.com/asset/cast-bronze-medal-commemorating-the-pazzi-conspiracy-by-bertoldo-di-giovanni/uAH8D-ShjQossA"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -1152,7 +1869,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00656/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, sopra la città",
+          "text": "Negli anni in cui Moroni dipingeva questa bambina (1570–1573), sul colle di Bergamo si stavano ancora costruendo le Mura veneziane. La Repubblica di Venezia, di cui Bergamo faceva parte, le aveva avviate nel 1561; i lavori durarono circa ventisette anni, fino al 1588. Dal 2017 sono patrimonio UNESCO, insieme ad altre fortezze veneziane come Peschiera, Palmanova, Zara, Sebenico e Cattaro.",
+          "sources": [
+            [
+              "Artribune, Le Mura di Bergamo patrimonio UNESCO (2017)",
+              "https://www.artribune.com/?p=490538"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-una-bambina-di-casa-redetti/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giovan Battista Moroni",
@@ -1179,7 +1911,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00912/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "museo",
+          "title": "L’altra Isotta, a pochi passi",
+          "text": "Moroni ritrasse Isotta anche a figura intera: seduta, in abito di broccato verde e oro, con un ventaglio e uno zibellino. Quel quadro è a Palazzo Moroni, in Città Alta (via Porta Dipinta 12), gestito dal FAI e aperto al pubblico. Nella stessa sala c’è il “Cavaliere in rosa”, ritratto di Gian Gerolamo Grumelli, il cognato che Isotta sposò in seconde nozze nel 1561. Nell’Ottocento la tela di Isotta fu persino allungata per farne il pendant di quella del marito; le aggiunte sono state tolte nel restauro del 2002.",
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC del ritratto a Palazzo Moroni",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/2p390-01655/"
+            ],
+            [
+              "FAI, Palazzo Moroni",
+              "https://fondoambiente.it/luoghi/palazzo-moroni"
+            ]
+          ]
+        }
       },
       {
         "artist": "Fra’ Galgario",
@@ -1206,7 +1953,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Perché “Fra’ Galgario”",
+          "text": "Vittore Ghislandi era un frate dell’Ordine dei Minimi, i seguaci di san Francesco di Paola, detti anche Paolotti. Dal 1702 visse a Bergamo nel convento del Galgario, da cui prese il nome con cui lo conosciamo. Secondo una tradizione registrata già nel 1796, anche il giovane di questo ritratto, detto “Cerighetto”, apparteneva al convento dei Paolotti.",
+          "sources": [
+            [
+              "Wikipedia, Fra Galgario",
+              "https://en.wikipedia.org/wiki/Fra_Galgario"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -1241,7 +2003,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/madonna-col-bambino-5/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Un biglietto in bilico",
+          "text": "In basso a destra, appoggiato in bilico sul parapetto, c’è un cartiglio con la firma e la data, 1480. Jacobello vi si presenta come figlio di un pittore “non umano”, cioè inimitabile: suo padre, Antonello da Messina, morto l’anno prima. Cerca il foglietto sul quadro: è piccolo, ma è l’unica firma certa di Jacobello che conosciamo.",
+          "crop": {
+            "file": "Jacobello da Messina Madonna Carrara.jpg",
+            "ar": 0.692141312184571,
+            "x": 71,
+            "y": 85,
+            "w": 23,
+            "h": 7
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera",
+              "https://lacarrara.it/opera/madonna-col-bambino-5/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Pittore lombardo o ligure",
@@ -1268,7 +2049,22 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/san-gerolamo-leva-la-spina-al-leone/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Un leone preso in prestito",
+          "text": "La storia della spina tolta dalla zampa del leone non nasce con san Girolamo. Giovanni Mosco, nel Prato spirituale, la racconta di Gerasimo, monaco del V secolo vissuto presso il Giordano: il leone guarito resta con lui, sorveglia l’asino del monastero e, quando l’asino viene rubato e lui viene accusato di averlo mangiato, lo riporta a casa. Il racconto passò poi a Girolamo, probabilmente per la somiglianza dei nomi: nel latino tardo Girolamo era “Geronimus”.",
+          "sources": [
+            [
+              "P. Solari, “Gerasimo”, rivista Caritas Ticino (2001)",
+              "https://www.caritas-ticino.ch/media/rivista/archivio/riv_2001/Solari_Patrizia_Gerasimo.pdf"
+            ],
+            [
+              "Wikipedia, Gerasimus of the Jordan",
+              "https://en.wikipedia.org/wiki/Gerasimus_of_the_Jordan"
+            ]
+          ]
+        }
       },
       {
         "artist": "Lorenzo Lotto",
@@ -1295,7 +2091,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Evaristo Baschenis",
@@ -1322,7 +2141,22 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Un prete che dipingeva strumenti",
+          "text": "Evaristo Baschenis (1617–1677) era un sacerdote: fu ordinato tra il 1640 e il 1643 e continuò a dipingere per tutta la vita. È famoso soprattutto per le nature morte con strumenti musicali, tanto imitate da dare vita a una “maniera bergamasca”; la sua passione per liuti e violini potrebbe venire dall’amicizia con una famiglia di liutai di Cremona. Qui il protagonista silenzioso, invece del liuto, è il pane.",
+          "sources": [
+            [
+              "Italian Art Society, Evaristo Baschenis",
+              "https://www.italianartsociety.org/2017/12/painter-evaristo-baschenis-was-born-in-bergamo-on-7-december-1617/"
+            ],
+            [
+              "Wikipedia, Evaristo Baschenis",
+              "https://en.wikipedia.org/wiki/Evaristo_Baschenis"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
@@ -1349,7 +2183,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il fiore aggiunto dopo",
+          "text": "Tra le pagine aperte c’è una viola del pensiero essiccata. Nel 1889 non c’era: Pellizza la aggiunse più tardi, e lo sappiamo grazie a una fotografia dello studio scattata nel 1892 dall’amico Davide Cicala, in cui il quadro appare ancora senza fiore. Secondo il museo, la viola riassume i colori di tutta la tela: il beige della parete, l’azzurro della gonna, il giallo della fusciacca.",
+          "crop": {
+            "file": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+            "ar": 0.7833537331701347,
+            "x": 28,
+            "y": 64,
+            "w": 22,
+            "h": 10
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        }
       }
     ]
   },
@@ -1384,7 +2237,30 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il nome nascosto nella luna",
+          "text": "In alto a sinistra, dentro la luna, Lotto ha dipinto due lettere: CI. Luna con “ci” dentro si legge LU-CI-NA. È un rebus: insieme allo stemma dei Brembati su un anello, ha permesso di dare un nome alla donna, riconosciuta come Lucina Brembati in uno studio pubblicato nel 1913.",
+          "crop": {
+            "file": "Lotto, ritratto di lucina brembati.jpg",
+            "ar": 0.8212147134302823,
+            "x": 7,
+            "y": 0,
+            "w": 18,
+            "h": 8
+          },
+          "sources": [
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00900/"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (bibliografia)",
+              "https://lacarrara.it/opera/ritratto-di-lucina-brembati/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Evaristo Baschenis",
@@ -1411,7 +2287,22 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/collezioni/collezionisti/mario-scaglia/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Un prete che dipingeva strumenti",
+          "text": "Evaristo Baschenis (1617–1677) era un sacerdote: fu ordinato tra il 1640 e il 1643 e continuò a dipingere per tutta la vita. È famoso soprattutto per le nature morte con strumenti musicali, tanto imitate da dare vita a una “maniera bergamasca”; la sua passione per liuti e violini potrebbe venire dall’amicizia con una famiglia di liutai di Cremona. Qui il protagonista silenzioso, invece del liuto, è il pane.",
+          "sources": [
+            [
+              "Italian Art Society, Evaristo Baschenis",
+              "https://www.italianartsociety.org/2017/12/painter-evaristo-baschenis-was-born-in-bergamo-on-7-december-1617/"
+            ],
+            [
+              "Wikipedia, Evaristo Baschenis",
+              "https://en.wikipedia.org/wiki/Evaristo_Baschenis"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giacomo Ceruti",
@@ -1438,7 +2329,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-01007/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "tempo",
+          "title": "Intanto, ad Amsterdam",
+          "text": "Negli stessi anni in cui Ceruti dipingeva questa ragazza (1725–1730), nel 1725 usciva ad Amsterdam, presso l’editore Michel-Charles Le Cène, l’opera 8 di Antonio Vivaldi, “Il cimento dell’armonia e dell’inventione”: dodici concerti, i primi quattro dei quali sono Le quattro stagioni. Un buon sottofondo per guardarla, se cerchi un’alternativa al brano proposto.",
+          "sources": [
+            [
+              "Il cimento dell’armonia e dell’inventione (Wikipedia)",
+              "https://wikiwand.com/EN/Il_cimento_dell'armonia_e_dell'inventione"
+            ],
+            [
+              "Accademia Carrara, scheda dell’opera (datazione)",
+              "https://lacarrara.it/opera/ritratto-di-fanciulla-con-ventaglio/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Fra’ Galgario",
@@ -1465,7 +2371,22 @@ const routes = [
         "historySourceUrl": "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "fuori",
+          "title": "Perché “Fra’ Galgario”",
+          "text": "Vittore Ghislandi era un frate dell’Ordine dei Minimi, i seguaci di san Francesco di Paola, detti anche Paolotti. Dal 1702 visse a Bergamo nel convento del Galgario, da cui prese il nome con cui lo conosciamo. Secondo una tradizione registrata già nel 1796, anche il giovane di questo ritratto, detto “Cerighetto”, apparteneva al convento dei Paolotti.",
+          "sources": [
+            [
+              "Wikipedia, Fra Galgario",
+              "https://en.wikipedia.org/wiki/Fra_Galgario"
+            ],
+            [
+              "Lombardia Beni Culturali, scheda SIRBeC",
+              "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/C0050-00241/"
+            ]
+          ]
+        }
       },
       {
         "artist": "Giuseppe Pellizza da Volpedo",
@@ -1492,7 +2413,26 @@ const routes = [
         "historySourceUrl": "https://lacarrara.it/opera/ricordo-di-un-dolore/",
         "historySourceType": "",
         "floor": 2,
-        "availabilityChecked": "27 ottobre 2026"
+        "availabilityChecked": "27 ottobre 2026",
+        "extra": {
+          "kind": "dettaglio",
+          "title": "Il fiore aggiunto dopo",
+          "text": "Tra le pagine aperte c’è una viola del pensiero essiccata. Nel 1889 non c’era: Pellizza la aggiunse più tardi, e lo sappiamo grazie a una fotografia dello studio scattata nel 1892 dall’amico Davide Cicala, in cui il quadro appare ancora senza fiore. Secondo il museo, la viola riassume i colori di tutta la tela: il beige della parete, l’azzurro della gonna, il giallo della fusciacca.",
+          "crop": {
+            "file": "Giuseppe pellizza da volpedo, ricordo di un dolore (ritratto di santina negri), 1889.jpg",
+            "ar": 0.7833537331701347,
+            "x": 28,
+            "y": 64,
+            "w": 22,
+            "h": 10
+          },
+          "sources": [
+            [
+              "Accademia Carrara, scheda dell’opera (note storiche)",
+              "https://lacarrara.it/opera/ricordo-di-un-dolore/"
+            ]
+          ]
+        }
       }
     ]
   }

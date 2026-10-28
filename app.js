@@ -133,6 +133,35 @@ function renderHome() {
   });
 }
 
+/* ---------- Un dettaglio ---------- */
+const EXTRA_LABEL = { dettaglio: "Da cercare sulla tela", tempo: "Linea del tempo", fuori: "Fuori dal quadro", museo: "Fuori dal museo" };
+function extraMarkup(w, i) {
+  const e = w.extra; if (!e) return "";
+  let visual = "";
+  if (e.crop) {
+    const c = e.crop;
+    const ratio = (c.w / c.h) * c.ar; // larghezza/altezza del ritaglio
+    const url = filePathUrl(c.file, W_FULL);
+    visual = `
+      <div class="detail-crop" role="img" aria-label="Particolare: ${esc(e.title)}" data-i="${i}"
+        style="aspect-ratio:${ratio.toFixed(3)};background-image:url('${url.replace(/'/g, "%27")}');background-size:${(100 / c.w * 100).toFixed(2)}% auto;background-position:${(c.x / (100 - c.w) * 100).toFixed(2)}% ${(c.y / (100 - c.h) * 100).toFixed(2)}%"></div>
+      <button class="where-btn" type="button" data-i="${i}" aria-expanded="false">Dov’è nel quadro?</button>
+      <div class="where" id="where-${i}" hidden>
+        <div class="where-frame" style="aspect-ratio:${c.ar.toFixed(4)};background-image:url('${filePathUrl(c.file, W_THUMB).replace(/'/g, "%27")}')">
+          <span class="where-box" style="left:${c.x}%;top:${c.y}%;width:${c.w}%;height:${c.h}%"></span>
+        </div>
+      </div>`;
+  }
+  const src = (e.sources || []).map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)} ↗</a>`).join(" · ");
+  return `<section class="extra extra-${e.kind}">
+      <div class="extra-kicker">UN DETTAGLIO · ${esc((EXTRA_LABEL[e.kind] || "").toUpperCase())}</div>
+      <h4 class="extra-title">${esc(e.title)}</h4>
+      ${visual}
+      <p class="extra-text">${esc(e.text)}</p>
+      ${src ? `<p class="extra-src">Fonti: ${src}</p>` : ""}
+    </section>`;
+}
+
 /* ---------- Percorso ---------- */
 function imageMarkup(w, i) {
   const imgs = imagesOf(w);
@@ -166,6 +195,7 @@ function renderRoute() {
           <button class="done-toggle" type="button" aria-pressed="false" data-index="${i}">Segna come vista</button>
           <a class="source-link" href="${esc(w.museumPage)}" target="_blank" rel="noopener">${w.museumPage2 ? "Scheda di Bernardo ↗" : "Scheda dell’opera ↗"}</a>${w.museumPage2 ? `<a class="source-link" href="${esc(w.museumPage2)}" target="_blank" rel="noopener">Scheda di Pace ↗</a>` : ""}
         </div>
+        ${extraMarkup(w, i)}
         <section class="history"><h4>Un po’ di storia</h4><p>${esc(w.history)}</p>
           <p class="history-meta">Fonte: <a href="${esc(w.historySourceUrl)}" target="_blank" rel="noopener">${esc(w.historySource)} ↗</a></p>
           <p class="availability"><strong>Dove si trova:</strong> ${esc(w.availability)}</p></section>
@@ -188,6 +218,16 @@ function renderRoute() {
     img.addEventListener("click", () => openLightbox(img));
   });
 
+  root.querySelectorAll(".where-btn").forEach(btn => btn.addEventListener("click", () => {
+    const box = $(`where-${btn.dataset.i}`);
+    box.hidden = !box.hidden;
+    btn.setAttribute("aria-expanded", String(!box.hidden));
+    btn.textContent = box.hidden ? "Dov’è nel quadro?" : "Nascondi";
+  }));
+  root.querySelectorAll(".detail-crop").forEach(el => el.addEventListener("click", () => {
+    const w = route.works[Number(el.dataset.i)];
+    openLightboxFile(w.extra.crop.file, w.extra.title);
+  }));
   root.querySelectorAll(".done-toggle").forEach(btn => btn.addEventListener("click", () => {
     const idx = Number(btn.dataset.index);
     if (doneSet().has(idx)) doneSet().delete(idx); else doneSet().add(idx);
@@ -204,6 +244,15 @@ function openLightbox(img) {
   big.src = filePathUrl(img.dataset.file, W_FULL);
   $("lightboxImg").alt = img.alt;
   $("lightboxCaption").textContent = img.alt;
+  $("lightbox").hidden = false;
+  document.body.style.overflow = "hidden";
+}
+function openLightboxFile(file, caption) {
+  const big = $("lightboxImg");
+  big.onerror = null;
+  big.src = filePathUrl(file, W_FULL);
+  big.alt = caption;
+  $("lightboxCaption").textContent = caption;
   $("lightbox").hidden = false;
   document.body.style.overflow = "hidden";
 }
@@ -277,11 +326,13 @@ async function downloadForOffline() {
   try { if (navigator.storage && navigator.storage.persist) await navigator.storage.persist(); } catch (e) {}
   const jobs = [];
   Object.values(worksByKey).forEach(w => imagesOf(w).forEach((img, j) => jobs.push({ img, thumb: j === 0 })));
+  Object.values(worksByKey).forEach(w => { if (w.extra && w.extra.crop) jobs.push({ detail: w.extra.crop.file }); });
   let done = 0, failed = 0;
   const grab = url => fetch(url, { mode: "no-cors" });
-  for (const { img, thumb } of jobs) {
+  for (const { img, thumb, detail } of jobs) {
     txt.textContent = `Scarico le immagini… ${done + failed + 1} di ${jobs.length}`;
     try {
+      if (detail) { await grab(filePathUrl(detail, W_FULL)); await grab(filePathUrl(detail, W_THUMB)); done++; continue; }
       const file = img.file;
       if (!file) throw new Error("non trovata");
       await grab(filePathUrl(file, W_CARD));

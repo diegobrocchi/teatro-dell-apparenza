@@ -152,3 +152,17 @@ h1 em{color:var(--petrol)}
 .app-text #installAndroid[hidden]+#installIos[hidden]+#offlineBox{border-top:0;padding-top:0;margin-top:0}
 .ios-share{display:inline-block;border:1px solid var(--line);border-radius:5px;padding:0 5px;font-size:13px}
 .pill:disabled{opacity:.6;cursor:default}
+
+/* Un dettaglio */
+.extra{border:1px solid var(--line);border-radius:10px;padding:14px;margin:0 0 16px;background:#fff9}
+.extra-kicker{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-weight:700;font-size:10px;letter-spacing:.13em;color:var(--petrol)}
+.extra-title{font-size:19px;font-weight:400;margin:4px 0 10px}
+.extra-text{margin:10px 0 8px;font-size:16px}
+.extra-src{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:11.5px;color:var(--muted);margin:0}
+.extra-src a{color:var(--petrol)}
+.detail-crop{width:100%;max-height:min(46vh,380px);background-color:var(--mat);background-repeat:no-repeat;border-radius:6px;cursor:zoom-in;box-shadow:inset 0 0 0 1px #0001}
+.where-btn{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:12.5px;border:1px solid var(--line);background:transparent;border-radius:999px;padding:7px 12px;margin-top:8px;cursor:pointer;color:var(--ink)}
+.where{margin-top:10px}
+.where-frame{position:relative;width:min(220px,60%);background-size:100% 100%;background-color:var(--mat);border-radius:4px}
+.where-box{position:absolute;border:2px solid #ff3b7f;box-shadow:0 0 0 999px rgba(0,0,0,.35);border-radius:2px}
+.where-frame{overflow:hidden}

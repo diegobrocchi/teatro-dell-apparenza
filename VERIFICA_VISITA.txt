@@ -28,3 +28,11 @@ Tutti i file Wikimedia Commons verificati il 27/10/2026 tramite le API di Common
 
 MUSICA
 I collegamenti sono ricerche YouTube mirate: la disponibilità dei video può variare.
+
+SEZIONE "UN DETTAGLIO" (28 ottobre 2026)
+Un elemento in più per ogni opera, con le fonti indicate nella pagina:
+- Dettagli da cercare sulla tela (ritaglio dell'immagine Commons, coordinate verificate a vista): Pisanello (roseto), Jacobello (cartiglio con firma e data), Lotto (rebus "CI" nella luna), Spini (iscrizione con data di morte di Pace), Pellizza (viola del pensiero aggiunta dopo il 1892).
+- Linea del tempo: Redetti (Mura veneziane di Bergamo, 1561–1588, UNESCO 2017); Ceruti (Vivaldi, op. 8 con Le quattro stagioni, Amsterdam 1725).
+- Fuori dal quadro: Botticelli (medaglia di Bertoldo di Giovanni sulla congiura dei Pazzi); San Gerolamo (la leggenda del leone nasce con san Gerasimo, Prato spirituale di Giovanni Mosco); Fra' Galgario (origine del nome, convento del Galgario, Ordine dei Minimi); Baschenis (sacerdote, ordinato tra il 1640 e il 1643).
+- Fuori dal museo: Isotta Brembati (ritratto a figura intera e "Cavaliere in rosa" a Palazzo Moroni, FAI).
+- "Quanto valeva": non usato. L'unico prezzo documentato è l'acquisto della Lucina nel 1882 per 3.300 lire, ma serve una fonte affidabile per l'equivalenza di oggi prima di pubblicarla.

@@ -25,6 +25,7 @@ Aggiorna la guida “Dieci modi di guardare — Accademia Carrara” (sito stati
 - Poi riordina le opere di ogni percorso per sala crescente (a parità di sala mantieni l'ordine esistente).
 - Se un'opera NON è esposta (in prestito, in restauro, deposito, scheda senza "Esposizione permanente"): sostituiscila con un'opera esposta coerente con il tema del percorso, con storia presa dalle Note storiche del museo, immagine verificata (punto 3), domanda e brano musicale (italiano o strumentale). Non lasciare in pagina opere non visibili e non mostrare avvisi all'utente.
 - Testi "Un po' di storia": solo fatti presenti nelle fonti (prima il museo, poi SIRBeC). Non attribuire a un quadro dettagli di altre versioni (es. finestra e tortora del Giuliano de' Medici sono nella versione di Washington). Se non puoi verificare un dettaglio, toglilo.
+- Campo "extra" (sezione "Un dettaglio" della pagina): ogni opera ne ha uno, con kind = dettaglio | tempo | fuori | museo, title, text, sources [[titolo, url], ...] e, per i dettagli visivi, crop {file, ar = larghezza/altezza dell'immagine, x, y, w, h in percentuale}. Se sostituisci un'opera, prepara anche il suo "extra": solo fatti con fonte linkata; per i ritagli verifica a vista nel browser integrato che il riquadro inquadri davvero il particolare.
 - Dopo le modifiche: aumenta VERSION in sw.js e il parametro ?v= di styles.css, routes.js e app.js in index.html (altrimenti i telefoni con l'app installata possono mostrare la versione vecchia).
 
 ────────────────────────────────────────
