@@ -166,3 +166,7 @@ h1 em{color:var(--petrol)}
 .where-frame{position:relative;width:min(220px,60%);background-size:100% 100%;background-color:var(--mat);border-radius:4px}
 .where-box{position:absolute;border:2px solid #ff3b7f;box-shadow:0 0 0 999px rgba(0,0,0,.35);border-radius:2px}
 .where-frame{overflow:hidden}
+
+/* Avviso di aggiornamento */
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom));transform:translate(-50%,20px);opacity:0;transition:opacity .3s,transform .3s;background:#202b29;color:#fff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:13px;padding:10px 16px;border-radius:999px;z-index:40;box-shadow:0 4px 18px #0003;white-space:nowrap}
+.toast.show{opacity:1;transform:translate(-50%,0)}

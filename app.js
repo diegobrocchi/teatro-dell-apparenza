@@ -356,6 +356,71 @@ if ("serviceWorker" in navigator && location.protocol !== "file:") {
   navigator.serviceWorker.addEventListener("controllerchange", refreshAppBox);
 }
 
+/* ---------- Aggiornamento automatico ----------
+   La pagina confronta i file che sta usando con quelli pubblicati. Se sono cambiati
+   (nuova pubblicazione su GitHub) si ricarica da sola, tornando allo stesso punto.
+   Controlla all'apertura, quando l'app torna in primo piano, quando torna la rete
+   e ogni 30 minuti. Non serve cambiare numeri di versione. */
+const WATCH = ["./index.html", "./app.js", "./routes.js", "./styles.css"];
+function hashText(t) { let h = 5381; for (let i = 0; i < t.length; i++) h = ((h << 5) + h + t.charCodeAt(i)) | 0; return (h >>> 0).toString(36) + ":" + t.length; }
+async function fingerprint(fromCache) {
+  const parts = [];
+  for (const u of WATCH) {
+    const abs = new URL(u, location.href); abs.hash = ""; abs.search = "";
+    const res = fromCache ? await caches.match(abs.href) : await fetch(abs.href, { cache: "no-cache" });
+    if (!res || !res.ok) return null;
+    parts.push(hashText(await res.text()));
+  }
+  return parts.join("|");
+}
+let baseline = null, lastCheck = 0;
+async function initBaseline() {
+  try {
+    if ("caches" in window && navigator.serviceWorker && navigator.serviceWorker.controller) baseline = await fingerprint(true);
+    if (!baseline) baseline = await fingerprint(false);
+  } catch (e) { baseline = null; }
+}
+async function checkForUpdate() {
+  if (!baseline || !navigator.onLine || location.protocol === "file:") return;
+  if (Date.now() - lastCheck < 60000) return;
+  lastCheck = Date.now();
+  try {
+    const now = await fingerprint(false);
+    if (now && now !== baseline) applyUpdate();
+  } catch (e) {}
+}
+async function applyUpdate() {
+  try {
+    const last = Number(sessionStorage.getItem("carraraAutoReload") || 0);
+    if (Date.now() - last < 120000) return; // evita ricariche a ripetizione
+    sessionStorage.setItem("carraraAutoReload", String(Date.now()));
+    sessionStorage.setItem("carraraRestore", JSON.stringify({ hash: location.hash, y: window.scrollY }));
+  } catch (e) {}
+  try {
+    const reg = navigator.serviceWorker && await navigator.serviceWorker.getRegistration();
+    if (reg) await Promise.race([reg.update(), new Promise(r => setTimeout(r, 3000))]);
+  } catch (e) {}
+  location.reload();
+}
+function restoreAfterUpdate() {
+  let data = null;
+  try { data = JSON.parse(sessionStorage.getItem("carraraRestore") || "null"); sessionStorage.removeItem("carraraRestore"); } catch (e) {}
+  if (!data) return;
+  if (data.hash === location.hash) setTimeout(() => window.scrollTo(0, data.y || 0), 150);
+  const t = document.createElement("div");
+  t.className = "toast"; t.textContent = "Guida aggiornata all’ultima versione";
+  document.body.appendChild(t);
+  setTimeout(() => t.classList.add("show"), 50);
+  setTimeout(() => { t.classList.remove("show"); setTimeout(() => t.remove(), 400); }, 3500);
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkForUpdate(); });
+window.addEventListener("online", checkForUpdate);
+window.addEventListener("pageshow", e => { if (e.persisted) checkForUpdate(); });
+setInterval(() => { if (document.visibilityState === "visible") checkForUpdate(); }, 30 * 60 * 1000);
+
 loadProgress();
 route();
 refreshAppBox();
+restoreAfterUpdate();
+// la base di confronto si prende dopo qualche secondo, quando il service worker ha salvato i file appena serviti
+setTimeout(async () => { await initBaseline(); lastCheck = 0; checkForUpdate(); }, 4000);
